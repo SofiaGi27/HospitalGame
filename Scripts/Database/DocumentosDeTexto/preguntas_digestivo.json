@@ -1,0 +1,1786 @@
+[
+  {
+    "pregunta": "¿Cuál es la definición de disfagia según el texto?",
+    "opciones": [
+      {
+        "texto": "Dificultad para respirar durante la ingesta.",
+        "correcta": false
+      },
+      {
+        "texto": "Dificultad de desplazar el alimento a través de la faringe y el esófago.",
+        "correcta": true
+      },
+      {
+        "texto": "Dolor abdominal después de comer.",
+        "correcta": false
+      },
+      {
+        "texto": "Regurgitación ácida.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma de inicio agudo sugiere una posible impactación en la disfagia?",
+    "opciones": [
+      {
+        "texto": "Pérdida de peso progresiva.",
+        "correcta": false
+      },
+      {
+        "texto": "Instauración aguda.",
+        "correcta": true
+      },
+      {
+        "texto": "Pirosis frecuente.",
+        "correcta": false
+      },
+      {
+        "texto": "Intolerancia a líquidos.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes condiciones se menciona como una causa de disfagia orofaríngea de origen neuromuscular?",
+    "opciones": [
+      {
+        "texto": "Divertículo de Zenker.",
+        "correcta": false
+      },
+      {
+        "texto": "ACVA (Accidente Cerebrovascular Agudo).",
+        "correcta": true
+      },
+      {
+        "texto": "Bocio.",
+        "correcta": false
+      },
+      {
+        "texto": "Radioterapia local.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el manejo de la disfagia, ¿qué exploración se recomienda para descartar candidiasis?",
+    "opciones": [
+      {
+        "texto": "Auscultación pulmonar.",
+        "correcta": false
+      },
+      {
+        "texto": "Exploración neurológica.",
+        "correcta": false
+      },
+      {
+        "texto": "Valoración orofaríngea.",
+        "correcta": true
+      },
+      {
+        "texto": "Radiografía de tórax.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Según el algoritmo de disfagia, ¿qué se debe solicitar si un paciente mayor de 50 años presenta disfagia solo para sólidos y síndrome constitucional?",
+    "opciones": [
+      {
+        "texto": "Alta y seguimiento por médico de atención primaria.",
+        "correcta": false
+      },
+      {
+        "texto": "Alta y solicitar gastroscopia preferente.",
+        "correcta": false
+      },
+      {
+        "texto": "Alta y solicitar gastroscopia y consulta en Ap. Digestivo del CIDT.",
+        "correcta": true
+      },
+      {
+        "texto": "Ingreso para estudio.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la primera acción a realizar ante un cuerpo extraño esofágico?",
+    "opciones": [
+      {
+        "texto": "Administrar glucagón intravenoso.",
+        "correcta": false
+      },
+      {
+        "texto": "Excluir compromiso de la vía aérea.",
+        "correcta": true
+      },
+      {
+        "texto": "Realizar una radiografía de abdomen.",
+        "correcta": false
+      },
+      {
+        "texto": "Solicitar una endoscopia urgente.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de impactación completa por un bolo alimenticio, ¿cuánto tiempo se recomienda para realizar una endoscopia?",
+    "opciones": [
+      {
+        "texto": "< 24 horas.",
+        "correcta": false
+      },
+      {
+        "texto": "< 6 horas.",
+        "correcta": true
+      },
+      {
+        "texto": "6-12 horas.",
+        "correcta": false
+      },
+      {
+        "texto": "No se requiere endoscopia si se administra glucagón.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma sugiere una impactación esofágica proximal con obstrucción de la vía aérea?",
+    "opciones": [
+      {
+        "texto": "Dolor subesternal.",
+        "correcta": false
+      },
+      {
+        "texto": "Sialorrea leve.",
+        "correcta": false
+      },
+      {
+        "texto": "Tos, crisis de sofocación, cianosis.",
+        "correcta": true
+      },
+      {
+        "texto": "Náuseas intermitentes.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de cuerpo extraño esofágico se considera una emergencia endoscópica debido al alto riesgo de complicaciones?",
+    "opciones": [
+      {
+        "texto": "Un bolo alimenticio.",
+        "correcta": false
+      },
+      {
+        "texto": "Un cuerpo extraño romo.",
+        "correcta": false
+      },
+      {
+        "texto": "Un cuerpo extraño con bordes cortantes o punzantes.",
+        "correcta": true
+      },
+      {
+        "texto": "Una moneda.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el manejo de cuerpos extraños gástricos, ¿qué se menciona en la fuente?",
+    "opciones": [
+      {
+        "texto": "Se deben extraer siempre de forma urgente.",
+        "correcta": false
+      },
+      {
+        "texto": "La observación clínica y el alta son la primera opción.",
+        "correcta": false
+      },
+      {
+        "texto": "La fuente solo trata el cuerpo extraño esofágico.",
+        "correcta": true
+      },
+      {
+        "texto": "Se recomienda inducir el vómito.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la primera medida a tomar en la evaluación inicial de una ingesta de cáusticos?",
+    "opciones": [
+      {
+        "texto": "Inducir el vómito.",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar un lavado gástrico.",
+        "correcta": false
+      },
+      {
+        "texto": "Asegurar la estabilidad hemodinámica.",
+        "correcta": true
+      },
+      {
+        "texto": "Neutralizar el agente cáustico.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué exploración se realiza de forma rutinaria en la evaluación de la ingesta de cáusticos?",
+    "opciones": [
+      {
+        "texto": "TAC toracoabdominal con contraste.",
+        "correcta": false
+      },
+      {
+        "texto": "Endoscopia inmediata.",
+        "correcta": false
+      },
+      {
+        "texto": "Analítica y pH.",
+        "correcta": true
+      },
+      {
+        "texto": "Lavado gástrico.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué plazo se recomienda generalmente la valoración endoscópica tras una ingesta de cáusticos?",
+    "opciones": [
+      {
+        "texto": "Inmediatamente.",
+        "correcta": false
+      },
+      {
+        "texto": "Pasadas 72 horas.",
+        "correcta": false
+      },
+      {
+        "texto": "En 24 horas.",
+        "correcta": true
+      },
+      {
+        "texto": "Solo si hay perforación.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué clasificación se utiliza para evaluar la gravedad de las lesiones esofagogástricas tras la ingesta de cáusticos?",
+    "opciones": [
+      {
+        "texto": "Clasificación de Forrest.",
+        "correcta": false
+      },
+      {
+        "texto": "Clasificación de Zargar.",
+        "correcta": true
+      },
+      {
+        "texto": "Escala de Glasgow-Blatchford.",
+        "correcta": false
+      },
+      {
+        "texto": "Índice de Truelove y Witts.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tratamiento farmacológico se indica si se sospecha perforación en una ingesta de cáusticos?",
+    "opciones": [
+      {
+        "texto": "Solo analgesia.",
+        "correcta": false
+      },
+      {
+        "texto": "Antibioterapia.",
+        "correcta": true
+      },
+      {
+        "texto": "Omeprazol intravenoso.",
+        "correcta": false
+      },
+      {
+        "texto": "Sucralfato oral.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué prioridad se debe dar a la realización de una endoscopia en la hemorragia digestiva alta?",
+    "opciones": [
+      {
+        "texto": "Siempre antes de 2 horas.",
+        "correcta": false
+      },
+      {
+        "texto": "Depende de la gravedad de la hemorragia y la comorbilidad del paciente.",
+        "correcta": true
+      },
+      {
+        "texto": "Nunca antes de 2 horas por riesgo de complicaciones.",
+        "correcta": false
+      },
+      {
+        "texto": "Siempre después de 12 horas.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de hemoglobina en pacientes con hemorragia digestiva alta sin comorbilidades y hemorragia no activa?",
+    "opciones": [
+      {
+        "texto": "Mantener Hb > 12 g/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "Objetivo: Hb 7-8 g/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "No transfundir si Hb > 7 g/dl.",
+        "correcta": true
+      },
+      {
+        "texto": "Objetivo: Hb > 10 g/dl.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con cirrosis hepática y hemorragia digestiva alta, ¿cómo se debe interpretar el INR?",
+    "opciones": [
+      {
+        "texto": "Refleja adecuadamente el grado de coagulopatía.",
+        "correcta": false
+      },
+      {
+        "texto": "No refleja adecuadamente el grado de coagulopatía.",
+        "correcta": true
+      },
+      {
+        "texto": "Siempre requiere corrección con concentrados de complejo protrombínico.",
+        "correcta": false
+      },
+      {
+        "texto": "No tiene relevancia en estos pacientes.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco procinético se puede administrar antes de la endoscopia en la hemorragia digestiva alta si se sospecha contenido en el estómago?",
+    "opciones": [
+      {
+        "texto": "Omeprazol.",
+        "correcta": false
+      },
+      {
+        "texto": "Eritromicina.",
+        "correcta": true
+      },
+      {
+        "texto": "Ácido tranexámico.",
+        "correcta": false
+      },
+      {
+        "texto": "Octreotida.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con inestabilidad hemodinámica y hemorragia digestiva alta, ¿qué acción se menciona en el texto?",
+    "opciones": [
+      {
+        "texto": "Administrar concentrados de complejo protrombínico.",
+        "correcta": false
+      },
+      {
+        "texto": "Seguir recomendaciones de Hematología.",
+        "correcta": true
+      },
+      {
+        "texto": "Realizar endoscopia urgente.",
+        "correcta": false
+      },
+      {
+        "texto": "Iniciar tratamiento con vitamina K.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la definición de diarrea aguda según la duración de los síntomas?",
+    "opciones": [
+      {
+        "texto": "> 2 semanas de evolución.",
+        "correcta": false
+      },
+      {
+        "texto": "< 4 semanas de evolución.",
+        "correcta": true
+      },
+      {
+        "texto": "> 4 semanas de evolución.",
+        "correcta": false
+      },
+      {
+        "texto": "< 72 horas de evolución.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué dato se considera un signo de alarma (organicidad) en la diarrea crónica?",
+    "opciones": [
+      {
+        "texto": "Aumento del número de deposiciones al día.",
+        "correcta": false
+      },
+      {
+        "texto": "Rectorragia o hematoquecia.",
+        "correcta": true
+      },
+      {
+        "texto": "Dolor abdominal leve intermitente.",
+        "correcta": false
+      },
+      {
+        "texto": "Heces de consistencia líquida.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una medida general de tratamiento en la diarrea aguda?",
+    "opciones": [
+      {
+        "texto": "Restricción hídrica.",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta rica en fibra.",
+        "correcta": false
+      },
+      {
+        "texto": "Reposición hidroelectrolítica.",
+        "correcta": true
+      },
+      {
+        "texto": "Uso liberal de antidiarreicos.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación se considera la antibioterapia en la diarrea aguda?",
+    "opciones": [
+      {
+        "texto": "Diarrea leve sin otros síntomas.",
+        "correcta": false
+      },
+      {
+        "texto": "Diarrea grave o disentérica.",
+        "correcta": true
+      },
+      {
+        "texto": "Diarrea de perfil funcional.",
+        "correcta": false
+      },
+      {
+        "texto": "Diarrea que mejora con dieta astringente.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio se menciona para el ingreso hospitalario de un paciente con diarrea aguda o crónica?",
+    "opciones": [
+      {
+        "texto": "Diarrea de 3 días de evolución.",
+        "correcta": false
+      },
+      {
+        "texto": "Deshidratación grave.",
+        "correcta": true
+      },
+      {
+        "texto": "Intolerancia a ciertos alimentos.",
+        "correcta": false
+      },
+      {
+        "texto": "Antecedentes de viaje reciente.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué prueba complementaria se menciona en la evaluación de un brote de EII?",
+    "opciones": [
+      {
+        "texto": "Radiografía de abdomen.",
+        "correcta": false
+      },
+      {
+        "texto": "Hemograma, bioquímica (incluir albúmina, VSG, PCR).",
+        "correcta": true
+      },
+      {
+        "texto": "TAC abdominal con contraste.",
+        "correcta": false
+      },
+      {
+        "texto": "Ecografía abdominal.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué medida general se recomienda evitar en el tratamiento de un brote de EII?",
+    "opciones": [
+      {
+        "texto": "Nutrición vía oral si es posible.",
+        "correcta": false
+      },
+      {
+        "texto": "Profilaxis antitrombótica.",
+        "correcta": false
+      },
+      {
+        "texto": "AINES, opioides y antiespasmódicos.",
+        "correcta": true
+      },
+      {
+        "texto": "Mantenimiento del tratamiento de base.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Según la Tabla 1 para valorar la gravedad del brote de colitis ulcerosa, ¿qué puntuación indica un brote grave?",
+    "opciones": [
+      {
+        "texto": "< 6 puntos.",
+        "correcta": false
+      },
+      {
+        "texto": "7-10 puntos.",
+        "correcta": false
+      },
+      {
+        "texto": "11-14 puntos.",
+        "correcta": false
+      },
+      {
+        "texto": "15-18 puntos.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué complicación de la EII se caracteriza por la dilatación del colon > 6 cms sin causa obstructiva y toxicidad sistémica?",
+    "opciones": [
+      {
+        "texto": "Fístula anal.",
+        "correcta": false
+      },
+      {
+        "texto": "Absceso.",
+        "correcta": false
+      },
+      {
+        "texto": "Megacolon tóxico.",
+        "correcta": true
+      },
+      {
+        "texto": "Reservoritis.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el tratamiento con aminosalicilatos en la EII, ¿qué vía de administración se recomienda para la proctitis ulcerosa?",
+    "opciones": [
+      {
+        "texto": "Solo vía oral.",
+        "correcta": false
+      },
+      {
+        "texto": "Supositorios de aminosalicilatos.",
+        "correcta": true
+      },
+      {
+        "texto": "Enemas de aminosalicilatos.",
+        "correcta": false
+      },
+      {
+        "texto": "Combinación de vía oral e intravenosa.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el mecanismo fisiopatológico del cólico biliar?",
+    "opciones": [
+      {
+        "texto": "Infección de la vía biliar.",
+        "correcta": false
+      },
+      {
+        "texto": "Inflamación de la vesícula biliar.",
+        "correcta": false
+      },
+      {
+        "texto": "Impactación transitoria del cálculo biliar en el conducto cístico o el colédoco.",
+        "correcta": true
+      },
+      {
+        "texto": "Producción excesiva de bilis.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la prueba de imagen de elección para el diagnóstico del cólico biliar?",
+    "opciones": [
+      {
+        "texto": "Radiografía de abdomen.",
+        "correcta": false
+      },
+      {
+        "texto": "TAC abdominal.",
+        "correcta": false
+      },
+      {
+        "texto": "Ecografía abdominal.",
+        "correcta": true
+      },
+      {
+        "texto": "Colangiopancreatografía retrógrada endoscópica (CPRE).",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se menciona para la analgesia intravenosa en el tratamiento del cólico biliar?",
+    "opciones": [
+      {
+        "texto": "Metoclopramida.",
+        "correcta": false
+      },
+      {
+        "texto": "Dexketoprofeno.",
+        "correcta": true
+      },
+      {
+        "texto": "Ciprofloxacino.",
+        "correcta": false
+      },
+      {
+        "texto": "Vitamina K.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio sugiere la necesidad de valoración por cirugía en el cólico biliar?",
+    "opciones": [
+      {
+        "texto": "Buena respuesta al tratamiento analgésico.",
+        "correcta": false
+      },
+      {
+        "texto": "Duración del dolor menor de 3 horas.",
+        "correcta": false
+      },
+      {
+        "texto": "Cólico biliar persistente.",
+        "correcta": true
+      },
+      {
+        "texto": "No elevación de las transaminasas.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de alta de un cólico biliar no complicado, ¿qué recomendación dietética se debe dar al paciente?",
+    "opciones": [
+      {
+        "texto": "Dieta rica en fibra.",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta sin lactosa.",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta pobre en grasas.",
+        "correcta": true
+      },
+      {
+        "texto": "Dieta líquida.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la tríada de Charcot, sugestiva de colangitis aguda?",
+    "opciones": [
+      {
+        "texto": "Fiebre, ictericia, diarrea.",
+        "correcta": false
+      },
+      {
+        "texto": "Fiebre, dolor en hipocondrio derecho, ictericia.",
+        "correcta": true
+      },
+      {
+        "texto": "Ictericia, dolor abdominal, vómitos.",
+        "correcta": false
+      },
+      {
+        "texto": "Fiebre, escalofríos, leucocitosis.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio de laboratorio se incluye en los signos sistémicos de inflamación para el diagnóstico de colangitis aguda?",
+    "opciones": [
+      {
+        "texto": "Bilirrubina total > 2 mg/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de GOT/GPT > 1.5 LSN.",
+        "correcta": false
+      },
+      {
+        "texto": "Leucocitos < 4.000 o > 12.000/mm3.",
+        "correcta": true
+      },
+      {
+        "texto": "INR > 2.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué grado de colangitis aguda se define por la presencia de disfunción de órganos como hipotensión que requiere aminas vasoactivas?",
+    "opciones": [
+      {
+        "texto": "Grado I (Leve).",
+        "correcta": false
+      },
+      {
+        "texto": "Grado II (Moderado).",
+        "correcta": false
+      },
+      {
+        "texto": "Grado III (Grave).",
+        "correcta": true
+      },
+      {
+        "texto": "No existe clasificación por grados.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento inicial fundamental en la colangitis aguda?",
+    "opciones": [
+      {
+        "texto": "Colangiopancreatografía retrógrada endoscópica (CPRE) urgente.",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta absoluta, sueroterapia y electrolitos i.v..",
+        "correcta": true
+      },
+      {
+        "texto": "Analgesia por vía oral.",
+        "correcta": false
+      },
+      {
+        "texto": "Observación clínica.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué gérmenes se mencionan como más frecuentes en la colangitis aguda?",
+    "opciones": [
+      {
+        "texto": "Virus de la hepatitis.",
+        "correcta": false
+      },
+      {
+        "texto": "Clostridium difficile.",
+        "correcta": false
+      },
+      {
+        "texto": "Enterobacterias (E. coli, Klebsiella pneumoniae).",
+        "correcta": true
+      },
+      {
+        "texto": "Helicobacter pylori.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la principal característica clínica de la pancreatitis aguda?",
+    "opciones": [
+      {
+        "texto": "Diarrea crónica y pérdida de peso.",
+        "correcta": false
+      },
+      {
+        "texto": "Ictericia progresiva e indolora.",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor abdominal en epigastrio irradiado a la espalda.",
+        "correcta": true
+      },
+      {
+        "texto": "Ascitis de novo.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué valor de BUN se relaciona con una pancreatitis aguda grave según la escala BISAP?",
+    "opciones": [
+      {
+        "texto": "> 15 mg/dL.",
+        "correcta": false
+      },
+      {
+        "texto": "> 25 mg/dL.",
+        "correcta": true
+      },
+      {
+        "texto": "< 25 mg/dL.",
+        "correcta": false
+      },
+      {
+        "texto": "No se incluye el BUN en la escala BISAP.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué valor de frecuencia cardíaca se incluye en los criterios SIRS, que pueden estar presentes en la pancreatitis aguda?",
+    "opciones": [
+      {
+        "texto": "< 90 lpm.",
+        "correcta": false
+      },
+      {
+        "texto": "> 90 lpm.",
+        "correcta": true
+      },
+      {
+        "texto": "60-80 lpm.",
+        "correcta": false
+      },
+      {
+        "texto": "No se relaciona la frecuencia cardíaca con SIRS en este contexto.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la medida terapéutica fundamental inicial en la pancreatitis aguda?",
+    "opciones": [
+      {
+        "texto": "Antibioterapia profiláctica.",
+        "correcta": false
+      },
+      {
+        "texto": "Sueroterapia con cristaloides.",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de enzimas pancreáticas.",
+        "correcta": false
+      },
+      {
+        "texto": "Cirugía urgente.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de la presión arterial media (TAM) en la resucitación con fluidos en la pancreatitis aguda?",
+    "opciones": [
+      {
+        "texto": "40-60 mmHg.",
+        "correcta": false
+      },
+      {
+        "texto": "65-85 mmHg.",
+        "correcta": true
+      },
+      {
+        "texto": "> 100 mmHg.",
+        "correcta": false
+      },
+      {
+        "texto": "No hay un objetivo específico de TAM.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la indicación principal para realizar una paracentesis diagnóstica en la ascitis no filiada?",
+    "opciones": [
+      {
+        "texto": "Ascitis grado 1 visible solo por ecografía.",
+        "correcta": false
+      },
+      {
+        "texto": "Ascitis crónica estable.",
+        "correcta": false
+      },
+      {
+        "texto": "Toda ascitis no conocida previamente.",
+        "correcta": true
+      },
+      {
+        "texto": "Ascitis refractaria al tratamiento diurético.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un parámetro a medir en el líquido ascítico obtenido por paracentesis diagnóstica?",
+    "opciones": [
+      {
+        "texto": "Creatinina.",
+        "correcta": false
+      },
+      {
+        "texto": "Bilirrubina sérica.",
+        "correcta": false
+      },
+      {
+        "texto": "Proteínas totales.",
+        "correcta": true
+      },
+      {
+        "texto": "Glucosa sérica.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué valor de gradiente albúmina suero-ascitis (GASA) sugiere hipertensión portal?",
+    "opciones": [
+      {
+        "texto": "< 1.1.",
+        "correcta": false
+      },
+      {
+        "texto": "≥ 1.1.",
+        "correcta": true
+      },
+      {
+        "texto": "No se utiliza el GASA en ascitis no filiada.",
+        "correcta": false
+      },
+      {
+        "texto": "Depende de la celularidad del líquido ascítico.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica macroscópica del líquido ascítico sugiere una posible peritonitis bacteriana?",
+    "opciones": [
+      {
+        "texto": "Amarillento transparente con < 250 PMN.",
+        "correcta": false
+      },
+      {
+        "texto": "Sanguinolento.",
+        "correcta": false
+      },
+      {
+        "texto": "Turbio con ≥ 250 PMN.",
+        "correcta": true
+      },
+      {
+        "texto": "Marrón.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes entidades se menciona como causa de ascitis con GASA < 1.1 y proteínas ≥ 2.5 g/dl?",
+    "opciones": [
+      {
+        "texto": "Ascitis cirrótica.",
+        "correcta": false
+      },
+      {
+        "texto": "Ascitis cardíaca.",
+        "correcta": false
+      },
+      {
+        "texto": "Ascitis nefrótica.",
+        "correcta": true
+      },
+      {
+        "texto": "Trombosis de la vena porta.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué valor de bilirrubina total se menciona como umbral para considerar ictericia?",
+    "opciones": [
+      {
+        "texto": "> 1 mg/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "> 3 mg/dl.",
+        "correcta": true
+      },
+      {
+        "texto": "> 5 mg/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "Cualquier elevación de bilirrubina.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo físico sugiere hepatopatía crónica?",
+    "opciones": [
+      {
+        "texto": "Lesiones de rascado.",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor en hipocondrio derecho.",
+        "correcta": false
+      },
+      {
+        "texto": "Arañas vasculares.",
+        "correcta": true
+      },
+      {
+        "texto": "Esplenomegalia aislada.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué prueba complementaria se debe realizar siempre que exista ictericia y no se justifique por antecedentes crónicos del paciente?",
+    "opciones": [
+      {
+        "texto": "TAC abdominal con contraste.",
+        "correcta": false
+      },
+      {
+        "texto": "Serologías de virus hepatotropos.",
+        "correcta": false
+      },
+      {
+        "texto": "Ecografía abdominal.",
+        "correcta": true
+      },
+      {
+        "texto": "Biopsia hepática.",
+        "correcta": false
+      },
+      {
+        "texto": "En la ictericia, un aumento intenso de transaminasas (> 500-1000 U/l) es típico de:",
+        "correcta": false
+      },
+      {
+        "texto": "Colestasis intrahepática.",
+        "correcta": false
+      },
+      {
+        "texto": "Hepatitis aguda tóxica o isquémica.",
+        "correcta": true
+      },
+      {
+        "texto": "Obstrucción aguda de la vía biliar.",
+        "correcta": false
+      },
+      {
+        "texto": "Enfermedad de Gilbert.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio se menciona para el ingreso hospitalario en un paciente con ictericia?",
+    "opciones": [
+      {
+        "texto": "Bilirrubina total ligeramente elevada (< 5 mg/dl).",
+        "correcta": false
+      },
+      {
+        "texto": "Prurito leve.",
+        "correcta": false
+      },
+      {
+        "texto": "Ictericia obstructiva siempre.",
+        "correcta": true
+      },
+      {
+        "texto": "Coluria sin otros síntomas.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una posible vía de transmisión del virus de la Hepatitis A (VHA)?",
+    "opciones": [
+      {
+        "texto": "Contacto sexual.",
+        "correcta": false
+      },
+      {
+        "texto": "Fluidos corporales (sangre).",
+        "correcta": false
+      },
+      {
+        "texto": "Alimentos sospechosos.",
+        "correcta": true
+      },
+      {
+        "texto": "Transmisión vertical madre-hijo.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma prodrómico inespecífico se menciona en la hepatitis aguda?",
+    "opciones": [
+      {
+        "texto": "Ictericia de inicio súbito.",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor intenso en hipocondrio derecho.",
+        "correcta": false
+      },
+      {
+        "texto": "Malestar general (MEG).",
+        "correcta": true
+      },
+      {
+        "texto": "Acolia y coluria simultáneas.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué estudio de imagen se recomienda si hay hiperbilirrubinemia y dolor abdominal en la hepatitis aguda?",
+    "opciones": [
+      {
+        "texto": "Radiografía de tórax.",
+        "correcta": false
+      },
+      {
+        "texto": "Ecografía abdominal (sospecha de obstrucción vía biliar).",
+        "correcta": true
+      },
+      {
+        "texto": "TAC abdominal con contraste.",
+        "correcta": false
+      },
+      {
+        "texto": "Resonancia magnética hepática.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio sugiere la necesidad de ingreso hospitalario en la hepatitis aguda?",
+    "opciones": [
+      {
+        "texto": "Leve elevación de transaminasas.",
+        "correcta": false
+      },
+      {
+        "texto": "Bilirrubina < 10 g/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "INR alargado con descenso del 40% en la actividad de protrombina.",
+        "correcta": true
+      },
+      {
+        "texto": "Prurito intenso.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué medida de aislamiento se recomienda en la hepatitis aguda por VHA?",
+    "opciones": [
+      {
+        "texto": "Aislamiento respiratorio.",
+        "correcta": false
+      },
+      {
+        "texto": "Aislamiento de contacto.",
+        "correcta": false
+      },
+      {
+        "texto": "Aislamiento entérico.",
+        "correcta": true
+      },
+      {
+        "texto": "No se requiere aislamiento específico.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué grado de encefalopatía hepática (EH) requiere valoración por UCI en el fallo hepático fulminante?",
+    "opciones": [
+      {
+        "texto": "Grado I.",
+        "correcta": false
+      },
+      {
+        "texto": "Grado II.",
+        "correcta": false
+      },
+      {
+        "texto": "Grado III-IV.",
+        "correcta": true
+      },
+      {
+        "texto": "No depende del grado de EH.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de glucemia en el manejo general del fallo hepático fulminante?",
+    "opciones": [
+      {
+        "texto": "80-120 mg/dL.",
+        "correcta": false
+      },
+      {
+        "texto": "150-200 mg/dL.",
+        "correcta": true
+      },
+      {
+        "texto": "< 80 mg/dL.",
+        "correcta": false
+      },
+      {
+        "texto": "> 200 mg/dL.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuándo se recomienda la corrección del INR en el fallo hepático fulminante?",
+    "opciones": [
+      {
+        "texto": "De forma rutinaria diaria.",
+        "correcta": false
+      },
+      {
+        "texto": "Solo si hay hemorragia clínicamente significativa o se va a realizar exploración invasiva.",
+        "correcta": true
+      },
+      {
+        "texto": "Si el INR es > 1.5.",
+        "correcta": false
+      },
+      {
+        "texto": "Nunca se debe corregir el INR.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Según los criterios de King's College para el FHF por paracetamol, ¿qué valor de pH se considera?",
+    "opciones": [
+      {
+        "texto": "> 7.3.",
+        "correcta": false
+      },
+      {
+        "texto": "< 7.3 (después de resucitación, > 24h tras ingesta).",
+        "correcta": true
+      },
+      {
+        "texto": "No se incluye el pH en estos criterios.",
+        "correcta": false
+      },
+      {
+        "texto": "pH < 7.0.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué parámetro se incluye en los criterios de King's College para FHF no debido a paracetamol?",
+    "opciones": [
+      {
+        "texto": "pH arterial.",
+        "correcta": false
+      },
+      {
+        "texto": "Tiempo de protrombina (TP) > 100 s (INR > 6.5) o al menos 3 de los siguientes.",
+        "correcta": true
+      },
+      {
+        "texto": "Bilirrubina total < 10 mg/dL.",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de encefalopatía hepática.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué grado de ascitis cirrótica es visible solo por ecografía?",
+    "opciones": [
+      {
+        "texto": "Grado 3.",
+        "correcta": false
+      },
+      {
+        "texto": "Grado 2.",
+        "correcta": false
+      },
+      {
+        "texto": "Grado 1.",
+        "correcta": true
+      },
+      {
+        "texto": "Grado 0 (no ascitis).",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indicación se menciona para realizar una paracentesis diagnóstica en un paciente con ascitis cirrótica?",
+    "opciones": [
+      {
+        "texto": "Ascitis grado 1 estable.",
+        "correcta": false
+      },
+      {
+        "texto": "Primer episodio de ascitis grado 2-3.",
+        "correcta": true
+      },
+      {
+        "texto": "Ascitis conocida sin cambios clínicos.",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes con ascitis y sodio sérico < 125 mmol/L.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el antibiótico de primera elección para la peritonitis bacteriana espontánea (PBE) en pacientes con ascitis cirrótica?",
+    "opciones": [
+      {
+        "texto": "Amoxicilina/ácido clavulánico.",
+        "correcta": false
+      },
+      {
+        "texto": "Ciprofloxacino oral.",
+        "correcta": false
+      },
+      {
+        "texto": "Ceftriaxona 2g cada 24h IV o cefotaxima 2g cada 8h IV.",
+        "correcta": true
+      },
+      {
+        "texto": "Vancomicina.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué restricción se recomienda en la dieta de un paciente con ascitis cirrótica?",
+    "opciones": [
+      {
+        "texto": "Restricción proteica severa.",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta hiposódica.",
+        "correcta": true
+      },
+      {
+        "texto": "Dieta sin lactosa.",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de la ingesta de líquidos.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuándo se debe suspender la espironolactona en un paciente con ascitis cirrótica?",
+    "opciones": [
+      {
+        "texto": "Sodio sérico < 130 mmol/L.",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperpotasemia > 6 mmol/L.",
+        "correcta": true
+      },
+      {
+        "texto": "Creatinina sérica > 2 mg/dL.",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de respuesta diurética.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo físico se asocia a la encefalopatía hepática?",
+    "opciones": [
+      {
+        "texto": "Bradicardia.",
+        "correcta": false
+      },
+      {
+        "texto": "Asterixis.",
+        "correcta": true
+      },
+      {
+        "texto": "Hipertensión arterial.",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de ascitis.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se utiliza comúnmente para reducir la producción de nitrógeno en el tratamiento de la encefalopatía hepática?",
+    "opciones": [
+      {
+        "texto": "Furosemida.",
+        "correcta": false
+      },
+      {
+        "texto": "Espironolactona.",
+        "correcta": false
+      },
+      {
+        "texto": "Lactulosa.",
+        "correcta": true
+      },
+      {
+        "texto": "Omeprazol.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué grado de encefalopatía hepática se caracteriza por estupor (despierta con estímulos físicos)?",
+    "opciones": [
+      {
+        "texto": "Grado 1.",
+        "correcta": false
+      },
+      {
+        "texto": "Grado 3.",
+        "correcta": true
+      },
+      {
+        "texto": "Grado 2.",
+        "correcta": false
+      },
+      {
+        "texto": "Grado 4 (Coma).",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué factor precipitante de encefalopatía hepática se menciona en la Tabla 1?",
+    "opciones": [
+      {
+        "texto": "Hipoglucemia.",
+        "correcta": false
+      },
+      {
+        "texto": "Hemorragia digestiva aguda.",
+        "correcta": true
+      },
+      {
+        "texto": "Hipernatremia.",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis metabólica.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con más de dos episodios de encefalopatía hepática, ¿qué fármaco se puede añadir a la lactulosa?",
+    "opciones": [
+      {
+        "texto": "Metronidazol.",
+        "correcta": false
+      },
+      {
+        "texto": "Rifaximina 400mg cada 8h.",
+        "correcta": true
+      },
+      {
+        "texto": "Neomicina.",
+        "correcta": false
+      },
+      {
+        "texto": "Vancomicina.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué causa prerrenal de insuficiencia renal aguda se menciona en el paciente cirrótico?",
+    "opciones": [
+      {
+        "texto": "Fármacos nefrotóxicos.",
+        "correcta": false
+      },
+      {
+        "texto": "Necrosis tubular aguda.",
+        "correcta": false
+      },
+      {
+        "texto": "Diuréticos.",
+        "correcta": true
+      },
+      {
+        "texto": "Síndrome hepatorrenal.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué valor de FE Na (fracción de excreción de sodio) orienta hacia una causa prerrenal de insuficiencia renal en el paciente cirrótico?",
+    "opciones": [
+      {
+        "texto": "> 1%.",
+        "correcta": false
+      },
+      {
+        "texto": "< 1%.",
+        "correcta": true
+      },
+      {
+        "texto": "No es útil en este contexto.",
+        "correcta": false
+      },
+      {
+        "texto": "Depende del estadio AKI.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un criterio AKI-1 según el aumento de creatinina (Cr)?",
+    "opciones": [
+      {
+        "texto": "Aumento de Cr ≥ 0.1 mg/dl.",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de Cr ≥ 0.3 mg/dl o aumento de Cr ≥ 1.5-2 veces respecto a la basal.",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de Cr > 3 veces respecto a la basal.",
+        "correcta": false
+      },
+      {
+        "texto": "Cr al diagnóstico < 1.5 mg/dl sin aumento.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué condición se menciona como necesaria para el diagnóstico de síndrome hepatorrenal?",
+    "opciones": [
+      {
+        "texto": "Presencia de edemas periféricos.",
+        "correcta": false
+      },
+      {
+        "texto": "Cirrosis con presencia de ascitis.",
+        "correcta": true
+      },
+      {
+        "texto": "Respuesta a la retirada de diuréticos.",
+        "correcta": false
+      },
+      {
+        "texto": "Uso reciente de fármacos nefrotóxicos.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué medida general se recomienda en el manejo de la insuficiencia renal en el paciente cirrótico?",
+    "opciones": [
+      {
+        "texto": "Aumentar la dosis de diuréticos.",
+        "correcta": false
+      },
+      {
+        "texto": "Retirada de nefrotóxicos (AINES, diuréticos, vasodilatadores).",
+        "correcta": true
+      },
+      {
+        "texto": "Restricción severa de líquidos.",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de furosemida en monoterapia.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la localización anatómica que define la hemorragia digestiva baja según el texto?",
+    "opciones": [
+      {
+        "texto": "Proximal al ángulo de Treitz.",
+        "correcta": false
+      },
+      {
+        "texto": "A nivel del estómago y duodeno.",
+        "correcta": false
+      },
+      {
+        "texto": "Distal al ángulo de Treitz.",
+        "correcta": true
+      },
+      {
+        "texto": "Cualquier sangrado por el ano.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la causa más frecuente de hemorragia digestiva baja mencionada en el texto?",
+    "opciones": [
+      {
+        "texto": "Neoplasia.",
+        "correcta": false
+      },
+      {
+        "texto": "Colitis isquémica.",
+        "correcta": false
+      },
+      {
+        "texto": "Diverticulosis (15-55%).",
+        "correcta": true
+      },
+      {
+        "texto": "Enfermedad inflamatoria intestinal.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo sugiere una hemorragia digestiva baja de origen anorrectal?",
+    "opciones": [
+      {
+        "texto": "Rectorragia abundante con sangre roja fresca.",
+        "correcta": false
+      },
+      {
+        "texto": "Rectorragia que acompaña a deposiciones normales.",
+        "correcta": true
+      },
+      {
+        "texto": "Dolor abdominal intenso asociado al sangrado.",
+        "correcta": false
+      },
+      {
+        "texto": "Anemia ferropénica de novo.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente estable con sospecha de hemorragia digestiva baja, ¿qué estudio se puede valorar realizar de forma ambulatoria?",
+    "opciones": [
+      {
+        "texto": "AngioTC urgente.",
+        "correcta": false
+      },
+      {
+        "texto": "Colonoscopia (para valorar estudio ambulatorio).",
+        "correcta": true
+      },
+      {
+        "texto": "Gastroscopia urgente.",
+        "correcta": false
+      },
+      {
+        "texto": "Cirugía exploratoria.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe valorar ante una rectorragia post-polipectomía (< 24-48h)?",
+    "opciones": [
+      {
+        "texto": "Observación y dieta blanda.",
+        "correcta": false
+      },
+      {
+        "texto": "Solicitar colonoscopia urgente.",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar tratamiento anticoagulante.",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar una radiografía de abdomen.",
+        "correcta": false
+      }
+    ]
+  }
+]

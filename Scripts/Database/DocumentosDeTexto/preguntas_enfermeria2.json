@@ -1,0 +1,212 @@
+[
+  {
+    "pregunta": "¿Cuál es la función principal del collarín Philadelphia?",
+    "opciones": [
+      {
+        "texto": "Estabilizar y proteger la columna cervical",
+        "correcta": true
+      },
+      {
+        "texto": "Inmovilizar la columna lumbar",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir el dolor en la columna vertebral",
+        "correcta": false
+      },
+      {
+        "texto": "Evitar el riesgo de fracturas en las extremidades",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuántos sanitarios son necesarios para colocar el collarín Philadelphia?",
+    "opciones": [
+      {
+        "texto": "Uno",
+        "correcta": false
+      },
+      {
+        "texto": "Dos",
+        "correcta": true
+      },
+      {
+        "texto": "Tres",
+        "correcta": false
+      },
+      {
+        "texto": "Cuatro",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el procedimiento que debe seguir el primer sanitario al colocar el collarín Philadelphia?",
+    "opciones": [
+      {
+        "texto": "Colocar el collarín y ajustarlo",
+        "correcta": false
+      },
+      {
+        "texto": "Colocar las valvas del collarín sin tracción",
+        "correcta": false
+      },
+      {
+        "texto": "Sostener la mandíbula y la zona occipital mientras realiza tracción suave",
+        "correcta": true
+      },
+      {
+        "texto": "Realizar una maniobra de tracción y luego quitar el collarín",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes no es una indicación de colocación de collarín Philadelphia?",
+    "opciones": [
+      {
+        "texto": "Deformación anatómica de la columna",
+        "correcta": false
+      },
+      {
+        "texto": "Parestesias en extremidades",
+        "correcta": false
+      },
+      {
+        "texto": "Esguince cervical leve",
+        "correcta": true
+      },
+      {
+        "texto": "Signos de traumatismo por encima de la cintura escapular",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son algunas de las contraindicaciones para el uso del collarín Philadelphia?",
+    "opciones": [
+      {
+        "texto": "Posición de la cabeza",
+        "correcta": false
+      },
+      {
+        "texto": "Espasmo muscular con resistencia al movimiento",
+        "correcta": false
+      },
+      {
+        "texto": "Compromiso de la vía aérea",
+        "correcta": false
+      },
+      {
+        "texto": "Todas son correctas",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la principal función del tablero espinal largo?",
+    "opciones": [
+      {
+        "texto": "Inmovilizar la cabeza y los miembros inferiores",
+        "correcta": false
+      },
+      {
+        "texto": "Estabilizar la columna vertebral y evitar lesiones medulares",
+        "correcta": true
+      },
+      {
+        "texto": "Reducir el dolor en la zona lumbar",
+        "correcta": false
+      },
+      {
+        "texto": "Proteger la vía aérea del paciente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuántas personas se recomiendan para una movilización en bloque cuando el paciente llega en camilla convencional?",
+    "opciones": [
+      {
+        "texto": "4 personas",
+        "correcta": false
+      },
+      {
+        "texto": "6 personas",
+        "correcta": false
+      },
+      {
+        "texto": "8 personas",
+        "correcta": true
+      },
+      {
+        "texto": "10 personas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución debe tomarse al utilizar un tablero espinal?",
+    "opciones": [
+      {
+        "texto": "Se puede usar en cualquier tipo de traumatismo",
+        "correcta": false
+      },
+      {
+        "texto": "Debe aplicarse únicamente a la columna cervical",
+        "correcta": false
+      },
+      {
+        "texto": "Debe aplicarse previa colocación de collarín cervical",
+        "correcta": true
+      },
+      {
+        "texto": "No requiere supervisión médica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuándo NO debe utilizarse un tablero espinal largo?",
+    "opciones": [
+      {
+        "texto": "En pacientes con dolor de cuello y espalda",
+        "correcta": false
+      },
+      {
+        "texto": "En pacientes con intoxicación o alteración del nivel de consciencia",
+        "correcta": false
+      },
+      {
+        "texto": "En pacientes con deformidad anatómica de la columna",
+        "correcta": false
+      },
+      {
+        "texto": "Cuando el paciente presenta agitación",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de éstas es una posible complicación de usar el tablero espinal largo?",
+    "opciones": [
+      {
+        "texto": "Hipotensión y falta de oxígeno",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de la lesión previa debido a una movilización incorrecta",
+        "correcta": true
+      },
+      {
+        "texto": "Deshidratación del paciente",
+        "correcta": false
+      },
+      {
+        "texto": "Daño en la vía aérea por compresión",
+        "correcta": false
+      }
+    ]
+  }
+]

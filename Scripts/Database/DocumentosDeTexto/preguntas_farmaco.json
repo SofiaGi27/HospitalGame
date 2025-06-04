@@ -1,0 +1,44 @@
+[
+    {
+        "pregunta": "¿Cuál es el protocolo correcto para la administración intravenosa directa de Adrenalina (noradrenalina)?",
+        "opciones": [
+            {
+                "texto": "1 mg cada 3-5 minutos sin diluir",
+                "correcta": false
+            },
+            {
+                "texto": "1 mg cada 3-6 minutos, previa dilución en 10 ml de SF, agua para inyección o SG 5%",
+                "correcta": true
+            },
+            {
+                "texto": "5 mg (5 ampollas) en 250 ml de SG 5%",
+                "correcta": false
+            },
+            {
+                "texto": "Administrar lentamente sin diluir en 2 segundos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "pregunta": "En caso de paro cardiorrespiratorio (PCR), ¿cuál es la dosis inicial correcta de Amiodarona por vía intravenosa?",
+        "opciones": [
+            {
+                "texto": "300 mg (o 5 mg/kg) diluidos en 20 ml de solución glucosada al 5%",
+                "correcta": true
+            },
+            {
+                "texto": "900 mg en 250 ml de SG 5%",
+                "correcta": false
+            },
+            {
+                "texto": "150 mg sin diluir en bolo rápido",
+                "correcta": false
+            },
+            {
+                "texto": "1 mg/kg diluido en 100 ml de SF en 1 hora",
+                "correcta": false
+            }
+        ]
+    }
+]

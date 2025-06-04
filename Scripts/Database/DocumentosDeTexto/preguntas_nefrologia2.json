@@ -1,0 +1,3992 @@
+[
+  {
+    "pregunta": "Según las guías AKIN, ¿cuál de los siguientes criterios define el Fracaso Renal Agudo? ",
+    "opciones": [
+      {
+        "texto": "Disminución de la creatinina sérica en 0.3 mg/dl en 48 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de la diuresis a > 0.5 ml/kg/h durante más de 6 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de creatinina >= 0.3mg/dl respecto a basal en 48 horas",
+        "correcta": true
+      },
+      {
+        "texto": "Disminución del nitrógeno ureico en sangre (BUN)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la sospecha de un Fracaso Renal Agudo prerrenal, ¿qué hallazgo en orina es",
+    "opciones": [
+      {
+        "texto": "Na Orina <20 mEq/L",
+        "correcta": true
+      },
+      {
+        "texto": "Na Orina >40 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "EF Na >1%",
+        "correcta": false
+      },
+      {
+        "texto": "Densidad en orina <1020",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué causa principal se asocia típicamente al Fracaso Renal Agudo obstructivo?",
+    "opciones": [
+      {
+        "texto": "Administración de AINEs",
+        "correcta": false
+      },
+      {
+        "texto": "Glomerulonefritis primaria",
+        "correcta": false
+      },
+      {
+        "texto": "Obstrucción de la vía urinaria",
+        "correcta": true
+      },
+      {
+        "texto": "Nefrotoxicidad por fármacos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento inicial más importante en un Fracaso Renal Agudo",
+    "opciones": [
+      {
+        "texto": "Restricción de líquidos",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de diuréticos",
+        "correcta": false
+      },
+      {
+        "texto": "Reposición de volumen",
+        "correcta": true
+      },
+      {
+        "texto": "Retirar todos los fármacos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Un paciente con Fracaso Renal Agudo parenquimatoso glomerular típicamente",
+    "opciones": [
+      {
+        "texto": "Na Orina <20 mEq/L y EF Na <1%",
+        "correcta": false
+      },
+      {
+        "texto": "Densidad en orina  >1020",
+        "correcta": false
+      },
+      {
+        "texto": "Na Orina >40 mEq/L y EF Na >1%",
+        "correcta": true
+      },
+      {
+        "texto": "Disminución de productos nitrogenados",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer si no hay mejoría tras iniciar el tratamiento de un Fracaso",
+    "opciones": [
+      {
+        "texto": "Aumentar la dosis del tratamiento inicial",
+        "correcta": false
+      },
+      {
+        "texto": "Solicitar una analítica de orina completa",
+        "correcta": false
+      },
+      {
+        "texto": "Llamar al nefrólogo",
+        "correcta": true
+      },
+      {
+        "texto": "Continuar con el mismo tratamiento",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes no se menciona como una causa de Fracaso Renal Agudo",
+    "opciones": [
+      {
+        "texto": "Ateroembolia renal",
+        "correcta": false
+      },
+      {
+        "texto": "Trombosis renal",
+        "correcta": false
+      },
+      {
+        "texto": "Infarto renal",
+        "correcta": false
+      },
+      {
+        "texto": "Hipervolemia",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "La Nefropatía Tubulointersticial Aguda (NTA) puede ser causada por: ",
+    "opciones": [
+      {
+        "texto": "Hipovolemia severa",
+        "correcta": false
+      },
+      {
+        "texto": "Obstrucción de la vía urinaria",
+        "correcta": false
+      },
+      {
+        "texto": "Fármacos e infecciones",
+        "correcta": true
+      },
+      {
+        "texto": "Bajo gasto cardíaco",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "La presencia de dolor en flanco y oligoanuria sugiere un Fracaso Renal Agudo de tipo:",
+    "opciones": [
+      {
+        "texto": "Prerrenal",
+        "correcta": false
+      },
+      {
+        "texto": "Parenquimatoso",
+        "correcta": false
+      },
+      {
+        "texto": "Obstructivo",
+        "correcta": true
+      },
+      {
+        "texto": "Tubulointersticial",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "El Fracaso Renal Agudo se caracteriza por el deterioro de la función renal de forma:",
+    "opciones": [
+      {
+        "texto": "Crónica, durante meses o años",
+        "correcta": false
+      },
+      {
+        "texto": "Subaguda, durante semanas o meses",
+        "correcta": false
+      },
+      {
+        "texto": "Aguda, en días o semanas",
+        "correcta": true
+      },
+      {
+        "texto": "Insidiosa, sin síntomas claros",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el valor de Presión Arterial Sistólica (PAS) que, junto con una PAD ≥ 110-120 mmHg, define una Crisis Hipertensiva?",
+    "opciones": [
+      {
+        "texto": "PAS ≥ 160 mmHg",
+        "correcta": false
+      },
+      {
+        "texto": "PAS ≥ 180-210 mmHg",
+        "correcta": true
+      },
+      {
+        "texto": "PAS ≥ 140 mmHg",
+        "correcta": false
+      },
+      {
+        "texto": "PAS ≥ 220 mmHg",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En una Urgencia Hipertensiva, ¿cuál es el objetivo de reducción de la Presión Arterial Media (PAM)?",
+    "opciones": [
+      {
+        "texto": "Reducir la PAS a < 120 mmHg en 30 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir la PAD a < 80 mmHg en 1 hora",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir hasta un 20% la PA media en 12-48 horas",
+        "correcta": true
+      },
+      {
+        "texto": "Normalizar la PA en la primera hora",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En una Emergencia Hipertensiva, el tratamiento debe ser:",
+    "opciones": [
+      {
+        "texto": "Por vía oral, con inicio de acción lento",
+        "correcta": false
+      },
+      {
+        "texto": "Con descenso gradual de la PA en 24 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Por vía intravenosa, con monitorización continua",
+        "correcta": true
+      },
+      {
+        "texto": "Con fármacos de acción prolongada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes síntomas sugiere una Emergencia Hipertensiva en lugar de una Urgencia Hipertensiva?",
+    "opciones": [
+      {
+        "texto": "Cefalea leve",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor torácico no específico",
+        "correcta": false
+      },
+      {
+        "texto": "Alteración de la consciencia",
+        "correcta": true
+      },
+      {
+        "texto": "Cifras tensionales elevadas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco de elección se recomienda en la Crisis Hipertensiva asociada a Encefalopatía Hipertensiva?",
+    "opciones": [
+      {
+        "texto": "Nitroglicerina",
+        "correcta": false
+      },
+      {
+        "texto": "Furosemida",
+        "correcta": false
+      },
+      {
+        "texto": "Labetalol o Urapidilo",
+        "correcta": true
+      },
+      {
+        "texto": "Amlodipino",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la Crisis Hipertensiva con Edema Agudo de Pulmón (EAP), ¿qué fármacos de elección se mencionan?",
+    "opciones": [
+      {
+        "texto": "Labetalol y Urapidilo",
+        "correcta": false
+      },
+      {
+        "texto": "Metildopa y Labetalol",
+        "correcta": false
+      },
+      {
+        "texto": "Nitroglicerina y Furosemida",
+        "correcta": true
+      },
+      {
+        "texto": "Enalapril y Amlodipino",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si un paciente con Crisis Hipertensiva ya tenía tratamiento antihipertensivo previo, la actuación en Urgencias puede incluir:",
+    "opciones": [
+      {
+        "texto": "Suspender toda la medicación",
+        "correcta": false
+      },
+      {
+        "texto": "Disminuir la dosis de los fármacos",
+        "correcta": false
+      },
+      {
+        "texto": "Reintroducir, aumentar dosis o asociar nueva medicación",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar únicamente diuréticos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si un paciente sin tratamiento antihipertensivo previo presenta una Urgencia Hipertensiva, ¿qué fármacos orales se pueden considerar inicialmente?",
+    "opciones": [
+      {
+        "texto": "Labetalol y Urapidilo",
+        "correcta": false
+      },
+      {
+        "texto": "Nitroglicerina y Furosemida",
+        "correcta": false
+      },
+      {
+        "texto": "Enalapril y/o Amlodipino",
+        "correcta": true
+      },
+      {
+        "texto": "Metildopa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante una Pseudocrisis Hipertensiva, es importante descartar causas como: ",
+    "opciones": [
+      {
+        "texto": "Tratamiento antihipertensivo previo",
+        "correcta": false
+      },
+      {
+        "texto": "Cifras tensionales consistentemente elevadas",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor o ansiedad",
+        "correcta": true
+      },
+      {
+        "texto": "Antecedentes de daño orgánico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si tras el tratamiento oral inicial en una Urgencia Hipertensiva no se logra el control de la presión arterial, ¿cuál es la siguiente recomendación?",
+    "opciones": [
+      {
+        "texto": "Dar de alta al paciente con seguimiento ambulatorio",
+        "correcta": false
+      },
+      {
+        "texto": "Observación y tratamiento intravenoso",
+        "correcta": true
+      },
+      {
+        "texto": "Aumentar la dosis de los fármacos orales al doble",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar un nuevo fármaco oral a dosis máxima",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Para ajustar la dosis de un fármaco en pacientes con función renal alterada, es fundamental:",
+    "opciones": [
+      {
+        "texto": "Conocer la presión arterial del paciente",
+        "correcta": false
+      },
+      {
+        "texto": "Calcular el filtrado glomerular",
+        "correcta": true
+      },
+      {
+        "texto": "Medir la diuresis horaria",
+        "correcta": false
+      },
+      {
+        "texto": "Evaluar los niveles de electrolitos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con Filtrado Glomerular (FG) < 10 ml/min, la dosis de Amoxicilina/Clavulánico se debe ajustar a:",
+    "opciones": [
+      {
+        "texto": "500/125 mg/8h",
+        "correcta": false
+      },
+      {
+        "texto": "500/125 mg/12h",
+        "correcta": false
+      },
+      {
+        "texto": "500/125 mg/24h",
+        "correcta": true
+      },
+      {
+        "texto": "1000/250 mg/8h",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué ajuste se recomienda para la Ceftriaxona en pacientes con función renal alterada?",
+    "opciones": [
+      {
+        "texto": "Reducir la dosis al 50% si FG < 50 ml/min",
+        "correcta": false
+      },
+      {
+        "texto": "Aumentar el intervalo entre dosis si FG < 30 ml/min",
+        "correcta": false
+      },
+      {
+        "texto": "No requiere ajuste de dosis según el filtrado glomerular",
+        "correcta": true
+      },
+      {
+        "texto": "Evitar su uso si FG < 10 ml/min",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué ajuste se recomienda para el Ciprofloxacino en pacientes con FG entre 50 – 10 ml/min?",
+    "opciones": [
+      {
+        "texto": "Mantener la dosis de 500 – 750 mg/12 h",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir la dosis al 50% - 75%",
+        "correcta": true
+      },
+      {
+        "texto": "Aumentar la dosis a 1000 mg/12 h",
+        "correcta": false
+      },
+      {
+        "texto": "Suspender su uso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con FG < 15 ml/min, la dosis de Apixabán debe: ",
+    "opciones": [
+      {
+        "texto": " Mantenerse en 5 mg/12h",
+        "correcta": false
+      },
+      {
+        "texto": "Ajustarse a 5 mg/día",
+        "correcta": false
+      },
+      {
+        "texto": "Reducirse a 2.5 mg/12h",
+        "correcta": false
+      },
+      {
+        "texto": "Evitarse",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué antiinflamatorio no esteroideo (AINE) se debe EVITAR en pacientes con FG < 10 ml/min?",
+    "opciones": [
+      {
+        "texto": "Dexketoprofeno",
+        "correcta": false
+      },
+      {
+        "texto": "Diclofenaco",
+        "correcta": true
+      },
+      {
+        "texto": "Ibuprofeno",
+        "correcta": false
+      },
+      {
+        "texto": "Paracetamol",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con FG < 10 ml/min, ¿cómo se debe ajustar la dosis de Morfina?",
+    "opciones": [
+      {
+        "texto": "Mantener 10 mg/4h",
+        "correcta": false
+      },
+      {
+        "texto": "Aumentar la dosis a 15 mg/4h",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir al 50% de la dosis normal",
+        "correcta": true
+      },
+      {
+        "texto": "Evitar su uso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué consideración especial se debe tener con el Tramadol en pacientes con FG < 10 ml/min?",
+    "opciones": [
+      {
+        "texto": "Mantener la dosis cada 6-8h",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir la dosis a la mitad",
+        "correcta": false
+      },
+      {
+        "texto": "Evitar su uso",
+        "correcta": true
+      },
+      {
+        "texto": "Aumentar el intervalo a cada 6h",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué ajuste se recomienda para la Digoxina en pacientes con FG < 10 ml/min?",
+    "opciones": [
+      {
+        "texto": "Mantener la dosis de 0.25 – 0.75 mg/24h",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir la dosis al 75 – 25% cada 36h",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir la dosis al 25 – 10% cada 48h",
+        "correcta": true
+      },
+      {
+        "texto": "Aumentar la dosis al doble",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En general, al ajustar la dosis de un fármaco en función renal alterada, se puede optar por:",
+    "opciones": [
+      {
+        "texto": "Aumentar la dosis",
+        "correcta": false
+      },
+      {
+        "texto": "Disminuir el intervalo entre dosis",
+        "correcta": false
+      },
+      {
+        "texto": "Aumentar el intervalo entre las dosis o reducirlas",
+        "correcta": true
+      },
+      {
+        "texto": "Mantener la misma dosis y el mismo intervalo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es uno de los criterios para definir la Lesión Renal Aguda Inducida por Contraste (LRA-IC)?",
+    "opciones": [
+      {
+        "texto": "Disminución de la creatinina > 0.3 mg/dl a las 48 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento del volumen urinario a > 0,5 ml/kg/h durante 6 horas tras el contraste",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de creatinina > 0.3 mg/dl a las 48 horas",
+        "correcta": true
+      },
+      {
+        "texto": "Disminución de la creatinina > 50% por encima de la basal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes no se considera un factor de riesgo para desarrollar LRA-IC?",
+    "opciones": [
+      {
+        "texto": "Edad > 65 años",
+        "correcta": false
+      },
+      {
+        "texto": "Filtrado Glomerular (FG) < 30 ml/min",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperhidratación",
+        "correcta": true
+      },
+      {
+        "texto": "Uso concomitante de AINEs",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuánto tiempo antes del procedimiento con contraste se recomienda suspender los fármacos nefrotóxicos como los IECAs/ARA2?",
+    "opciones": [
+      {
+        "texto": "12 horas",
+        "correcta": false
+      },
+      {
+        "texto": "24 horas",
+        "correcta": false
+      },
+      {
+        "texto": "48 horas",
+        "correcta": true
+      },
+      {
+        "texto": "72 horas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con función renal normal que van a recibir contraste, ¿cuál es la recomendación general de hidratación profiláctica con Solución Salina Fisiológica (SSF) 0.9%?",
+    "opciones": [
+      {
+        "texto": "0.5 ml/kg/hora durante 4 horas antes y después del procedimiento",
+        "correcta": false
+      },
+      {
+        "texto": "1 ml/kg/hora durante 6 a 12 horas antes y 6 a 12 después del procedimiento",
+        "correcta": true
+      },
+      {
+        "texto": "2 ml/kg/hora durante todo el procedimiento",
+        "correcta": false
+      },
+      {
+        "texto": "No se recomienda hidratación en pacientes de bajo riesgo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes de bajo riesgo de LRA-IC, ¿qué dosis de Acetilcisteína se recomienda como profilaxis?",
+    "opciones": [
+      {
+        "texto": "300 mg cada 12 horas el día previo y el día de la prueba",
+        "correcta": false
+      },
+      {
+        "texto": "600 mg cada 12 horas el día previo y el día de la prueba",
+        "correcta": true
+      },
+      {
+        "texto": "1200 mg una hora antes de la prueba",
+        "correcta": false
+      },
+      {
+        "texto": "No se recomienda Acetilcisteína en pacientes de bajo riesgo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con ERC estadio 5 y función renal residual que van a recibir contraste, ¿qué medida se podría indicar para la nefroprotección?",
+    "opciones": [
+      {
+        "texto": "Aumentar la hidratación oral",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar dosis altas de Acetilcisteína",
+        "correcta": false
+      },
+      {
+        "texto": "Hemodiálisis",
+        "correcta": false
+      },
+      {
+        "texto": "Suspender todos los fármacos",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "Después de un procedimiento con contraste, ¿cuánto tiempo se recomienda esperar para, salvo que sea imprescindible, repetir la administración de contraste?",
+    "opciones": [
+      {
+        "texto": "24 horas",
+        "correcta": false
+      },
+      {
+        "texto": "48 – 72 horas",
+        "correcta": true
+      },
+      {
+        "texto": "96 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Una semana",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco oral para la diabetes se debe suspender antes de un procedimiento con contraste yodado por el riesgo de acidosis láctica?",
+    "opciones": [
+      {
+        "texto": "Insulina",
+        "correcta": false
+      },
+      {
+        "texto": "Sulfonilureas",
+        "correcta": true
+      },
+      {
+        "texto": "Metformina",
+        "correcta": false
+      },
+      {
+        "texto": "Inhibidores de la DPP-4",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de un procedimiento urgente con contraste en un paciente de alto riesgo de LRA-IC, ¿cuál es la recomendación respecto a la hidratación con SSF 0.9%?",
+    "opciones": [
+      {
+        "texto": "Iniciar la perfusión 2 horas antes del procedimiento",
+        "correcta": false
+      },
+      {
+        "texto": "Iniciar la perfusión lo antes posible y mantener posteriormente al ritmo indicado durante 12-24 horas",
+        "correcta": true
+      },
+      {
+        "texto": "No iniciar perfusión hasta después del procedimiento",
+        "correcta": false
+      },
+      {
+        "texto": "Utilizar soluciones hipotónicas para evitar sobrecarga",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Tras un procedimiento con contraste, se recomienda realizar un control seriado de:",
+    "opciones": [
+      {
+        "texto": "Electrolitos cada 6 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Diuresis cada hora",
+        "correcta": false
+      },
+      {
+        "texto": "Creatinina a las 48-72 horas",
+        "correcta": true
+      },
+      {
+        "texto": "Presión arterial cada 4 horas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes soluciones intravenosas se considera un cristaloide isotónico?",
+    "opciones": [
+      {
+        "texto": "Glucosado 5%",
+        "correcta": false
+      },
+      {
+        "texto": "Salino Hipertónico 3%",
+        "correcta": false
+      },
+      {
+        "texto": "Fisiológico 0.9%",
+        "correcta": true
+      },
+      {
+        "texto": "Glucosado 10%",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes soluciones intravenosas tiene una composición similar al líquido extracelular y contiene lactato?",
+    "opciones": [
+      {
+        "texto": "Glucosado 5%",
+        "correcta": false
+      },
+      {
+        "texto": "Fisiológico 0.9%",
+        "correcta": false
+      },
+      {
+        "texto": "Salino Hipertónico 3%",
+        "correcta": false
+      },
+      {
+        "texto": "Ringer Lactato",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes soluciones se considera un coloide artificial? ",
+    "opciones": [
+      {
+        "texto": "Albúmina 5%",
+        "correcta": false
+      },
+      {
+        "texto": "Gelafundina (Gelatina succinilada)",
+        "correcta": true
+      },
+      {
+        "texto": "Solución Alcalinizante Bicarbonato 1/6 M",
+        "correcta": false
+      },
+      {
+        "texto": "Glucosado 5%",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la pérdida insensible diaria de agua estimada por respiración?",
+    "opciones": [
+      {
+        "texto": "0.3-0.5 ml/kg/día",
+        "correcta": false
+      },
+      {
+        "texto": "1-2 ml/kg/h",
+        "correcta": false
+      },
+      {
+        "texto": "150-200 ml/día",
+        "correcta": false
+      },
+      {
+        "texto": "5 ml/kg/día",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la necesidad basal diaria de agua en un adulto aproximadamente?",
+    "opciones": [
+      {
+        "texto": "1 L/día",
+        "correcta": false
+      },
+      {
+        "texto": "2 L/día",
+        "correcta": true
+      },
+      {
+        "texto": "3 L/día",
+        "correcta": false
+      },
+      {
+        "texto": "4 L/día",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la necesidad basal diaria de sodio en un adulto?",
+    "opciones": [
+      {
+        "texto": "0.1-0.5 mEq/kg/día",
+        "correcta": false
+      },
+      {
+        "texto": "1-2 mEq/kg/día",
+        "correcta": true
+      },
+      {
+        "texto": "2-3 mEq/kg/día",
+        "correcta": false
+      },
+      {
+        "texto": ">3 mEq/kg/día",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué solución alcalinizante contiene 167 mEq de Na+ por litro?",
+    "opciones": [
+      {
+        "texto": "Bicarbonato 1M",
+        "correcta": false
+      },
+      {
+        "texto": "Bicarbonato 1/6 M",
+        "correcta": true
+      },
+      {
+        "texto": "Fisiológico 0.9%",
+        "correcta": false
+      },
+      {
+        "texto": "Ringer Lactato",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué solución intravenosa se utiliza en situaciones que requieren un aumento rápido del volumen intravascular?",
+    "opciones": [
+      {
+        "texto": "Glucosado 5%",
+        "correcta": false
+      },
+      {
+        "texto": "Hiposalino 0.45%",
+        "correcta": false
+      },
+      {
+        "texto": "Salino Hipertónico 3% (en situaciones específicas y con precaución)",
+        "correcta": true
+      },
+      {
+        "texto": "8.Glucosalino 1/3",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "La producción diaria de agua por el metabolismo celular se estima en: ",
+    "opciones": [
+      {
+        "texto": "50-100 ml/día",
+        "correcta": false
+      },
+      {
+        "texto": "100-300 ml/día",
+        "correcta": false
+      },
+      {
+        "texto": "300-600 ml/día",
+        "correcta": true
+      },
+      {
+        "texto": ">600 ml/día",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la necesidad basal diaria de glucosa en un adulto aproximadamente?",
+    "opciones": [
+      {
+        "texto": "50-75 g/día",
+        "correcta": false
+      },
+      {
+        "texto": "100-150 g/día",
+        "correcta": true
+      },
+      {
+        "texto": "200-250 g/día",
+        "correcta": false
+      },
+      {
+        "texto": ">250 g/día",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un criterio para llamar al nefrólogo en un paciente con Fracaso Renal Agudo (FRA) si las medidas iniciales no son efectivas?",
+    "opciones": [
+      {
+        "texto": "Diuresis > 1 ml/kg/h",
+        "correcta": false
+      },
+      {
+        "texto": "Potasio en plasma < 5.5 mEq/L sin alteraciones ECG",
+        "correcta": false
+      },
+      {
+        "texto": "pH > 7.25 con bicarbonato > 18 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperpotasemia severa (K en plasma >6.5 mEq/L)",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con hiperpotasemia severa, ¿cuál es el primer paso para estabilizar la membrana del miocardiocito?",
+    "opciones": [
+      {
+        "texto": "Administrar Insulina rápida y suero glucosado",
+        "correcta": false
+      },
+      {
+        "texto": "Nebulizar Salbutamol",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar Bicarbonato 1/6 M",
+        "correcta": false
+      },
+      {
+        "texto": "Iniciar Gluconato Cálcico 10% (Suplecal)",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué medida se utiliza para desplazar el potasio al interior de la célula en el tratamiento de la hiperpotasemia aguda?",
+    "opciones": [
+      {
+        "texto": "Gluconato Cálcico",
+        "correcta": false
+      },
+      {
+        "texto": "Insulina rápida con suero glucosado",
+        "correcta": true
+      },
+      {
+        "texto": "Furosemida intravenosa",
+        "correcta": false
+      },
+      {
+        "texto": "Enemas de Resina Calcio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación específica se recomienda el uso de Bicarbonato 1/6 M en el tratamiento de la hiperpotasemia?",
+    "opciones": [
+      {
+        "texto": "En todos los casos de hiperpotasemia",
+        "correcta": false
+      },
+      {
+        "texto": "Si el potasio plasmático es > 7 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "Solo si existe acidosis metabólica",
+        "correcta": true
+      },
+      {
+        "texto": "Para estabilizar la membrana miocárdica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si tras 2-3 horas de tratamiento para la hiperpotasemia no se corrige o mejora el nivel de potasio, ¿qué se debe hacer?",
+    "opciones": [
+      {
+        "texto": "Repetir la dosis de Gluconato Cálcico",
+        "correcta": false
+      },
+      {
+        "texto": "Aumentar la dosis de Insulina y Glucosa",
+        "correcta": false
+      },
+      {
+        "texto": "Llamar al nefrólogo",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar más Salbutamol",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un criterio para llamar al nefrólogo en un paciente con Fracaso Renal Agudo que presenta acidosis metabólica severa?",
+    "opciones": [
+      {
+        "texto": "pH > 7.20 tras iniciar tratamiento con bicarbonato",
+        "correcta": false
+      },
+      {
+        "texto": "Bicarbonato > 18 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "Si tras 2-3 horas no se corrige/ mejora la acidosis metabólica",
+        "correcta": true
+      },
+      {
+        "texto": "Si la acidosis es respiratoria",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con Fracaso Renal Agudo y datos de sobrecarga hídrica con Edema Agudo de Pulmón, ¿cuál es el tratamiento inicial?",
+    "opciones": [
+      {
+        "texto": "Restricción de líquidos estricta",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de suero salino hipertónico",
+        "correcta": false
+      },
+      {
+        "texto": "Furosemida intravenosa",
+        "correcta": true
+      },
+      {
+        "texto": "Diálisis peritoneal de urgencia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma asociado a uremia severa (además de FG <20 mg/dl) requiere llamar al nefrólogo?",
+    "opciones": [
+      {
+        "texto": "Aumento de la diuresis",
+        "correcta": false
+      },
+      {
+        "texto": "Disminución de la creatinina sérica",
+        "correcta": false
+      },
+      {
+        "texto": "Alteración del estado mental (letargia, somnolencia)",
+        "correcta": true
+      },
+      {
+        "texto": "Mejoría del apetito",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "La pericarditis urémica en un paciente con Fracaso Renal Agudo se asocia a un alto riesgo de:",
+    "opciones": [
+      {
+        "texto": "Infección",
+        "correcta": false
+      },
+      {
+        "texto": "Hipertensión arterial severa",
+        "correcta": false
+      },
+      {
+        "texto": "Hemorragia/taponamiento",
+        "correcta": true
+      },
+      {
+        "texto": "Hiponatremia severa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer si un paciente con Fracaso Renal Agudo y Edema Agudo de Pulmón no presenta una buena respuesta diurética a pesar del tratamiento?",
+    "opciones": [
+      {
+        "texto": "Aumentar la dosis de furosemida sin límite",
+        "correcta": false
+      },
+      {
+        "texto": "Cambiar a otro diurético oral",
+        "correcta": false
+      },
+      {
+        "texto": "Llamar al nefrólogo",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar más líquidos intravenosos para mejorar la perfusión renal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Al recibir en Urgencias a un paciente en programa de prediálisis, ¿qué es importante preguntar sobre su acceso vascular?",
+    "opciones": [
+      {
+        "texto": "Si tiene catéter venoso central",
+        "correcta": false
+      },
+      {
+        "texto": "Si tiene fístula arteriovenosa (FAV)",
+        "correcta": true
+      },
+      {
+        "texto": "Si utiliza diálisis peritoneal",
+        "correcta": false
+      },
+      {
+        "texto": "Si tiene un injerto arteriovenoso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con una fístula arteriovenosa (FAV), ¿en qué brazo se debe evitar medir la tensión arterial?",
+    "opciones": [
+      {
+        "texto": "En ambos brazos",
+        "correcta": false
+      },
+      {
+        "texto": "En el brazo contralateral a la FAV",
+        "correcta": false
+      },
+      {
+        "texto": "En el brazo ipsilateral a la FAV",
+        "correcta": true
+      },
+      {
+        "texto": "No hay ninguna contraindicación",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En cuanto a la dieta de un paciente en prediálisis que acude a Urgencias, siempre que la situación clínica lo permita, se recomienda mantener una dieta:",
+    "opciones": [
+      {
+        "texto": "Rica en proteínas",
+        "correcta": false
+      },
+      {
+        "texto": "Rica en potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Pobre en potasio",
+        "correcta": true
+      },
+      {
+        "texto": "Sin restricciones",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si un paciente en prediálisis precisa dieta absoluta y sueroterapia de mantenimiento, ¿qué tipo de suero se recomienda en 24 horas?",
+    "opciones": [
+      {
+        "texto": "Suero Salino Fisiológico 0.9% 1000 cc",
+        "correcta": false
+      },
+      {
+        "texto": "Suero Glucosado 10% 1000 cc",
+        "correcta": false
+      },
+      {
+        "texto": "Suero Salino Fisiológico 0.9% 500 cc + Suero Glucosado 10% 500 cc",
+        "correcta": true
+      },
+      {
+        "texto": "Ringer Lactato 1000 cc",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación se permite la administración de suplementos de Potasio en los sueros de un paciente en prediálisis?",
+    "opciones": [
+      {
+        "texto": "Si el paciente refiere cansancio",
+        "correcta": false
+      },
+      {
+        "texto": "Si la diuresis es abundante",
+        "correcta": false
+      },
+      {
+        "texto": "Si el K plasmático es < 3 mEq/l",
+        "correcta": true
+      },
+      {
+        "texto": "De forma rutinaria en todos los pacientes",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el tratamiento de pacientes en prediálisis en Urgencias, se debe: ",
+    "opciones": [
+      {
+        "texto": "Utilizar fármacos nefrotóxicos si son necesarios",
+        "correcta": false
+      },
+      {
+        "texto": "Ajustar la medicación según la edad del paciente",
+        "correcta": false
+      },
+      {
+        "texto": "Ajustar la medicación a la función renal",
+        "correcta": true
+      },
+      {
+        "texto": "Pautar siempre suplementos de potasio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes criterios NO es una indicación para llamar a Nefrología en un paciente en prediálisis que acude a Urgencias?",
+    "opciones": [
+      {
+        "texto": "Deterioro significativo de la función renal respecto a las cifras basales",
+        "correcta": false
+      },
+      {
+        "texto": "Sintomatología urémica",
+        "correcta": false
+      },
+      {
+        "texto": "Datos de sobrecarga de volumen",
+        "correcta": false
+      },
+      {
+        "texto": "Potasio plasmático de 5.5 mEq/l sin síntomas",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "Se debe llamar a Nefrología en un paciente en prediálisis si presenta: ",
+    "opciones": [
+      {
+        "texto": "Presión arterial elevada sin otros síntomas",
+        "correcta": false
+      },
+      {
+        "texto": "Glucemia capilar alta",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperpotasemia (K> 6.5) o hiperpotasemia con toxicidad cardíaca",
+        "correcta": true
+      },
+      {
+        "texto": "Ligero aumento de la creatinina sin cambios en la diuresis",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de acidosis metabólica en un paciente en prediálisis requiere consulta a Nefrología?",
+    "opciones": [
+      {
+        "texto": "Acidosis leve que se corrige con dieta",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis moderada con bicarbonato > 20 mEq/l",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis metabólica severa que no se corrige con aportes de bicarbonato",
+        "correcta": true
+      },
+      {
+        "texto": "Acidosis compensada con pH normal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de que un paciente en prediálisis precise ingreso hospitalario desde Urgencias, ¿a quién se debe consultar?",
+    "opciones": [
+      {
+        "texto": "Al médico de medicina interna",
+        "correcta": false
+      },
+      {
+        "texto": "Al cardiólogo",
+        "correcta": false
+      },
+      {
+        "texto": "A Nefrología",
+        "correcta": true
+      },
+      {
+        "texto": "Al médico de familia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Al recibir en Urgencias a un paciente en hemodiálisis crónica, ¿qué es crucial preguntar sobre su tratamiento?",
+    "opciones": [
+      {
+        "texto": "La dosis de heparina utilizada durante la última diálisis",
+        "correcta": false
+      },
+      {
+        "texto": "El día y turno de hemodiálisis",
+        "correcta": true
+      },
+      {
+        "texto": "El tipo de membrana utilizada en el dializador",
+        "correcta": false
+      },
+      {
+        "texto": "La duración habitual de sus sesiones de diálisis",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con fístula arteriovenosa (FAV) para hemodiálisis, ¿qué manipulación está estrictamente contraindicada en Urgencias?",
+    "opciones": [
+      {
+        "texto": "Palpar la FAV para comprobar el thrill",
+        "correcta": false
+      },
+      {
+        "texto": "Auscultar la FAV para detectar un soplo",
+        "correcta": false
+      },
+      {
+        "texto": "Pinchar la fístula arteriovenosa",
+        "correcta": true
+      },
+      {
+        "texto": "Aplicar un vendaje compresivo suave sobre la FAV",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Para qué propósito se indica la extracción de orina en un paciente en hemodiálisis crónica que acude a Urgencias?",
+    "opciones": [
+      {
+        "texto": "Para medir la creatinina y la urea",
+        "correcta": false
+      },
+      {
+        "texto": "Para evaluar la función renal residual",
+        "correcta": false
+      },
+      {
+        "texto": "Para valorar posible infección del tracto urinario",
+        "correcta": true
+      },
+      {
+        "texto": "Para ajustar el balance hídrico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué parámetros analíticos son de gran importancia en la valoración inicial de un paciente en hemodiálisis crónica en Urgencias?",
+    "opciones": [
+      {
+        "texto": "Creatinina y urea",
+        "correcta": false
+      },
+      {
+        "texto": "Hemograma completo",
+        "correcta": false
+      },
+      {
+        "texto": "Iones en sangre y gasometría venosa",
+        "correcta": true
+      },
+      {
+        "texto": "Coagulación",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Existe alguna contraindicación absoluta para el uso de contrastes yodados en pacientes en hemodiálisis crónica?",
+    "opciones": [
+      {
+        "texto": "Filtrado glomerular residual < 5 ml/min",
+        "correcta": false
+      },
+      {
+        "texto": "Anuria",
+        "correcta": false
+      },
+      {
+        "texto": "Alergia conocida al contraste",
+        "correcta": true
+      },
+      {
+        "texto": "Necesidad de diálisis en las próximas 24 horas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el manejo de la sobrecarga hídrica en pacientes en hemodiálisis crónica en Urgencias, se debe tener en cuenta que estos pacientes suelen tener:",
+    "opciones": [
+      {
+        "texto": "Una diuresis abundante",
+        "correcta": false
+      },
+      {
+        "texto": "Una función renal normal",
+        "correcta": false
+      },
+      {
+        "texto": "Mínima o nula diuresis",
+        "correcta": true
+      },
+      {
+        "texto": "Una respuesta normal a los diuréticos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación se permite la administración de potasio en los sueros de un paciente en hemodiálisis crónica en Urgencias?",
+    "opciones": [
+      {
+        "texto": "Si el paciente refiere calambres musculares",
+        "correcta": false
+      },
+      {
+        "texto": "Si la presión arterial es baja",
+        "correcta": false
+      },
+      {
+        "texto": "Si K+ < 3 mEq/l y sintomatología",
+        "correcta": true
+      },
+      {
+        "texto": "De forma rutinaria en todos los pacientes",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de fármacos se deben evitar en pacientes en hemodiálisis crónica en Urgencias?",
+    "opciones": [
+      {
+        "texto": "Analgésicos comunes como el paracetamol",
+        "correcta": false
+      },
+      {
+        "texto": "Antibióticos de amplio espectro",
+        "correcta": false
+      },
+      {
+        "texto": "Nefrotóxicos",
+        "correcta": false
+      },
+      {
+        "texto": "Antihipertensivos habituales del paciente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes criterios NO es una indicación para llamar al nefrólogo en un paciente en hemodiálisis crónica que acude a Urgencias?",
+    "opciones": [
+      {
+        "texto": "Hiperpotasemia con toxicidad cardíaca",
+        "correcta": false
+      },
+      {
+        "texto": "Insuficiencia cardíaca izquierda (disnea, trabajo respiratorio, SatO2 <90%)",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperpotasemia >6.5 mmol/l que no se corrige con medidas terapéuticas",
+        "correcta": false
+      },
+      {
+        "texto": "Ligero aumento de la tensión arterial sin otros síntomas",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación específica relacionada con su tratamiento de hemodiálisis requiere llamar al nefrólogo desde Urgencias?",
+    "opciones": [
+      {
+        "texto": "Si la última sesión de diálisis fue hace menos de 12 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Si el paciente ha ganado más de 2 kg de peso desde la última diálisis",
+        "correcta": false
+      },
+      {
+        "texto": "Si el paciente tiene diálisis próxima y no puede acudir porque está en urgencias",
+        "correcta": true
+      },
+      {
+        "texto": "Si el acceso vascular presenta un hematoma pequeño",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué manipulación del catéter peritoneal está contraindicada en el Servicio de Urgencias?",
+    "opciones": [
+      {
+        "texto": "Valorar el estado general del apósito",
+        "correcta": false
+      },
+      {
+        "texto": "Preguntar al paciente sobre el funcionamiento del catéter",
+        "correcta": false
+      },
+      {
+        "texto": "Retirar el apósito para ver el orificio de salida",
+        "correcta": true
+      },
+      {
+        "texto": "Registrar la cantidad de líquido de diálisis drenado",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Se recomienda realizar intercambios de diálisis peritoneal en la sala de urgencias?",
+    "opciones": [
+      {
+        "texto": "Sí, si el paciente refiere dolor abdominal",
+        "correcta": false
+      },
+      {
+        "texto": "Sí, si el líquido drenado está turbio",
+        "correcta": false
+      },
+      {
+        "texto": "No, deben realizarse en unidad de diálisis peritoneal con medidas de asepsia",
+        "correcta": true
+      },
+      {
+        "texto": "Sí, si el paciente no ha podido realizar su intercambio habitual",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué medida especial se debe considerar al ingresar hospitalariamente a un paciente en diálisis peritoneal?",
+    "opciones": [
+      {
+        "texto": "Mantener su dieta habitual",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar un intercambio de diálisis en Urgencias antes del ingreso",
+        "correcta": false
+      },
+      {
+        "texto": "El paciente debe ingresar en una habitación individual para disminuir el riesgo de infección",
+        "correcta": true
+      },
+      {
+        "texto": "No es necesario ninguna consideración especial",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Quién debe planificar la diálisis peritoneal de un paciente que ingresa al hospital?",
+    "opciones": [
+      {
+        "texto": "El médico de urgencias",
+        "correcta": false
+      },
+      {
+        "texto": "El personal de enfermería de urgencias",
+        "correcta": false
+      },
+      {
+        "texto": "El nefrólogo",
+        "correcta": true
+      },
+      {
+        "texto": "El médico de medicina interna",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Se deben sacar muestras del orificio de salida del catéter peritoneal en Urgencias?",
+    "opciones": [
+      {
+        "texto": "Sí, ante cualquier signo de inflamación",
+        "correcta": false
+      },
+      {
+        "texto": "Sí, para descartar infección",
+        "correcta": false
+      },
+      {
+        "texto": "No",
+        "correcta": true
+      },
+      {
+        "texto": "Sí, si lo solicita el paciente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Se debe administrar medicación intraperitoneal (IP) en Urgencias a un paciente en diálisis peritoneal?",
+    "opciones": [
+      {
+        "texto": "Sí, si el paciente tiene dolor abdominal",
+        "correcta": false
+      },
+      {
+        "texto": "Sí, si el paciente presenta signos de infección peritoneal",
+        "correcta": false
+      },
+      {
+        "texto": "No",
+        "correcta": true
+      },
+      {
+        "texto": "Sí, si es la medicación habitual del paciente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer en Urgencias si hay dudas sobre el manejo de un paciente en diálisis peritoneal?",
+    "opciones": [
+      {
+        "texto": "Iniciar antibióticos de amplio espectro",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar un intercambio de diálisis",
+        "correcta": false
+      },
+      {
+        "texto": "Consultar con Nefrología",
+        "correcta": true
+      },
+      {
+        "texto": "Retirar el catéter peritoneal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "La manipulación del catéter peritoneal en Urgencias debe ser realizada por: ",
+    "opciones": [
+      {
+        "texto": "Cualquier médico de urgencias",
+        "correcta": false
+      },
+      {
+        "texto": "Cualquier enfermera de urgencias",
+        "correcta": false
+      },
+      {
+        "texto": "Personal entrenado de la unidad de diálisis peritoneal",
+        "correcta": true
+      },
+      {
+        "texto": "El propio paciente, si es posible",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante la sospecha de una complicación infecciosa en un paciente en diálisis peritoneal en Urgencias, ¿qué NO se debe hacer inicialmente?",
+    "opciones": [
+      {
+        "texto": "Registrar los signos vitales",
+        "correcta": false
+      },
+      {
+        "texto": "Valorar el aspecto del líquido peritoneal (si se ha realizado un intercambio reciente)",
+        "correcta": false
+      },
+      {
+        "texto": "Sacar muestras del orificio de salida del catéter",
+        "correcta": true
+      },
+      {
+        "texto": "Consultar con Nefrología",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "El riesgo de infección en pacientes en diálisis peritoneal hospitalizados disminuye si ingresan en:",
+    "opciones": [
+      {
+        "texto": "Una habitación compartida",
+        "correcta": false
+      },
+      {
+        "texto": "Una habitación con otros pacientes con enfermedades infecciosas",
+        "correcta": false
+      },
+      {
+        "texto": "Una habitación individual",
+        "correcta": true
+      },
+      {
+        "texto": "La sala de observación de Urgencias",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Al recibir en Urgencias a un paciente con trasplante renal, ¿qué es importante preguntar sobre su medicación?",
+    "opciones": [
+      {
+        "texto": "Si ha tomado su medicación para la diabetes",
+        "correcta": false
+      },
+      {
+        "texto": "La medicación inmunosupresora habitual: fármacos y posología",
+        "correcta": true
+      },
+      {
+        "texto": "Si es alérgico a algún antibiótico",
+        "correcta": false
+      },
+      {
+        "texto": "La dosis de antihipertensivos que toma",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con trasplante renal y una fístula arteriovenosa (FAV) para futuras diálisis, ¿en qué brazo se debe evitar medir la tensión arterial?",
+    "opciones": [
+      {
+        "texto": "En ambos brazos",
+        "correcta": false
+      },
+      {
+        "texto": "En el brazo contralateral a la FAV",
+        "correcta": false
+      },
+      {
+        "texto": "En el brazo ipsilateral a la FAV",
+        "correcta": true
+      },
+      {
+        "texto": "No hay ninguna contraindicación",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el tratamiento de un paciente con trasplante renal en Urgencias, es fundamental:",
+    "opciones": [
+      {
+        "texto": "Suspender toda la medicación habitual",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar antibióticos de amplio espectro de forma profiláctica",
+        "correcta": false
+      },
+      {
+        "texto": "Pautar su medicación inmunosupresora habitual",
+        "correcta": true
+      },
+      {
+        "texto": "Ajustar la dosis de inmunosupresores según la tensión arterial",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si la medicación inmunosupresora habitual de un paciente con trasplante renal no está disponible en el servicio de farmacia de Urgencias, ¿qué se debe hacer?",
+    "opciones": [
+      {
+        "texto": "Administrar una medicación similar disponible",
+        "correcta": false
+      },
+      {
+        "texto": "Esperar a que el servicio de farmacia abra",
+        "correcta": false
+      },
+      {
+        "texto": "Solicitar que la aporte el paciente",
+        "correcta": true
+      },
+      {
+        "texto": "Suspender la medicación hasta el ingreso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Antes de pautar fármacos nuevos a un paciente con trasplante renal en Urgencias, es crucial:",
+    "opciones": [
+      {
+        "texto": "Asegurarse de que no tiene fiebre",
+        "correcta": false
+      },
+      {
+        "texto": "Preguntar si tiene alergias conocidas",
+        "correcta": false
+      },
+      {
+        "texto": "Consultar interacciones medicamentosas",
+        "correcta": true
+      },
+      {
+        "texto": "Medir la glucemia capilar",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de fármacos se deben evitar o usar con precaución en pacientes con trasplante renal por su potencial nefrotóxico?",
+    "opciones": [
+      {
+        "texto": "Analgésicos como el paracetamol",
+        "correcta": false
+      },
+      {
+        "texto": "Antieméticos comunes",
+        "correcta": false
+      },
+      {
+        "texto": "Fármacos nefrotóxicos",
+        "correcta": true
+      },
+      {
+        "texto": "Antitusígenos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes no es un criterio para llamar a Nefrología en un paciente con trasplante renal que acude a Urgencias?",
+    "opciones": [
+      {
+        "texto": "Deterioro de la función renal respecto a cifras basales",
+        "correcta": false
+      },
+      {
+        "texto": "Dudas sobre el ajuste de la medicación",
+        "correcta": false
+      },
+      {
+        "texto": "Dudas sobre la indicación de pruebas con contraste yodado",
+        "correcta": false
+      },
+      {
+        "texto": "Hipertensión arterial leve sin otros síntomas",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución especial se debe tener al considerar pruebas con contraste yodado en pacientes con trasplante renal?",
+    "opciones": [
+      {
+        "texto": "Siempre están contraindicadas",
+        "correcta": false
+      },
+      {
+        "texto": "Se pueden realizar sin precaución",
+        "correcta": false
+      },
+      {
+        "texto": "Se valorará riesgo/beneficio",
+        "correcta": true
+      },
+      {
+        "texto": "Requieren profilaxis antibiótica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de que un paciente con trasplante renal precise ingreso hospitalario desde Urgencias, ¿a quién se debe consultar?",
+    "opciones": [
+      {
+        "texto": "Al médico de medicina interna",
+        "correcta": false
+      },
+      {
+        "texto": "Al cirujano que realizó el trasplante",
+        "correcta": false
+      },
+      {
+        "texto": "A Nefrología",
+        "correcta": true
+      },
+      {
+        "texto": "Al médico de familia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es importante ajustar la medicación a la función renal en pacientes con trasplante renal?",
+    "opciones": [
+      {
+        "texto": "Para evitar la hipertensión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "Para prevenir infecciones",
+        "correcta": false
+      },
+      {
+        "texto": "Para optimizar la eficacia y seguridad de los fármacos",
+        "correcta": true
+      },
+      {
+        "texto": "Para controlar la glucemia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nivel de sodio plasmático se considera hiponatremia que no precisa manejo agudo en Urgencias?",
+    "opciones": [
+      {
+        "texto": "< 120 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "120-125 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "125-130 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "> 130 mEq/L",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con sodio plasmático entre 125-130 mEq/L, ¿qué medida inicial se recomienda?",
+    "opciones": [
+      {
+        "texto": "Infusión rápida de suero salino hipertónico",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de de diuréticos de asa",
+        "correcta": false
+      },
+      {
+        "texto": "Restricción de aporte de agua (máximo 500-1000 ml/día)",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de suplementos de sodio oral",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si un paciente con sodio plasmático entre 120-125 mEq/L presenta alteraciones neurológicas, ¿qué se debe hacer?",
+    "opciones": [
+      {
+        "texto": "Continuar solo con restricción hídrica",
+        "correcta": false
+      },
+      {
+        "texto": "Aumentar la ingesta de sal en la dieta",
+        "correcta": false
+      },
+      {
+        "texto": "Iniciar tratamiento específico para la hiponatremia",
+        "correcta": true
+      },
+      {
+        "texto": "Esperar a la siguiente analítica de sodio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con sodio plasmático <120 mEq/L, ¿qué restricción de líquidos es fundamental?",
+    "opciones": [
+      {
+        "texto": "Restringir solo los sueros intravenosos",
+        "correcta": false
+      },
+      {
+        "texto": "Restringir la ingesta oral a 1 litro al día",
+        "correcta": false
+      },
+      {
+        "texto": "No administrar agua de ninguna manera",
+        "correcta": true
+      },
+      {
+        "texto": "Restringir líquidos solo si hay signos de sobrecarga",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula para calcular la cantidad de sodio a infundir en 24 horas en un paciente con hiponatremia sintomática?",
+    "opciones": [
+      {
+        "texto": "Peso x (Na medido - 125) / 2",
+        "correcta": false
+      },
+      {
+        "texto": "Peso x (140 - Na medido) / 2",
+        "correcta": false
+      },
+      {
+        "texto": "Peso / 2 x (125 - Na medido)",
+        "correcta": true
+      },
+      {
+        "texto": "Peso / 2 x (Na medido - 140)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes asintomáticos con hiponatremia, ¿qué solución intravenosa se puede utilizar para aumentar el sodio plasmático?",
+    "opciones": [
+      {
+        "texto": "Suero glucosado 5%",
+        "correcta": false
+      },
+      {
+        "texto": "Salino hipertónico 3%",
+        "correcta": false
+      },
+      {
+        "texto": "Suero salino fisiológico 0.9%",
+        "correcta": true
+      },
+      {
+        "texto": "Agua destilada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes sintomáticos con hiponatremia, ¿qué se añade al suero salino fisiológico 0.9% para una infusión más concentrada en sodio?",
+    "opciones": [
+      {
+        "texto": "Cloruro de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Bicarbonato de sodio 1/6 M",
+        "correcta": false
+      },
+      {
+        "texto": "Ampollas de ClNa 20%",
+        "correcta": true
+      },
+      {
+        "texto": "Gluconato cálcico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el límite máximo recomendado de aumento de sodio plasmático en 24 horas durante la corrección de la hiponatremia para evitar complicaciones?",
+    "opciones": [
+      {
+        "texto": "4-6 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "8 -10 mEq/L",
+        "correcta": true
+      },
+      {
+        "texto": "12-15 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "15-20 mEq/L",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de sospecha de Síndrome de Secreción Inadecuada de Hormona Antidiurética (SIADH) como causa de hiponatremia, ¿qué fármaco se puede añadir al tratamiento con solución salina?",
+    "opciones": [
+      {
+        "texto": "Furosemida",
+        "correcta": true
+      },
+      {
+        "texto": "Espironolactona",
+        "correcta": false
+      },
+      {
+        "texto": "Tiazidas",
+        "correcta": false
+      },
+      {
+        "texto": "Manitol",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Un sodio en orina >30 mEq/l en un paciente con hiponatremia sugiere como posible causa:",
+    "opciones": [
+      {
+        "texto": "Disminución del volumen circulante efectivo (ICC, cirrosis)",
+        "correcta": false
+      },
+      {
+        "texto": "Uso de diuréticos",
+        "correcta": true
+      },
+      {
+        "texto": "Polidipsia primaria con baja ingesta de solutos",
+        "correcta": false
+      },
+      {
+        "texto": "Pérdidas digestivas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nivel de sodio plasmático se considera hipernatremia leve que requiere una aproximación inicial?",
+    "opciones": [
+      {
+        "texto": "≥155 meq/l",
+        "correcta": false
+      },
+      {
+        "texto": "<145 meq/l",
+        "correcta": false
+      },
+      {
+        "texto": "145-154 meq/L",
+        "correcta": true
+      },
+      {
+        "texto": ">160 meq/l",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con hipernatremia leve y tolerancia oral adecuada, ¿cuál es la primera recomendación?",
+    "opciones": [
+      {
+        "texto": "Restricción de sodio en la dieta",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de diuréticos",
+        "correcta": false
+      },
+      {
+        "texto": "Asegurar acceso al agua por vía oral",
+        "correcta": true
+      },
+      {
+        "texto": "Infusión de suero salino fisiológico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si un paciente con hipernatremia leve no tolera la vía oral, ¿qué solución intravenosa se recomienda inicialmente?",
+    "opciones": [
+      {
+        "texto": "Suero salino fisiológico 0.9% (2l/día)",
+        "correcta": false
+      },
+      {
+        "texto": "Salino hipertónico 3% (2 l/día)",
+        "correcta": false
+      },
+      {
+        "texto": "Glucosado al 5 % (2 l/día)",
+        "correcta": true
+      },
+      {
+        "texto": "Ringer Lactato (2 l/día)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nivel de sodio plasmático se considera hipernatremia que requiere inicio de medidas terapéuticas con infusión de agua libre?",
+    "opciones": [
+      {
+        "texto": "145-154 meq/L",
+        "correcta": false
+      },
+      {
+        "texto": "<145 meq/L",
+        "correcta": false
+      },
+      {
+        "texto": "≥155 meq/l",
+        "correcta": true
+      },
+      {
+        "texto": ">160 meq/l",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula para calcular el déficit de agua en un paciente con hipernatremia?",
+    "opciones": [
+      {
+        "texto": "0.6 x Peso corporal x (Na plasmático / 140)",
+        "correcta": false
+      },
+      {
+        "texto": "0.5 x Peso corporal x (140 / Na plasmático)",
+        "correcta": false
+      },
+      {
+        "texto": "0.6 x Peso corporal x [(Na plasmático + 140) / 140]",
+        "correcta": false
+      },
+      {
+        "texto": "0.5 x Peso corporal x [(Na plasmático - 140) / 140]",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la solución intravenosa de elección para corregir la hipernatremia en un paciente que no tolera la vía oral?",
+    "opciones": [
+      {
+        "texto": "Suero salino fisiológico 0.9%",
+        "correcta": false
+      },
+      {
+        "texto": "Salino hipertónico 3%",
+        "correcta": false
+      },
+      {
+        "texto": "Glucosado al 5 %",
+        "correcta": true
+      },
+      {
+        "texto": "Ringer Lactato",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la velocidad máxima recomendada de infusión de glucosado al 5% para corregir la hipernatremia?",
+    "opciones": [
+      {
+        "texto": "100 ml/hora",
+        "correcta": false
+      },
+      {
+        "texto": "200 ml/hora",
+        "correcta": false
+      },
+      {
+        "texto": "300 ml/hora",
+        "correcta": true
+      },
+      {
+        "texto": "500 ml/hora",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de la velocidad de descenso de sodio plasmático al corregir la hipernatremia para evitar complicaciones?",
+    "opciones": [
+      {
+        "texto": "Descenso máximo de 2-3 meq/l por hora",
+        "correcta": false
+      },
+      {
+        "texto": "Descenso máximo de 3-4 meq/l por hora",
+        "correcta": false
+      },
+      {
+        "texto": "Evitar disminuciones de Na superiores a 1-2 meq/l por hora",
+        "correcta": true
+      },
+      {
+        "texto": "Normalizar el sodio en las primeras 6 horas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si el sodio plasmático es >160 meq/l, ¿con qué frecuencia se deben monitorizar los niveles de sodio inicialmente?",
+    "opciones": [
+      {
+        "texto": "Cada 6 horas con bioquímica",
+        "correcta": false
+      },
+      {
+        "texto": "Cada 4 horas con bioquímica",
+        "correcta": false
+      },
+      {
+        "texto": "Cada 2 horas con gasometría",
+        "correcta": true
+      },
+      {
+        "texto": "Cada hora con gasometría",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Una osmolaridad urinaria < 600 mOsm/Kg con sodio plasmático elevado sugiere:",
+    "opciones": [
+      {
+        "texto": "Inadecuada ingesta de agua",
+        "correcta": false
+      },
+      {
+        "texto": "Defecto renal de concentración de orina",
+        "correcta": true
+      },
+      {
+        "texto": "Pérdidas extra-renales de agua libre",
+        "correcta": false
+      },
+      {
+        "texto": "H2O Na p < (Nao + Ko)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un síntoma clínico común asociado a la hipopotasemia?",
+    "opciones": [
+      {
+        "texto": "Hiperreflexia",
+        "correcta": false
+      },
+      {
+        "texto": "Debilidad muscular",
+        "correcta": true
+      },
+      {
+        "texto": "Bradicardia",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de la diuresis",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué alteración electrocardiográfica (ECG) se puede observar en la hipopotasemia?",
+    "opciones": [
+      {
+        "texto": "Acortamiento del intervalo QT",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas T picudas",
+        "correcta": false
+      },
+      {
+        "texto": "Ensanchamiento del QRS",
+        "correcta": false
+      },
+      {
+        "texto": "Onda U >1 mm",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "Un gradiente transtubular de potasio (TTKG) < 4 en un paciente con hipopotasemia sugiere:",
+    "opciones": [
+      {
+        "texto": "Aumento de la actividad mineralocorticoide distal",
+        "correcta": false
+      },
+      {
+        "texto": "No actividad mineralocorticoide distal",
+        "correcta": true
+      },
+      {
+        "texto": "Pérdidas gastrointestinales de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Paso de potasio del plasma al interior de las células",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes situaciones puede causar un paso de potasio del plasma al interior de las células, llevando a hipopotasemia?",
+    "opciones": [
+      {
+        "texto": "Acidosis metabólica",
+        "correcta": false
+      },
+      {
+        "texto": "Disminución de la secreción de insulina",
+        "correcta": false
+      },
+      {
+        "texto": "Alcalosis metabólica",
+        "correcta": true
+      },
+      {
+        "texto": "Bloqueo beta-adrenérgico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Una excreción urinaria de potasio (Ko) < 20 mEq/L en un paciente con hipopotasemia sugiere:",
+    "opciones": [
+      {
+        "texto": "Pérdidas renales como causa principal",
+        "correcta": false
+      },
+      {
+        "texto": "Pérdidas extra-renales o disminución de la ingesta como causa principal",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la actividad mineralocorticoide",
+        "correcta": false
+      },
+      {
+        "texto": "Paso intracelular de potasio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la recomendación inicial para el tratamiento de la hipopotasemia moderada (K: 2.5 - 3.5 mEq/L)?",
+    "opciones": [
+      {
+        "texto": "Infusión intravenosa rápida de Cloruro de Potasio (KCl)",
+        "correcta": false
+      },
+      {
+        "texto": "Aporte oral de potasio",
+        "correcta": true
+      },
+      {
+        "texto": "Administración intramuscular de KCl",
+        "correcta": false
+      },
+      {
+        "texto": "No requiere tratamiento si es asintomática",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la hipopotasemia grave (K < 2.5 mEq/L) o sintomática, ¿cuál es la vía de administración de potasio preferida inicialmente?",
+    "opciones": [
+      {
+        "texto": "Vía oral a dosis altas",
+        "correcta": false
+      },
+      {
+        "texto": "Vía intravenosa",
+        "correcta": true
+      },
+      {
+        "texto": "Vía subcutánea",
+        "correcta": false
+      },
+      {
+        "texto": "Vía intramuscular",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la concentración máxima recomendada de KCl para la administración intravenosa por vía periférica para evitar irritación y flebitis?",
+    "opciones": [
+      {
+        "texto": "20 mEq/L en 500 ml",
+        "correcta": false
+      },
+      {
+        "texto": "20 mEq/h en 500 ml (implica una concentración que no suele exceder los 40 mEq/L si se administra a esa velocida",
+        "correcta": true
+      },
+      {
+        "texto": "40 mEq/h en 500 ml",
+        "correcta": false
+      },
+      {
+        "texto": "60 mEq/h en 1000 ml",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de suero se debe evitar para la infusión intravenosa de potasio en la hipopotasemia?",
+    "opciones": [
+      {
+        "texto": "Suero salino fisiológico 0.9%",
+        "correcta": false
+      },
+      {
+        "texto": "Ringer Lactato",
+        "correcta": false
+      },
+      {
+        "texto": "Suero glucosado",
+        "correcta": true
+      },
+      {
+        "texto": "Soluciones alcalinizantes",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con hipopotasemia y riesgo de arritmias ventriculares o intoxicación digitálica, ¿cómo se recomienda la administración intravenosa de KCl inicialmente?",
+    "opciones": [
+      {
+        "texto": "Infusión lenta de 10 mEq en 250 ml de SSF en 1 hora",
+        "correcta": false
+      },
+      {
+        "texto": "Bolo de 10 mEq de ClK en 100 ml de SSF 0.9% a pasar en 10 min, seguido de otra dosis similar",
+        "correcta": true
+      },
+      {
+        "texto": "Infusión continua de 40 mEq/hora por vía central",
+        "correcta": false
+      },
+      {
+        "texto": "Administración oral de dosis altas de KCl",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el valor de potasio plasmático que define la hiperpotasemia?",
+    "opciones": [
+      {
+        "texto": "> 5.0 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "> 5.5 mEq/L",
+        "correcta": true
+      },
+      {
+        "texto": "> 6.0 mEq/L",
+        "correcta": false
+      },
+      {
+        "texto": "> 6.5 mEq/L",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué causa se debe descartar inicialmente ante una hiperpotasemia?",
+    "opciones": [
+      {
+        "texto": "Insuficiencia renal",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis metabólica",
+        "correcta": false
+      },
+      {
+        "texto": "Pseudohiperpotasemia (muestra hemolizada, torniquete apretado)",
+        "correcta": true
+      },
+      {
+        "texto": "Uso de fármacos ahorradores de potasio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Un gradiente transtubular de potasio (TTKG) > 7 en un paciente con hiperpotasemia sugiere:",
+    "opciones": [
+      {
+        "texto": "Disminución de la actividad mineralocorticoide distal",
+        "correcta": false
+      },
+      {
+        "texto": "Respuesta mineralocorticoide inadecuada",
+        "correcta": true
+      },
+      {
+        "texto": "Redistribución de potasio fuera de las células",
+        "correcta": false
+      },
+      {
+        "texto": "Aporte exógeno excesivo de potasio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes situaciones puede causar una redistribución de potasio del interior al exterior de las células, llevando a hiperpotasemia?",
+    "opciones": [
+      {
+        "texto": "Alcalosis metabólica",
+        "correcta": false
+      },
+      {
+        "texto": "Disminución de la glucemia",
+        "correcta": false
+      },
+      {
+        "texto": "Estimulación beta-adrenérgica",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco comúnmente utilizado puede disminuir la secreción tubular de potasio, contribuyendo a la hiperpotasemia?",
+    "opciones": [
+      {
+        "texto": "Furosemida",
+        "correcta": false
+      },
+      {
+        "texto": "Insulina",
+        "correcta": false
+      },
+      {
+        "texto": "Salbutamol",
+        "correcta": false
+      },
+      {
+        "texto": "Espironolactona",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué manifestación electrocardiográfica (ECG) se suele observar con niveles de potasio > 6.5 mEq/L?",
+    "opciones": [
+      {
+        "texto": "Ondas T aplanadas",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas T picudas",
+        "correcta": true
+      },
+      {
+        "texto": "Acortamiento del intervalo PR",
+        "correcta": false
+      },
+      {
+        "texto": "Disminución del voltaje del QRS",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el tratamiento de la hiperpotasemia leve (5.5 - 6 mEq/l), ¿qué medida inicial se recomienda?",
+    "opciones": [
+      {
+        "texto": "Administración intravenosa de gluconato cálcico",
+        "correcta": false
+      },
+      {
+        "texto": "Restricción de potasio en la dieta y resinas de intercambio iónico",
+        "correcta": true
+      },
+      {
+        "texto": "Infusión de insulina y glucosa",
+        "correcta": false
+      },
+      {
+        "texto": "Hemodiálisis de urgencia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el primer fármaco que se debe administrar en una emergencia hiperpotasémica (K > 7 mEq/l o signos ECG)?",
+    "opciones": [
+      {
+        "texto": "Insulina rápida y glucosa",
+        "correcta": false
+      },
+      {
+        "texto": "Salbutamol nebulizado",
+        "correcta": true
+      },
+      {
+        "texto": "Bicarbonato sódico",
+        "correcta": false
+      },
+      {
+        "texto": "Gluconato cálcico 10%",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el mecanismo de acción del gluconato cálcico en el tratamiento de la hiperpotasemia?",
+    "opciones": [
+      {
+        "texto": "Favorece la entrada de potasio a las células",
+        "correcta": false
+      },
+      {
+        "texto": "Aumenta la excreción renal de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Estabiliza la membrana celular miocárdica",
+        "correcta": true
+      },
+      {
+        "texto": "Reduce la absorción intestinal de potasio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación de hiperpotasemia se debe considerar la hemodiálisis aguda?",
+    "opciones": [
+      {
+        "texto": "Hiperpotasemia leve asintomática",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperpotasemia moderada con ondas T picudas",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperpotasemia muy elevada, oligoanuria o refractaria al tratamiento médico",
+        "correcta": true
+      },
+      {
+        "texto": "Hiperpotasemia crónica asintomática",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el valor normal aproximado del anión gap plasmático?",
+    "opciones": [
+      {
+        "texto": "8 ± 2",
+        "correcta": false
+      },
+      {
+        "texto": "12 ± 2",
+        "correcta": true
+      },
+      {
+        "texto": "16 ± 2",
+        "correcta": false
+      },
+      {
+        "texto": "20 ± 2",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Un anión gap plasmático elevado en una acidosis metabólica sugiere la presencia de:",
+    "opciones": [
+      {
+        "texto": "Ácidos no medibles",
+        "correcta": true
+      },
+      {
+        "texto": "Pérdidas de bicarbonato",
+        "correcta": false
+      },
+      {
+        "texto": "Hipercloremia ",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de la excreción renal de amonio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes causas NO se asocia a una acidosis metabólica con anión gap aumentado?",
+    "opciones": [
+      {
+        "texto": "Acidosis láctica",
+        "correcta": false
+      },
+      {
+        "texto": "Cetoacidosis diabética",
+        "correcta": false
+      },
+      {
+        "texto": "Insuficiencia renal severa",
+        "correcta": false
+      },
+      {
+        "texto": "Diarrea crónica",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "Un anión gap urinario positivo en una acidosis metabólica con anión gap normal orienta hacia una causa:",
+    "opciones": [
+      {
+        "texto": "Renal",
+        "correcta": true
+      },
+      {
+        "texto": "Extrarrenal",
+        "correcta": false
+      },
+      {
+        "texto": "Digestiva",
+        "correcta": false
+      },
+      {
+        "texto": "Metabólica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la respuesta compensatoria esperada ante una acidosis metabólica?",
+    "opciones": [
+      {
+        "texto": "Disminución de la frecuencia respiratoria (hipoventilación)",
+        "correcta": false
+      },
+      {
+        "texto": "Retención renal de bicarbonato",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperventilación (disminución de la pCO2)",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la excreción renal de hidrogeniones",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo inicial de pH que se busca alcanzar con el tratamiento de la acidosis metabólica aguda?",
+    "opciones": [
+      {
+        "texto": "pH > 7.00",
+        "correcta": false
+      },
+      {
+        "texto": "pH > 7.20",
+        "correcta": true
+      },
+      {
+        "texto": "pH > 7.35",
+        "correcta": false
+      },
+      {
+        "texto": "Normalizar el pH inmediatamente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el principal medicamento utilizado para corregir la acidosis metabólica sintomática o severa?",
+    "opciones": [
+      {
+        "texto": "Cloruro de sodio",
+        "correcta": false
+      },
+      {
+        "texto": "Bicarbonato de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Bicarbonato de sodio (NaHCO3)",
+        "correcta": true
+      },
+      {
+        "texto": "Tris-hidroximetilaminometano (THAM) [No mencionado]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se calcula el déficit de bicarbonato en el tratamiento de la acidosis metabólica?",
+    "opciones": [
+      {
+        "texto": "Peso corporal x (25 - HCO3 actual)",
+        "correcta": false
+      },
+      {
+        "texto": "0.4 x Peso corporal x (25 - HCO3 actual)",
+        "correcta": false
+      },
+      {
+        "texto": "0.6 x Peso corporal x (25 - HCO3 actual)",
+        "correcta": true
+      },
+      {
+        "texto": "Peso corporal / 2 x (25 - HCO3 actual)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué porcentaje del déficit de bicarbonato se recomienda reponer inicialmente en las primeras 24 horas?",
+    "opciones": [
+      {
+        "texto": "25%",
+        "correcta": false
+      },
+      {
+        "texto": "50%",
+        "correcta": true
+      },
+      {
+        "texto": "75%",
+        "correcta": false
+      },
+      {
+        "texto": "100%",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué tipo de acidosis metabólica severa con sobrecarga de volumen se recomienda usar Bicarbonato 1M en bolo?",
+    "opciones": [
+      {
+        "texto": "Acidosis hiperclorémica",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis láctica leve",
+        "correcta": false
+      },
+      {
+        "texto": "Acidosis grave (pH < 7) con insuficiencia cardíaca",
+        "correcta": true
+      },
+      {
+        "texto": "Cetoacidosis diabética en fase inicial",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante una sospecha de hipocalcemia, ¿qué es lo primero que se debe hacer para confirmarla?",
+    "opciones": [
+      {
+        "texto": "Medir el calcio iónico",
+        "correcta": false
+      },
+      {
+        "texto": "Medir el fósforo sérico",
+        "correcta": false
+      },
+      {
+        "texto": "Confirmar con calcio corregido",
+        "correcta": true
+      },
+      {
+        "texto": "Realizar una radiografía de tórax",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma sugiere una hipocalcemia sintomática?",
+    "opciones": [
+      {
+        "texto": "Hipertensión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "Bradicardia",
+        "correcta": false
+      },
+      {
+        "texto": "Tetania",
+        "correcta": true
+      },
+      {
+        "texto": "Diarrea",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué alteración electrocardiográfica (ECG) se puede observar en la hipocalcemia?",
+    "opciones": [
+      {
+        "texto": "Acortamiento del intervalo QT",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas T picudas",
+        "correcta": false
+      },
+      {
+        "texto": "Prolongación del intervalo QT",
+        "correcta": true
+      },
+      {
+        "texto": "Ensanchamiento del QRS",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento de elección para la hipocalcemia sintomática aguda con alteraciones en el ECG?",
+    "opciones": [
+      {
+        "texto": "Calcio oral",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento de la ingesta de vitamina D",
+        "correcta": false
+      },
+      {
+        "texto": "Calcio intravenoso (Gluconato cálcico)",
+        "correcta": true
+      },
+      {
+        "texto": "Diuréticos tiazídicos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué dosis de gluconato cálcico se recomienda para la administración intravenosa en bolo en una hipocalcemia sintomática?",
+    "opciones": [
+      {
+        "texto": "1 ampolla en 250 cc de glucosado 5% en 1 hora",
+        "correcta": false
+      },
+      {
+        "texto": "1-2 ampollas en glucosado 5% infundido en 10-20 min",
+        "correcta": true
+      },
+      {
+        "texto": "5 ampollas en 500 cc de SSF a pasar en 24 horas",
+        "correcta": false
+      },
+      {
+        "texto": "10 ampollas directas intravenosas [No recomendado]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si existe un déficit asociado de ¿qué electrolito es crucial corregir en pacientes con hipocalcemia?",
+    "opciones": [
+      {
+        "texto": "Potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Sodio",
+        "correcta": false
+      },
+      {
+        "texto": "Magnesio",
+        "correcta": true
+      },
+      {
+        "texto": "Cloro",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer tras el episodio agudo de hipocalcemia?",
+    "opciones": [
+      {
+        "texto": "Mantener el tratamiento intravenoso de por vida",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar controles de calcio diarios",
+        "correcta": false
+      },
+      {
+        "texto": "Completar el estudio de la causa de la hipocalcemia",
+        "correcta": true
+      },
+      {
+        "texto": "Iniciar tratamiento con diuréticos de asa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de hipocalcemia leve o crónica sin síntomas, ¿cuál es la vía de administración de calcio recomendada?",
+    "opciones": [
+      {
+        "texto": "Intravenosa lenta",
+        "correcta": false
+      },
+      {
+        "texto": "Intramuscular profunda [No recomendado]",
+        "correcta": false
+      },
+      {
+        "texto": "Oral",
+        "correcta": true
+      },
+      {
+        "texto": "Subcutánea [No recomendado]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuándo se debe llamar a Nefrología en un caso de hipocalcemia?",
+    "opciones": [
+      {
+        "texto": "Si el calcio corregido es > 8 mg/dl",
+        "correcta": false
+      },
+      {
+        "texto": "Si el paciente no refiere síntomas",
+        "correcta": false
+      },
+      {
+        "texto": "Si hay dudas en el diagnóstico o tratamiento",
+        "correcta": true
+      },
+      {
+        "texto": "Si la causa de la hipocalcemia es clara",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué pruebas complementarias se deben solicitar en el estudio inicial de la hipocalcemia?",
+    "opciones": [
+      {
+        "texto": "Solo calcio y albúmina",
+        "correcta": false
+      },
+      {
+        "texto": "Calcio, fósforo y función renal",
+        "correcta": false
+      },
+      {
+        "texto": "Hemograma, iones con Magnesio, gases venosos, urea y creatinina, EKG, Rx de tórax",
+        "correcta": true
+      },
+      {
+        "texto": "Solo hormona paratiroidea (PTH)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante una sospecha de hipercalcemia, ¿qué es lo primero que se debe hacer para confirmarla?",
+    "opciones": [
+      {
+        "texto": "Medir el calcio iónico",
+        "correcta": false
+      },
+      {
+        "texto": "Medir la hormona paratiroidea (PTH)",
+        "correcta": false
+      },
+      {
+        "texto": "Confirmar con calcio corregido",
+        "correcta": true
+      },
+      {
+        "texto": "Realizar una radiografía ósea",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nivel de calcio corregido se considera hipercalcemia leve o asintomática?",
+    "opciones": [
+      {
+        "texto": ">14 mg/dl",
+        "correcta": false
+      },
+      {
+        "texto": "<12 mg/dl",
+        "correcta": true
+      },
+      {
+        "texto": ">12 mg/dl con síntomas",
+        "correcta": false
+      },
+      {
+        "texto": "Cualquier valor por encima del límite superior normal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la primera medida terapéutica en la hipercalcemia moderada-severa o sintomática?",
+    "opciones": [
+      {
+        "texto": "Administración de bifosfonatos",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de calcitonina",
+        "correcta": false
+      },
+      {
+        "texto": "Asegurar hidratación adecuada con SSF 0.9%",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de corticoides",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de diurético se utiliza en el tratamiento de la hipercalcemia tras una adecuada hidratación?",
+    "opciones": [
+      {
+        "texto": "Tiazidas",
+        "correcta": false
+      },
+      {
+        "texto": "Ahorradores de potasio [No mencionado]",
+        "correcta": false
+      },
+      {
+        "texto": "De asa (Furosemida)",
+        "correcta": true
+      },
+      {
+        "texto": "Osmóticos [No mencionado]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el mecanismo de acción de los bifosfonatos en el tratamiento de la hipercalcemia?",
+    "opciones": [
+      {
+        "texto": "Aumentan la excreción renal de calcio",
+        "correcta": false
+      },
+      {
+        "texto": "Inhiben la reabsorción ósea",
+        "correcta": true
+      },
+      {
+        "texto": "Disminuyen la absorción intestinal de calcio",
+        "correcta": false
+      },
+      {
+        "texto": "Estimulan la secreción de calcitonina",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuánto tiempo tardan en iniciar su acción los bifosfonatos como el ácido zoledrónico en el tratamiento de la hipercalcemia?",
+    "opciones": [
+      {
+        "texto": "Horas",
+        "correcta": false
+      },
+      {
+        "texto": "24-48 horas",
+        "correcta": true
+      },
+      {
+        "texto": "6-12 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Inmediatamente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el mecanismo de acción de la calcitonina en el tratamiento de la hipercalcemia?",
+    "opciones": [
+      {
+        "texto": "Inhibe la reabsorción ósea",
+        "correcta": false
+      },
+      {
+        "texto": "Aumenta la excreción renal de calcio",
+        "correcta": false
+      },
+      {
+        "texto": "Disminuye la absorción intestinal de calcio",
+        "correcta": false
+      },
+      {
+        "texto": "Inhibe la reabsorción ósea y aumenta la excreción renal de calcio (implícito en su uso y efecto rápido)",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación se puede considerar la hemodiálisis como tratamiento para la hipercalcemia?",
+    "opciones": [
+      {
+        "texto": "Hipercalcemia leve asintomática",
+        "correcta": false
+      },
+      {
+        "texto": "Hipercalcemia moderada con hidratación adecuada",
+        "correcta": false
+      },
+      {
+        "texto": "Fracaso de medidas previas",
+        "correcta": true
+      },
+      {
+        "texto": "Hipercalcemia secundaria a hiperparatiroidismo primario",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármacos se deben suspender si se sospecha que son causa de hipercalcemia?",
+    "opciones": [
+      {
+        "texto": "Betabloqueantes",
+        "correcta": false
+      },
+      {
+        "texto": "IECAs",
+        "correcta": false
+      },
+      {
+        "texto": "Suplementos de Vitamina D, Calcio y diuréticos tiazídicos",
+        "correcta": true
+      },
+      {
+        "texto": "Estatinas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuándo se debe llamar a Nefrología en un caso de hipercalcemia?",
+    "opciones": [
+      {
+        "texto": "Si el calcio corregido es < 12 mg/dl y asintomático",
+        "correcta": false
+      },
+      {
+        "texto": "Si la causa de la hipercalcemia es clara",
+        "correcta": false
+      },
+      {
+        "texto": "Si la hidratación oral es suficiente",
+        "correcta": false
+      },
+      {
+        "texto": "Si no hay respuesta a las medidas terapéuticas iniciales",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un síntoma neurológico asociado a la hipomagnesemia?",
+    "opciones": [
+      {
+        "texto": "Bradicardia",
+        "correcta": false
+      },
+      {
+        "texto": "Hipertensión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "Temblor",
+        "correcta": true
+      },
+      {
+        "texto": "Disminución de los reflejos osteotendinosos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante alteraciones de ¿qué dos electrolitos se recomienda comprobar los niveles de magnesio?",
+    "opciones": [
+      {
+        "texto": "Sodio y Cloro",
+        "correcta": false
+      },
+      {
+        "texto": "Bicarbonato y pH",
+        "correcta": false
+      },
+      {
+        "texto": "Potasio y Calcio",
+        "correcta": true
+      },
+      {
+        "texto": "Urea y Creatinina",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes NO es una causa común de pérdida gastrointestinal de magnesio?",
+    "opciones": [
+      {
+        "texto": "Diarrea",
+        "correcta": false
+      },
+      {
+        "texto": "Vómitos",
+        "correcta": false
+      },
+      {
+        "texto": "Fístulas",
+        "correcta": false
+      },
+      {
+        "texto": "Disminución de la ingesta de agua",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de diuréticos pueden causar pérdida renal de magnesio?",
+    "opciones": [
+      {
+        "texto": "Ahorradores de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Osmóticos",
+        "correcta": false
+      },
+      {
+        "texto": "De asa y tiazidas",
+        "correcta": true
+      },
+      {
+        "texto": "Inhibidores de la anhidrasa carbónica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento de elección para la hipomagnesemia leve (1-1.3 mg/dl) o asintomática?",
+    "opciones": [
+      {
+        "texto": "Sulfato de magnesio intravenoso en bolo",
+        "correcta": false
+      },
+      {
+        "texto": "Sulfato de magnesio intravenoso en perfusión continua",
+        "correcta": true
+      },
+      {
+        "texto": "Magnesio por vía oral",
+        "correcta": false
+      },
+      {
+        "texto": "No requiere tratamiento",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento de elección para la hipomagnesemia grave (< 1 mg/dl) o sintomática?",
+    "opciones": [
+      {
+        "texto": "Aumento de la ingesta dietética de magnesio",
+        "correcta": false
+      },
+      {
+        "texto": "Magnesio por vía oral a dosis altas",
+        "correcta": false
+      },
+      {
+        "texto": "Sulfato de magnesio intravenoso",
+        "correcta": true
+      },
+      {
+        "texto": "Cloruro de magnesio intramuscular [No recomendado]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución se debe tener con la dosis de magnesio intravenoso en pacientes con Filtrado Glomerular (FG) < 30 ml/min?",
+    "opciones": [
+      {
+        "texto": "Aumentar la dosis al doble",
+        "correcta": false
+      },
+      {
+        "texto": "Mantener la dosis habitual",
+        "correcta": false
+      },
+      {
+        "texto": "Reducir la dosis a la mitad",
+        "correcta": true
+      },
+      {
+        "texto": "Evitar la administración intravenosa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo del nivel de magnesio durante la reposición intravenosa?",
+    "opciones": [
+      {
+        "texto": "Mantener Mg > 2.5 mg/dl",
+        "correcta": false
+      },
+      {
+        "texto": "Mantener Mg < 2.5 mg/dl (implícito en la necesidad de reducir la infusión si se super",
+        "correcta": true
+      },
+      {
+        "texto": "Normalizar el magnesio rápidamente",
+        "correcta": false
+      },
+      {
+        "texto": "Mantener Mg entre 1 y 1.3 mg/dl",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo clínico indica hipermagnesemia durante la infusión de sulfato de magnesio y sugiere reducir el ritmo de infusión o suspenderla?",
+    "opciones": [
+      {
+        "texto": "Hiperreflexia rotuliana",
+        "correcta": false
+      },
+      {
+        "texto": "Taquicardia",
+        "correcta": false
+      },
+      {
+        "texto": "Hiporreflexia rotuliana",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la frecuencia respiratoria",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuánto tiempo puede tardar la reposición de las reservas intracelulares de magnesio?",
+    "opciones": [
+      {
+        "texto": "1-2 días",
+        "correcta": false
+      },
+      {
+        "texto": "3-7 días",
+        "correcta": true
+      },
+      {
+        "texto": "Más de 7 días",
+        "correcta": false
+      },
+      {
+        "texto": "Se normalizan rápidamente con el tratamiento intravenoso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nivel de magnesio sérico se considera hipermagnesemia leve?",
+    "opciones": [
+      {
+        "texto": "< 2.6 mg/dl",
+        "correcta": false
+      },
+      {
+        "texto": "2.6-4.8 mg/dl",
+        "correcta": true
+      },
+      {
+        "texto": "4.8-7.3 mg/dl",
+        "correcta": false
+      },
+      {
+        "texto": "> 7.3 mg/dl",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un síntoma neurológico asociado a la hipermagnesemia moderada (4.8-7.3 mg/dl)?",
+    "opciones": [
+      {
+        "texto": "Excitabilidad",
+        "correcta": false
+      },
+      {
+        "texto": "Disminución de los ROTs (reflejos osteotendinosos)",
+        "correcta": true
+      },
+      {
+        "texto": "Hiperreflexia",
+        "correcta": false
+      },
+      {
+        "texto": "Convulsiones",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una causa renal común de hipermagnesemia?",
+    "opciones": [
+      {
+        "texto": "Uso de diuréticos tiazidas",
+        "correcta": false
+      },
+      {
+        "texto": "Diarrea crónica",
+        "correcta": false
+      },
+      {
+        "texto": "Fracaso renal agudo oligoanúrico",
+        "correcta": true
+      },
+      {
+        "texto": "Hiperparatiroidismo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué administración externa puede causar hipermagnesemia?",
+    "opciones": [
+      {
+        "texto": "Aumento de la ingesta de agua",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta rica en frutas y verduras",
+        "correcta": false
+      },
+      {
+        "texto": "Sulfato de magnesio en preeclampsia/eclampsia",
+        "correcta": true
+      },
+      {
+        "texto": "Uso de inhibidores de la bomba de protones (IBPs)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento inicial para la hipermagnesemia leve o asintomática en pacientes con función renal normal?",
+    "opciones": [
+      {
+        "texto": "Administración de gluconato cálcico intravenoso",
+        "correcta": false
+      },
+      {
+        "texto": "Diálisis urgente",
+        "correcta": false
+      },
+      {
+        "texto": "Identificar la causa y suspender aportes de Mg",
+        "correcta": true
+      },
+      {
+        "texto": "Restricción de líquidos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento de elección para la hipermagnesemia grave o sintomática en pacientes con función renal normal?",
+    "opciones": [
+      {
+        "texto": "Aumento de la ingesta de líquidos orales",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de diuréticos ahorradores de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "Gluconato cálcico 10% intravenoso",
+        "correcta": true
+      },
+      {
+        "texto": "Sulfato de magnesio intravenoso [Contraindicado]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué efecto tiene el gluconato cálcico en el tratamiento de la hipermagnesemia sintomática?",
+    "opciones": [
+      {
+        "texto": "Disminuye los niveles de magnesio sérico",
+        "correcta": false
+      },
+      {
+        "texto": "Aumenta la excreción renal de magnesio",
+        "correcta": false
+      },
+      {
+        "texto": "Antagoniza los efectos neuromusculares y cardiovasculares del magnesio",
+        "correcta": true
+      },
+      {
+        "texto": "Favorece la entrada de magnesio a las células",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con insuficiencia renal e hipermagnesemia grave, ¿qué tratamiento adicional se debe considerar además del gluconato cálcico?",
+    "opciones": [
+      {
+        "texto": "Aumento de la ingesta de magnesio en la dieta",
+        "correcta": false
+      },
+      {
+        "texto": "Restricción de líquidos",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de vitamina D",
+        "correcta": false
+      },
+      {
+        "texto": "Diálisis",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo clínico sugiere un claro riesgo de parada cardiorrespiratoria en un paciente con hipermagnesemia?",
+    "opciones": [
+      {
+        "texto": "Letargia leve",
+        "correcta": false
+      },
+      {
+        "texto": "Náuseas y vómitos",
+        "correcta": false
+      },
+      {
+        "texto": "Bloqueo AV completo, parálisis flácida, apnea",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de los reflejos osteotendinosos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de diuréticos se pueden utilizar en pacientes con función renal normal e hipermagnesemia para aumentar la excreción de magnesio?",
+    "opciones": [
+      {
+        "texto": "Ahorradores de potasio",
+        "correcta": false
+      },
+      {
+        "texto": "De asa",
+        "correcta": true
+      },
+      {
+        "texto": "Tiazidas",
+        "correcta": false
+      },
+      {
+        "texto": "Osmóticos",
+        "correcta": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,3362 @@
+[
+  {
+    "pregunta": "¿Cuál es la duración del QRS considerado estrecho?",
+    "opciones": [
+      {
+        "texto": "Mayor de 120 ms",
+        "correcta": false
+      },
+      {
+        "texto": "Igual o mayor de 120 ms",
+        "correcta": false
+      },
+      {
+        "texto": "Menor de 100 ms",
+        "correcta": false
+      },
+      {
+        "texto": "Igual o menor de 120 ms",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "En una taquicardia QRS estrecho con inestabilidad hemodinámica, ¿cuál es la acción inicial recomendada?",
+    "opciones": [
+      {
+        "texto": "Administrar adenosina IV",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar maniobras vagales",
+        "correcta": false
+      },
+      {
+        "texto": "Cardioversión eléctrica (CVE) y avisar a Cardiología",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar betabloqueantes IV",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante una taquicardia QRS estrecho regular, ¿qué maniobras se consideran de primera línea para el diagnóstico y tratamiento?",
+    "opciones": [
+      {
+        "texto": "Administración de amiodarona IV",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de flecainida VO",
+        "correcta": false
+      },
+      {
+        "texto": "Maniobras vagales",
+        "correcta": true
+      },
+      {
+        "texto": "Cardioversión eléctrica sincronizada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se utiliza en taquicardias QRS estrecho regulares si las maniobras vagales no son efectivas y no hay inestabilidad hemodinámica?",
+    "opciones": [
+      {
+        "texto": "Amiodarona IV",
+        "correcta": false
+      },
+      {
+        "texto": "Adenosina IV",
+        "correcta": true
+      },
+      {
+        "texto": "Lidocaína IV",
+        "correcta": false
+      },
+      {
+        "texto": "Procainamida IV",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación está contraindicado el verapamilo o diltiazem IV en el manejo de taquicardias QRS estrecho?",
+    "opciones": [
+      {
+        "texto": "En pacientes con hipertensión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "En pacientes con bradicardia",
+        "correcta": false
+      },
+      {
+        "texto": "En insuficiencia cardíaca con FEVI reducida",
+        "correcta": true
+      },
+      {
+        "texto": "En pacientes con asma",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución se debe tener al usar amiodarona en el flutter auricular sin bloqueo de NAV?",
+    "opciones": [
+      {
+        "texto": "Riesgo de hipotensión severa",
+        "correcta": false
+      },
+      {
+        "texto": "Riesgo de prolongación excesiva del intervalo QT",
+        "correcta": false
+      },
+      {
+        "texto": "Riesgo de conducción AV 1:1",
+        "correcta": true
+      },
+      {
+        "texto": "Riesgo de bradicardia severa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica la presencia de onda P normal delante de cada QRS en una taquicardia QRS estrecho?",
+    "opciones": [
+      {
+        "texto": "Fibrilación auricular",
+        "correcta": false
+      },
+      {
+        "texto": "Flutter auricular con conducción variable",
+        "correcta": false
+      },
+      {
+        "texto": "Taquicardia por reentrada nodal",
+        "correcta": false
+      },
+      {
+        "texto": "Taquicardia sinusal",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué sugiere una taquicardia QRS estrecho irregular?",
+    "opciones": [
+      {
+        "texto": "Taquicardia por reentrada nodal",
+        "correcta": false
+      },
+      {
+        "texto": "Flutter auricular con conducción fija",
+        "correcta": false
+      },
+      {
+        "texto": "Fibrilación auricular",
+        "correcta": true
+      },
+      {
+        "texto": "Taquicardia auricular automática",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una causa de QRS ancho en una taquicardia que suele tener QRS estrecho?",
+    "opciones": [
+      {
+        "texto": "Administración previa de amiodarona",
+        "correcta": false
+      },
+      {
+        "texto": "Realización de masaje del seno carotídeo",
+        "correcta": false
+      },
+      {
+        "texto": "Bloqueo de rama preexistente o funcional por frecuencia elevada",
+        "correcta": true
+      },
+      {
+        "texto": "Uso reciente de flecainida",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe valorar si se considera el uso de amiodarona IV en una taquicardia QRS estrecho?",
+    "opciones": [
+      {
+        "texto": "Presencia de bloqueo AV",
+        "correcta": false
+      },
+      {
+        "texto": "Función hepática del paciente",
+        "correcta": false
+      },
+      {
+        "texto": "Uso de amiodarona IV",
+        "correcta": true
+      },
+      {
+        "texto": "Antecedente de trombosis venosa profunda",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se considera una taquicardia de QRS ancho hasta que se demuestre lo contrario?",
+    "opciones": [
+      {
+        "texto": "Supraventricular con aberrancia",
+        "correcta": false
+      },
+      {
+        "texto": "Sinusal con bloqueo de rama",
+        "correcta": false
+      },
+      {
+        "texto": "Ventricular",
+        "correcta": true
+      },
+      {
+        "texto": "Antidrómica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En una taquicardia QRS ancho con inestabilidad hemodinámica, ¿cuál es la acción inicial recomendada?",
+    "opciones": [
+      {
+        "texto": "Administrar lidocaína IV",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar amiodarona IV",
+        "correcta": false
+      },
+      {
+        "texto": "Cardioversión eléctrica sincronizada",
+        "correcta": false
+      },
+      {
+        "texto": "Cardioversión eléctrica no sincronizada",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el porcentaje aproximado de taquicardias con QRS ancho que corresponden a taquicardia ventricular?",
+    "opciones": [
+      {
+        "texto": "50%",
+        "correcta": false
+      },
+      {
+        "texto": "20%",
+        "correcta": false
+      },
+      {
+        "texto": "80%",
+        "correcta": true
+      },
+      {
+        "texto": "95%",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Ante una taquicardia QRS ancho y estable, ¿qué fármaco se puede utilizar en fase aguda de IAM?",
+    "opciones": [
+      {
+        "texto": "Amiodarona",
+        "correcta": false
+      },
+      {
+        "texto": "Procainamida",
+        "correcta": false
+      },
+      {
+        "texto": "Lidocaína (bolo de 100 mg IV)",
+        "correcta": true
+      },
+      {
+        "texto": "Verapamilo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se recomienda en taquicardias QRS ancho estables con cardiopatía estructural?",
+    "opciones": [
+      {
+        "texto": "Lidocaína",
+        "correcta": false
+      },
+      {
+        "texto": "Procainamida",
+        "correcta": false
+      },
+      {
+        "texto": "Amiodarona (perfusión de 5 mg/kg en 10-20 min)",
+        "correcta": true
+      },
+      {
+        "texto": "Adenosina",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe evitar en pacientes con cardiopatía estructural y taquicardia QRS ancho estable?",
+    "opciones": [
+      {
+        "texto": "Administración de amiodarona",
+        "correcta": false
+      },
+      {
+        "texto": "Monitorización continua",
+        "correcta": false
+      },
+      {
+        "texto": "Realización de ECG de 12 derivaciones",
+        "correcta": false
+      },
+      {
+        "texto": "Procainamida",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio electrocardiográfico sugiere taquicardia ventricular en una taquicardia QRS ancho?",
+    "opciones": [
+      {
+        "texto": "Presencia de complejos QRS en todas las derivaciones precordiales",
+        "correcta": false
+      },
+      {
+        "texto": "Duración desde el inicio de la onda R hasta el punto más profundo de la onda S < 100 ms",
+        "correcta": false
+      },
+      {
+        "texto": "Disociación aurículo-ventricular",
+        "correcta": true
+      },
+      {
+        "texto": "Patrón típico de bloqueo de rama conocido",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué utilidad puede tener el masaje del seno carotídeo o la adenosina en el diagnóstico de una taquicardia QRS ancho?",
+    "opciones": [
+      {
+        "texto": "Siempre termina la taquicardia ventricular",
+        "correcta": false
+      },
+      {
+        "texto": "Es la primera línea de tratamiento en inestabilidad hemodinámica",
+        "correcta": false
+      },
+      {
+        "texto": "Puede ayudar a diferenciar TV de TSV con aberrancia",
+        "correcta": true
+      },
+      {
+        "texto": "Está contraindicado por riesgo de fibrilación ventricular",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica un QRS ancho regular?",
+    "opciones": [
+      {
+        "texto": "Fibrilación auricular con bloqueo de rama",
+        "correcta": false
+      },
+      {
+        "texto": "Taquicardia supraventricular con conducción aberrante dependiente de la frecuencia",
+        "correcta": false
+      },
+      {
+        "texto": "Taquicardia antidrómica",
+        "correcta": false
+      },
+      {
+        "texto": "Taquicardia ventricular (en la mayoría de los casos)",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "En el contexto de un SCA, ¿qué morfología del QRS ancho podría sugerir la presencia de criterios de Brugada?",
+    "opciones": [
+      {
+        "texto": "QRS con empastamiento inicial en V6",
+        "correcta": false
+      },
+      {
+        "texto": "Patrón de bloqueo de rama derecha con elevación del ST en V1-V3",
+        "correcta": true
+      },
+      {
+        "texto": "QRS con muescas en la onda S en derivaciones inferiores",
+        "correcta": false
+      },
+      {
+        "texto": "QRS con alternancia eléctrica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la principal preocupación en el manejo de la fibrilación auricular de más de 48 horas de evolución o de duración desconocida?",
+    "opciones": [
+      {
+        "texto": "Controlar la frecuencia cardíaca rápidamente",
+        "correcta": false
+      },
+      {
+        "texto": "Restablecer el ritmo sinusal de forma inmediata",
+        "correcta": false
+      },
+      {
+        "texto": "Profilaxis tromboembólica",
+        "correcta": true
+      },
+      {
+        "texto": "Tratar la causa subyacente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con fibrilación auricular inestable hemodinámicamente, ¿cuál es la intervención inicial recomendada?",
+    "opciones": [
+      {
+        "texto": "Administración de amiodarona IV",
+        "correcta": false
+      },
+      {
+        "texto": "Control farmacológico de la frecuencia cardíaca",
+        "correcta": false
+      },
+      {
+        "texto": "Cardioversión eléctrica",
+        "correcta": true
+      },
+      {
+        "texto": "Inicio de heparina de bajo peso molecular (HBPM)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe evaluar en la evaluación inicial de un paciente con fibrilación auricular?",
+    "opciones": [
+      {
+        "texto": "Únicamente la frecuencia cardíaca",
+        "correcta": false
+      },
+      {
+        "texto": "Solo la presencia de síntomas",
+        "correcta": false
+      },
+      {
+        "texto": "Historia clínica, ECG de 12 derivaciones y analítica de sangre",
+        "correcta": true
+      },
+      {
+        "texto": "Exclusivamente la necesidad de anticoagulación",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué pacientes con fibrilación auricular de menos de 48 horas podría estar indicado el control del ritmo?",
+    "opciones": [
+      {
+        "texto": "Pacientes asintomáticos",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes con frecuencia cardíaca bien controlada",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes en los que la FA es mal tolerada o muy sintomática",
+        "correcta": true
+      },
+      {
+        "texto": "Pacientes con factores de riesgo tromboembólico bajos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco intravenoso se puede utilizar para el control de la frecuencia cardíaca en fibrilación auricular sin signos de ICC?",
+    "opciones": [
+      {
+        "texto": "Flecainida",
+        "correcta": false
+      },
+      {
+        "texto": "Propafenona",
+        "correcta": false
+      },
+      {
+        "texto": "Amiodarona",
+        "correcta": false
+      },
+      {
+        "texto": "Betabloqueantes, diltiazem o verapamilo",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se debe considerar para el control de la frecuencia cardíaca en fibrilación auricular con signos de ICC?",
+    "opciones": [
+      {
+        "texto": "Verapamilo IV",
+        "correcta": false
+      },
+      {
+        "texto": "Diltiazem IV",
+        "correcta": false
+      },
+      {
+        "texto": "Betabloqueantes IV",
+        "correcta": false
+      },
+      {
+        "texto": "Amiodarona o digoxina",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la duración de la FA que se considera de reciente inicio y en la que el control del ritmo podría ser una estrategia inicial?",
+    "opciones": [
+      {
+        "texto": "Mayor de 7 días",
+        "correcta": false
+      },
+      {
+        "texto": "Entre 48 horas y 7 días",
+        "correcta": false
+      },
+      {
+        "texto": "Menor de 48 horas",
+        "correcta": true
+      },
+      {
+        "texto": "Mayor de 3 meses",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármacos se pueden utilizar para la cardioversión farmacológica de la fibrilación auricular de reciente inicio en ausencia de cardiopatía estructural significativa?",
+    "opciones": [
+      {
+        "texto": "Amiodarona IV",
+        "correcta": false
+      },
+      {
+        "texto": "Digoxina IV",
+        "correcta": false
+      },
+      {
+        "texto": "Flecainida VO/IV o propafenona VO/IV",
+        "correcta": true
+      },
+      {
+        "texto": "Betabloqueantes IV",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterio obliga a un aviso urgente a Cardiología en un paciente con fibrilación auricular?",
+    "opciones": [
+      {
+        "texto": "Frecuencia cardíaca entre 80 y 100 lpm",
+        "correcta": false
+      },
+      {
+        "texto": "Inicio reciente de la FA sin síntomas",
+        "correcta": false
+      },
+      {
+        "texto": "Inestabilidad hemodinámica",
+        "correcta": true
+      },
+      {
+        "texto": "Necesidad de iniciar anticoagulación oral",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué factor se utiliza para la estratificación del riesgo tromboembólico en pacientes con fibrilación auricular?",
+    "opciones": [
+      {
+        "texto": "Escala GRACE",
+        "correcta": false
+      },
+      {
+        "texto": "Escala CRUSADE",
+        "correcta": false
+      },
+      {
+        "texto": "Escala CHA2DS2-VASc",
+        "correcta": true
+      },
+      {
+        "texto": "Clasificación Killip",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación clínica está indicada la cardioversión eléctrica sincronizada de forma prioritaria?",
+    "opciones": [
+      {
+        "texto": "Taquicardia ventricular estable",
+        "correcta": false
+      },
+      {
+        "texto": "Fibrilación auricular con respuesta ventricular lenta",
+        "correcta": false
+      },
+      {
+        "texto": "Taquiarritmia con inestabilidad hemodinámica",
+        "correcta": true
+      },
+      {
+        "texto": "Flutter auricular con respuesta ventricular controlada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de energía se recomienda inicialmente para la cardioversión eléctrica de una taquicardia QRS estrecho regular?",
+    "opciones": [
+      {
+        "texto": "200 J bifásico",
+        "correcta": false
+      },
+      {
+        "texto": "200 J monofásico",
+        "correcta": false
+      },
+      {
+        "texto": "50-100 J (tanto en bifásico como en monofásico)",
+        "correcta": true
+      },
+      {
+        "texto": "Máxima energía disponible",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de energía se recomienda inicialmente para la cardioversión eléctrica de una taquicardia ventricular monomórfica estable?",
+    "opciones": [
+      {
+        "texto": "50-100 J",
+        "correcta": false
+      },
+      {
+        "texto": "100 J (bifásico) o 200 J (monofásico)",
+        "correcta": true
+      },
+      {
+        "texto": "Máxima energía disponible no sincronizada",
+        "correcta": false
+      },
+      {
+        "texto": "Depende de la morfología del QRS",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es importante sincronizar el choque eléctrico en la cardioversión eléctrica de una taquiarritmia con pulso?",
+    "opciones": [
+      {
+        "texto": "Para aumentar la eficacia del choque",
+        "correcta": false
+      },
+      {
+        "texto": "Para reducir el dolor del paciente",
+        "correcta": false
+      },
+      {
+        "texto": "Para evitar un choque sobre la onda T que pueda inducir fibrilación ventricular",
+        "correcta": true
+      },
+      {
+        "texto": "Para permitir la descarga con menor energía",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe asegurar antes de realizar una cardioversión eléctrica electiva?",
+    "opciones": [
+      {
+        "texto": "Que el paciente esté en ayunas",
+        "correcta": false
+      },
+      {
+        "texto": "Que se haya administrado la medicación antiarrítmica de mantenimiento",
+        "correcta": false
+      },
+      {
+        "texto": "Que el paciente esté sedoanalgesiado",
+        "correcta": true
+      },
+      {
+        "texto": "Que se haya realizado una analítica completa",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "Si un primer choque de cardioversión eléctrica no es exitoso en un paciente inestable, ¿qué se debe hacer?",
+    "opciones": [
+      {
+        "texto": "Administrar un bolo de amiodarona y repetir el choque con la misma energía",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar un bolo de lidocaína y repetir el choque con menor energía",
+        "correcta": false
+      },
+      {
+        "texto": "Repetir el choque a máxima energía",
+        "correcta": true
+      },
+      {
+        "texto": "Intentar cardioversión farmacológica con flecainida IV",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se puede administrar en una taquicardia con pulso antes de la cardioversión eléctrica si hay tiempo y no hay inestabilidad extrema?",
+    "opciones": [
+      {
+        "texto": "Adenosina",
+        "correcta": false
+      },
+      {
+        "texto": "Lidocaína",
+        "correcta": false
+      },
+      {
+        "texto": "Amiodarona (150-300 mg IV)",
+        "correcta": true
+      },
+      {
+        "texto": "Verapamilo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué monitorización es esencial durante y después de una cardioversión eléctrica?",
+    "opciones": [
+      {
+        "texto": "Solo la presión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "Solo la frecuencia cardíaca",
+        "correcta": false
+      },
+      {
+        "texto": "Monitorización electrocardiográfica, vía venosa, ECG, SatO2 y TA",
+        "correcta": true
+      },
+      {
+        "texto": "Únicamente el nivel de consciencia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con fibrilación auricular de duración desconocida que requiere cardioversión eléctrica urgente por inestabilidad, ¿qué otra medida se debe considerar?",
+    "opciones": [
+      {
+        "texto": "Administración de un bolo de heparina sódica IV",
+        "correcta": false
+      },
+      {
+        "texto": "Realización de un ecocardiograma transesofágico urgente",
+        "correcta": false
+      },
+      {
+        "texto": "Inicio de HBPM tras la cardioversión",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de un bolo de digoxina IV",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de corriente se utiliza comúnmente en los desfibriladores modernos para la cardioversión eléctrica?",
+    "opciones": [
+      {
+        "texto": "Corriente continua monofásica",
+        "correcta": false
+      },
+      {
+        "texto": "Corriente alterna sinusoidal",
+        "correcta": false
+      },
+      {
+        "texto": "Corriente continua bifásica",
+        "correcta": true
+      },
+      {
+        "texto": "Corriente pulsada trifásica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se considera bradicardia significativa en adultos?",
+    "opciones": [
+      {
+        "texto": "Frecuencia cardíaca menor de 70 lpm",
+        "correcta": false
+      },
+      {
+        "texto": "Frecuencia cardíaca menor de 50 lpm sin síntomas",
+        "correcta": false
+      },
+      {
+        "texto": "Frecuencia cardíaca menor de 60 lpm con repercusión clínica",
+        "correcta": true
+      },
+      {
+        "texto": "Frecuencia cardíaca menor de 80 lpm durante el sueño",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el fármaco de primera línea para el tratamiento de la bradicardia sintomática aguda?",
+    "opciones": [
+      {
+        "texto": "Isoproterenol",
+        "correcta": false
+      },
+      {
+        "texto": "Dopamina",
+        "correcta": false
+      },
+      {
+        "texto": "Atropina (bolos de 0.5 mg)",
+        "correcta": true
+      },
+      {
+        "texto": "Adrenalina",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la dosis máxima de atropina recomendada para el tratamiento de la bradicardia sintomática?",
+    "opciones": [
+      {
+        "texto": "1 mg",
+        "correcta": false
+      },
+      {
+        "texto": "2 mg",
+        "correcta": false
+      },
+      {
+        "texto": "3 mg",
+        "correcta": true
+      },
+      {
+        "texto": "5 mg",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de bradicardia inestable que no responde a la atropina, ¿qué otra medida terapéutica se debe considerar?",
+    "opciones": [
+      {
+        "texto": "Administración de más bolos de atropina",
+        "correcta": false
+      },
+      {
+        "texto": "Suspender la medicación cronotropa negativa",
+        "correcta": false
+      },
+      {
+        "texto": "Inicio de marcapasos transcutáneo o perfusión de isoproterenol",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de un bolo de calcio intravenoso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica un bloqueo AV de primer grado en el ECG?",
+    "opciones": [
+      {
+        "texto": "Fallo intermitente en la conducción AV",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de conducción AV",
+        "correcta": false
+      },
+      {
+        "texto": "Prolongación constante del intervalo PR (> 0.2 segundos)",
+        "correcta": true
+      },
+      {
+        "texto": "Prolongación progresiva del intervalo PR hasta que una onda P no conduce",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica un bloqueo AV de segundo grado Mobitz I (Wenckebach) en el ECG?",
+    "opciones": [
+      {
+        "texto": "Prolongación constante del intervalo PR con ondas P no conducidas ocasionales",
+        "correcta": false
+      },
+      {
+        "texto": "Prolongación progresiva del intervalo PR hasta que una onda P no conduce",
+        "correcta": true
+      },
+      {
+        "texto": "Ondas P no seguidas de complejos QRS de forma intermitente sin cambios en el PR",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de relación entre las ondas P y los complejos QRS",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica un bloqueo AV de segundo grado Mobitz II en el ECG?",
+    "opciones": [
+      {
+        "texto": "Prolongación progresiva del intervalo PR hasta que una onda P no conduce",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas P no seguidas de complejos QRS de forma intermitente sin cambios en el PR",
+        "correcta": true
+      },
+      {
+        "texto": "Prolongación constante del intervalo PR con todas las ondas P conducidas",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de ondas P",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica un bloqueo AV de tercer grado (completo) en el ECG?",
+    "opciones": [
+      {
+        "texto": "Prolongación constante del intervalo PR",
+        "correcta": false
+      },
+      {
+        "texto": "Prolongación progresiva del intervalo PR hasta que una onda P no conduce",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas P no seguidas de complejos QRS de forma intermitente sin cambios en el PR",
+        "correcta": false
+      },
+      {
+        "texto": "Disociación aurículo-ventricular (las ondas P y los complejos QRS no tienen relación)",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué pacientes con bloqueo AV de primer grado se recomienda derivar a consultas de Cardiología?",
+    "opciones": [
+      {
+        "texto": "Pacientes menores de 45 años asintomáticos",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes mayores de 45 años",
+        "correcta": true
+      },
+      {
+        "texto": "Pacientes con intervalo PR ligeramente prolongado (0.21 segundos)",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes con bloqueo de rama asociado",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer con la medicación cronotropa negativa en un paciente con bradicardia sintomática?",
+    "opciones": [
+      {
+        "texto": "Aumentar la dosis",
+        "correcta": false
+      },
+      {
+        "texto": "Mantener la dosis si la bradicardia es leve",
+        "correcta": false
+      },
+      {
+        "texto": "Suspender o reducir la dosis y reevaluar",
+        "correcta": true
+      },
+      {
+        "texto": "Cambiar a otro fármaco cronotropo negativo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tiempo máximo recomendado desde el primer contacto médico hasta la realización del ECG en un paciente con sospecha de SCA con elevación del ST (SCACEST)?",
+    "opciones": [
+      {
+        "texto": "20 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "15 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "10 minutos",
+        "correcta": true
+      },
+      {
+        "texto": "5 minutos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con SCACEST, ¿cuál es la estrategia de reperfusión de elección si es posible realizar angioplastia primaria en menos de 120 minutos desde el diagnóstico?",
+    "opciones": [
+      {
+        "texto": "Fibrinolisis inmediata",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de nitroglicerina intravenosa",
+        "correcta": false
+      },
+      {
+        "texto": "Angioplastia primaria (PCI)",
+        "correcta": true
+      },
+      {
+        "texto": "Tratamiento conservador con doble antiagregación",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento inicial en el BOX VITAL para un paciente con SCACEST?",
+    "opciones": [
+      {
+        "texto": "Administración de betabloqueantes intravenosos",
+        "correcta": false
+      },
+      {
+        "texto": "Realización de analítica básica sin incluir troponinas",
+        "correcta": false
+      },
+      {
+        "texto": "Monitorización cardíaca continua y canalización de dos vías periféricas",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de oxígeno solo si la saturación es menor del 95%",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué derivaciones adicionales del ECG se deben realizar en pacientes con SCACEST si se sospecha afectación del ventrículo derecho o de la pared posterior?",
+    "opciones": [
+      {
+        "texto": "V1 y V2",
+        "correcta": false
+      },
+      {
+        "texto": "V5 y V6",
+        "correcta": false
+      },
+      {
+        "texto": "Derivaciones derechas (V3R y V4R) y posteriores (V7-V9)",
+        "correcta": true
+      },
+      {
+        "texto": "Derivaciones inferiores (II, III y aVF)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de tiempo para la angioplastia primaria (PCI) en un paciente con SCACEST desde el primer contacto médico en un centro con capacidad para PCI?",
+    "opciones": [
+      {
+        "texto": "Menos de 60 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "Menos de 120 minutos",
+        "correcta": true
+      },
+      {
+        "texto": "Menos de 90 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "Menos de 30 minutos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación se considera la fibrinolisis como estrategia de reperfusión inicial en un paciente con SCACEST?",
+    "opciones": [
+      {
+        "texto": "Si el dolor torácico ha comenzado hace más de 12 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Si es posible realizar angioplastia primaria en menos de 60 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "Si no es posible realizar PCI en menos de 120 minutos y el dolor es menor de 6 horas",
+        "correcta": true
+      },
+      {
+        "texto": "En pacientes con alto riesgo de sangrado",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué dosis de carga de ácido acetilsalicílico (AAS) se recomienda en el tratamiento inicial del SCACEST?",
+    "opciones": [
+      {
+        "texto": "100 mg",
+        "correcta": false
+      },
+      {
+        "texto": "160 mg",
+        "correcta": false
+      },
+      {
+        "texto": "300 mg",
+        "correcta": true
+      },
+      {
+        "texto": "500 mg",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco P2Y12 se recomienda en pacientes con SCACEST menores de 50 años y bajo riesgo hemorrágico?",
+    "opciones": [
+      {
+        "texto": "Clopidogrel 600 mg",
+        "correcta": false
+      },
+      {
+        "texto": "Ticagrelor 180 mg o Prasugrel 60 mg",
+        "correcta": true
+      },
+      {
+        "texto": "Clopidogrel 300 mg",
+        "correcta": false
+      },
+      {
+        "texto": "Solo AAS",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué contraindicación presenta el uso de Ticagrelor y Prasugrel en pacientes con SCACEST?",
+    "opciones": [
+      {
+        "texto": "Insuficiencia renal crónica",
+        "correcta": false
+      },
+      {
+        "texto": "Hipertensión arterial no controlada",
+        "correcta": false
+      },
+      {
+        "texto": "ICTUS isquémico o hemorrágico previo",
+        "correcta": true
+      },
+      {
+        "texto": "Edad mayor de 75 años",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer en un paciente con SCACEST y bloqueo de rama izquierda (BRI) de nueva aparición con dolor torácico típico?",
+    "opciones": [
+      {
+        "texto": "Considerar como SCASEST",
+        "correcta": false
+      },
+      {
+        "texto": "Tratar solo con nitroglicerina",
+        "correcta": false
+      },
+      {
+        "texto": "Activar Código Infarto y considerar reperfusión",
+        "correcta": true
+      },
+      {
+        "texto": "Esperar la elevación de troponinas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tiempo recomendado para la realización del ECG en un paciente que consulta por dolor torácico no traumático?",
+    "opciones": [
+      {
+        "texto": "30 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "20 minutos",
+        "correcta": false
+      },
+      {
+        "texto": "Menos de 10 minutos",
+        "correcta": true
+      },
+      {
+        "texto": "5 minutos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué cambios electrocardiográficos sugieren isquemia miocárdica en un paciente con dolor torácico no traumático?",
+    "opciones": [
+      {
+        "texto": "Onda T negativa aislada",
+        "correcta": false
+      },
+      {
+        "texto": "Bloqueo de rama conocido sin cambios",
+        "correcta": false
+      },
+      {
+        "texto": "Descenso del ST > 0.5 mm o inversión de la onda T simétrica > 1 mm (sobre todo si dinámicos)",
+        "correcta": true
+      },
+      {
+        "texto": "Onda U prominente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la evaluación inicial de un dolor torácico no traumático, ¿qué pruebas complementarias se deben solicitar según el algoritmo?",
+    "opciones": [
+      {
+        "texto": "Solo ECG",
+        "correcta": false
+      },
+      {
+        "texto": "Solo radiografía de tórax",
+        "correcta": false
+      },
+      {
+        "texto": "ECG, analíticas (troponina, CK, dímero D, hemograma, coagulación) y radiografía de tórax",
+        "correcta": true
+      },
+      {
+        "texto": "Solo troponina y ECG",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué patologías graves se deben descartar de forma prioritaria en un paciente con dolor torácico no traumático?",
+    "opciones": [
+      {
+        "texto": "Pericarditis aguda",
+        "correcta": false
+      },
+      {
+        "texto": "Ansiedad",
+        "correcta": false
+      },
+      {
+        "texto": "SCACEST, TEP masivo, disección aórtica, taponamiento cardíaco, neumotórax a tensión",
+        "correcta": true
+      },
+      {
+        "texto": "Reflujo gastroesofágico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué características del dolor sugieren un origen esofágico/gástrico?",
+    "opciones": [
+      {
+        "texto": "Continuo, metamérico",
+        "correcta": false
+      },
+      {
+        "texto": "En el punto de origen, postural",
+        "correcta": false
+      },
+      {
+        "texto": "Continuo, epigástrico, relacionado con comidas, mejora con antiácidos",
+        "correcta": true
+      },
+      {
+        "texto": "Retroesternal opresivo irradiado a mandíbula",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué características del dolor sugieren un origen musculoesquelético?",
+    "opciones": [
+      {
+        "texto": "Retroesternal opresivo irradiado a brazo izquierdo",
+        "correcta": false
+      },
+      {
+        "texto": "Intenso, agudo, desgarrante, migratorio",
+        "correcta": false
+      },
+      {
+        "texto": "Continuo, en el punto de origen, postural",
+        "correcta": true
+      },
+      {
+        "texto": "Asociado a fiebre y escalofríos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué algoritmo diagnóstico se menciona para la valoración del dolor torácico no traumático con medición de troponina ultrasensible?",
+    "opciones": [
+      {
+        "texto": "Algoritmo de Killip",
+        "correcta": false
+      },
+      {
+        "texto": "Escala de TIMI",
+        "correcta": false
+      },
+      {
+        "texto": "Algoritmo diagnóstico 0-3h",
+        "correcta": true
+      },
+      {
+        "texto": "Escala de GRACE",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe considerar si existe una sospecha clínica de isquemia miocárdica con ECG no diagnóstico en un paciente con dolor torácico no traumático?",
+    "opciones": [
+      {
+        "texto": "Dar de alta con seguimiento por médico de cabecera",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar una prueba de esfuerzo precoz",
+        "correcta": false
+      },
+      {
+        "texto": "Considerar como SCACEST",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar analgésicos y observar",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En pacientes con dolor torácico no anginoso/atípico y ECG/radiografía de tórax no diagnósticos, ¿qué prueba se debe solicitar?",
+    "opciones": [
+      {
+        "texto": "AngioTAC de tórax",
+        "correcta": false
+      },
+      {
+        "texto": "Ecocardiograma",
+        "correcta": false
+      },
+      {
+        "texto": "Troponina seriada",
+        "correcta": true
+      },
+      {
+        "texto": "Dímero D",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer con un paciente con dolor torácico prolongado, troponina seriada normal y ECG seriado sin cambios, considerado de bajo riesgo?",
+    "opciones": [
+      {
+        "texto": "Ingresar en Cardiología para pruebas invasivas",
+        "correcta": false
+      },
+      {
+        "texto": "Administrar tratamiento con betabloqueantes",
+        "correcta": false
+      },
+      {
+        "texto": "Alta a consulta de dolor torácico de Cardiología con ECGs/Rx tórax/analítica solicitada",
+        "correcta": true
+      },
+      {
+        "texto": "Realizar una prueba de esfuerzo en urgencias",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué significa SCASEST?",
+    "opciones": [
+      {
+        "texto": "Síndrome Coronario Agudo con Elevación del Segmento ST",
+        "correcta": false
+      },
+      {
+        "texto": "Síndrome Coronario Agudo Sin Elevación Persistente del Segmento ST",
+        "correcta": true
+      },
+      {
+        "texto": "Síndrome Cardíaco Agudo con Elevación Sintomática Transitoria",
+        "correcta": false
+      },
+      {
+        "texto": "Síndrome Coronario Asintomático con Elevación del ST",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el primer paso en la evaluación de un paciente con sospecha de SCASEST?",
+    "opciones": [
+      {
+        "texto": "Administración de oxígeno",
+        "correcta": false
+      },
+      {
+        "texto": "Canalización de vía periférica",
+        "correcta": false
+      },
+      {
+        "texto": "Reposo absoluto y monitorización cardíaca",
+        "correcta": true
+      },
+      {
+        "texto": "Realización de radiografía de tórax",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cada cuánto tiempo se recomienda la seriación de marcadores de daño miocárdico en pacientes con SCASEST?",
+    "opciones": [
+      {
+        "texto": "A la llegada y a las 12 horas",
+        "correcta": false
+      },
+      {
+        "texto": "Solo a la llegada",
+        "correcta": false
+      },
+      {
+        "texto": "A la llegada y a las 6 horas",
+        "correcta": true
+      },
+      {
+        "texto": "Cada 2 horas durante las primeras 24 horas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué derivaciones adicionales del ECG se deben realizar en pacientes con SCASEST si se sospecha afectación del ventrículo derecho o de la pared posterior?",
+    "opciones": [
+      {
+        "texto": "V1 y V2",
+        "correcta": false
+      },
+      {
+        "texto": "V5 y V6",
+        "correcta": false
+      },
+      {
+        "texto": "V3R y V4R / V7-V9",
+        "correcta": true
+      },
+      {
+        "texto": "Derivaciones inferiores (II, III y aVF)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué patrón electrocardiográfico en las precordiales sugiere un patrón de Wellens en pacientes con SCASEST?",
+    "opciones": [
+      {
+        "texto": "Elevación del segmento ST con ondas Q",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas T negativas profundas",
+        "correcta": true
+      },
+      {
+        "texto": "Inversión de la onda T en derivaciones inferiores",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas T acuminadas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco antiagregante P2Y12 se recomienda como alternativa si hay contraindicación para Ticagrelor o Prasugrel en pacientes con SCASEST?",
+    "opciones": [
+      {
+        "texto": "Ticagrelor",
+        "correcta": false
+      },
+      {
+        "texto": "Prasugrel",
+        "correcta": false
+      },
+      {
+        "texto": "Clopidogrel",
+        "correcta": true
+      },
+      {
+        "texto": "Solo AAS",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución se debe tener con el uso de Prasugrel en pacientes con SCASEST?",
+    "opciones": [
+      {
+        "texto": "Contraindicado en insuficiencia renal grave",
+        "correcta": false
+      },
+      {
+        "texto": "Precaución en pacientes menores de 60 kg",
+        "correcta": false
+      },
+      {
+        "texto": "Contraindicado si ACV/AIT previo",
+        "correcta": true
+      },
+      {
+        "texto": "Requiere ajuste de dosis según la edad",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué anticoagulante se puede administrar en pacientes con SCASEST y ClCr < 30 ml/min?",
+    "opciones": [
+      {
+        "texto": "Fondaparinux",
+        "correcta": false
+      },
+      {
+        "texto": "Acenocumarol",
+        "correcta": false
+      },
+      {
+        "texto": "HBPM (Enoxaparina 1 mg/kg/d) o HN ajustada a APTT",
+        "correcta": true
+      },
+      {
+        "texto": "Dabigatrán",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe evitar como terapia puente con heparina en pacientes con SCASEST que toman Acenocumarol?",
+    "opciones": [
+      {
+        "texto": "Si el INR objetivo no está alcanzado",
+        "correcta": false
+      },
+      {
+        "texto": "Salvo caso de alto riesgo isquémico (prótesis mecánicas, ictus/TEP < 3 meses)",
+        "correcta": true
+      },
+      {
+        "texto": "Si el procedimiento es urgente",
+        "correcta": false
+      },
+      {
+        "texto": "Si hay alto riesgo hemorrágico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tratamiento inicial se recomienda en pacientes con SCASEST de riesgo bajo-moderado antes de conocer la anatomía coronaria?",
+    "opciones": [
+      {
+        "texto": "AAS 300 mg y Ticagrelor 180 mg",
+        "correcta": false
+      },
+      {
+        "texto": "AAS 300 mg y Clopidogrel 600 mg",
+        "correcta": false
+      },
+      {
+        "texto": "AAS 300 mg y Fondaparinux 2.5 mg",
+        "correcta": true
+      },
+      {
+        "texto": "Solo AAS 300 mg",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es uno de los factores desencadenantes agudos de la insuficiencia cardíaca aguda (ICA)?",
+    "opciones": [
+      {
+        "texto": "Hipertensión arterial crónica bien controlada",
+        "correcta": false
+      },
+      {
+        "texto": "Síndrome coronario agudo",
+        "correcta": true
+      },
+      {
+        "texto": "Ejercicio físico regular",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta hiposódica estricta",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el diagnóstico diferencial de la disnea aguda, ¿qué otras causas no cardiológicas se deben considerar?",
+    "opciones": [
+      {
+        "texto": "Hipervolemia",
+        "correcta": false
+      },
+      {
+        "texto": "Edema periférico",
+        "correcta": false
+      },
+      {
+        "texto": "TEP masivo, neumotórax, crisis asmática",
+        "correcta": true
+      },
+      {
+        "texto": "Crecimiento de cavidades cardíacas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué criterios de ingreso en Cardiología se mencionan para un paciente con insuficiencia cardíaca?",
+    "opciones": [
+      {
+        "texto": "Edema maleolar bilateral",
+        "correcta": false
+      },
+      {
+        "texto": "Disnea de esfuerzo habitual",
+        "correcta": false
+      },
+      {
+        "texto": "Primer episodio de ICC (excepto desencadenante no cardiológico)",
+        "correcta": true
+      },
+      {
+        "texto": "Frecuencia cardíaca entre 60 y 80 lpm",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la evaluación inicial de un paciente con sospecha de ICA, ¿qué prueba analítica es importante para confirmar la ICA?",
+    "opciones": [
+      {
+        "texto": "Hemograma completo",
+        "correcta": false
+      },
+      {
+        "texto": "Electrolitos séricos",
+        "correcta": false
+      },
+      {
+        "texto": "Pro-BNP/BNP",
+        "correcta": true
+      },
+      {
+        "texto": "Función renal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En un paciente con ICA y signos de insuficiencia respiratoria aguda, ¿qué soporte ventilatorio se debe considerar?",
+    "opciones": [
+      {
+        "texto": "Solo oxigenoterapia de bajo flujo",
+        "correcta": false
+      },
+      {
+        "texto": "Oxigenoterapia de alto flujo",
+        "correcta": false
+      },
+      {
+        "texto": "Oxígeno, ventilación mecánica no invasiva (VMNI)",
+        "correcta": true
+      },
+      {
+        "texto": "Intubación orotraqueal inmediata en todos los casos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la fase inicial del tratamiento de la ICA, ¿qué fármacos vasodilatadores se pueden utilizar en pacientes con TAS > 90 mmHg?",
+    "opciones": [
+      {
+        "texto": "Inotrópicos (dobutamina)",
+        "correcta": false
+      },
+      {
+        "texto": "Vasopresores (noradrenalina)",
+        "correcta": false
+      },
+      {
+        "texto": "Nitroglicerina o nitroprusiato",
+        "correcta": true
+      },
+      {
+        "texto": "Diuréticos de asa (furosemida)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármacos inotrópicos se mencionan para el tratamiento de la ICA en casos refractarios?",
+    "opciones": [
+      {
+        "texto": "Nitroglicerina",
+        "correcta": false
+      },
+      {
+        "texto": "Furosemida",
+        "correcta": false
+      },
+      {
+        "texto": "Dobutamina o dopamina",
+        "correcta": true
+      },
+      {
+        "texto": "Labetalol",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En el manejo de la ICA, ¿qué perfil hemodinámico es el más común (95% de los casos)?",
+    "opciones": [
+      {
+        "texto": "Paciente seco y normotenso",
+        "correcta": false
+      },
+      {
+        "texto": "Paciente frío y seco",
+        "correcta": false
+      },
+      {
+        "texto": "Paciente húmedo (congestión)",
+        "correcta": true
+      },
+      {
+        "texto": "Paciente frío y húmedo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tratamiento se prioriza en un paciente con ICA y TAS < 90 mmHg?",
+    "opciones": [
+      {
+        "texto": "Diuréticos",
+        "correcta": false
+      },
+      {
+        "texto": "Vasodilatadores",
+        "correcta": false
+      },
+      {
+        "texto": "Inotrópicos y/o vasopresores (en casos refractarios)",
+        "correcta": true
+      },
+      {
+        "texto": "Ultrafíltración",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer con un paciente con sospecha de ICA tras el contacto médico inicial?",
+    "opciones": [
+      {
+        "texto": "Trasladar directamente a planta de hospitalización",
+        "correcta": false
+      },
+      {
+        "texto": "Realizar una prueba de esfuerzo",
+        "correcta": false
+      },
+      {
+        "texto": "Evaluación clínica urgente para confirmar la ICA",
+        "correcta": true
+      },
+      {
+        "texto": "Dar de alta con seguimiento por médico de cabecera",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el primer paso en la evaluación inicial de un paciente con síncope?",
+    "opciones": [
+      {
+        "texto": "Realización de un Holter ECG",
+        "correcta": false
+      },
+      {
+        "texto": "Realización de un tilt test",
+        "correcta": false
+      },
+      {
+        "texto": "Historia clínica, exploración física y medición de TA en decúbito y ortostatismo",
+        "correcta": true
+      },
+      {
+        "texto": "Realización de un ecocardiograma",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de síncope se relaciona con cambios de postura?",
+    "opciones": [
+      {
+        "texto": "Síncope neuromediado",
+        "correcta": false
+      },
+      {
+        "texto": "Síncope situacional",
+        "correcta": false
+      },
+      {
+        "texto": "Síncope cardíaco",
+        "correcta": false
+      },
+      {
+        "texto": "Hipotensión ortostática",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué factores en la historia clínica sugieren un mayor riesgo en pacientes con síncope?",
+    "opciones": [
+      {
+        "texto": "Síncope precedido de pródromos vegetativos",
+        "correcta": false
+      },
+      {
+        "texto": "Síncope en jóvenes",
+        "correcta": false
+      },
+      {
+        "texto": "Síncope súbito en cualquier posición",
+        "correcta": true
+      },
+      {
+        "texto": "Síncope aislado de bajo riesgo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo en el ECG basal se considera un criterio de alto riesgo en pacientes con síncope?",
+    "opciones": [
+      {
+        "texto": "Ritmo sinusal normal",
+        "correcta": false
+      },
+      {
+        "texto": "Onda T negativa aislada",
+        "correcta": false
+      },
+      {
+        "texto": "Alteraciones electrocardiográficas (ej. bloqueo de rama, QT prolongado)",
+        "correcta": true
+      },
+      {
+        "texto": "Ligera bradicardia sinusal",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué antecedente personal se considera de alto riesgo en pacientes con síncope?",
+    "opciones": [
+      {
+        "texto": "Migraña",
+        "correcta": false
+      },
+      {
+        "texto": "Ansiedad",
+        "correcta": false
+      },
+      {
+        "texto": "Enfermedad coronaria o cardiopatía estructural grave",
+        "correcta": true
+      },
+      {
+        "texto": "Hipertensión arterial bien controlada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma asociado al síncope sugiere un mayor riesgo?",
+    "opciones": [
+      {
+        "texto": "Náuseas",
+        "correcta": false
+      },
+      {
+        "texto": "Sudoración",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor torácico o disnea",
+        "correcta": true
+      },
+      {
+        "texto": "Mareo leve",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación de síncope se debe descartar hipovolemia?",
+    "opciones": [
+      {
+        "texto": "Síncope neuromediado",
+        "correcta": false
+      },
+      {
+        "texto": "Síncope situacional",
+        "correcta": false
+      },
+      {
+        "texto": "Hipotensión ortostática",
+        "correcta": true
+      },
+      {
+        "texto": "Síncope reflejo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármacos pueden contribuir a la hipotensión ortostática y al síncope?",
+    "opciones": [
+      {
+        "texto": "Antidiabéticos orales",
+        "correcta": false
+      },
+      {
+        "texto": "Antipiréticos",
+        "correcta": false
+      },
+      {
+        "texto": "Antihipertensivos",
+        "correcta": true
+      },
+      {
+        "texto": "Analgésicos comunes",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se recomienda para pacientes con síncope de bajo riesgo y episodios recurrentes?",
+    "opciones": [
+      {
+        "texto": "Ingreso hospitalario para monitorización prolongada",
+        "correcta": false
+      },
+      {
+        "texto": "Realización de estudio electrofisiológico invasivo",
+        "correcta": false
+      },
+      {
+        "texto": "Medidas generales y alta",
+        "correcta": true
+      },
+      {
+        "texto": "Implantación de un Holter implantable",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué edad se considera un criterio de alto riesgo en pacientes con síncope?",
+    "opciones": [
+      {
+        "texto": "Menor de 40 años",
+        "correcta": false
+      },
+      {
+        "texto": "Entre 40 y 65 años",
+        "correcta": false
+      },
+      {
+        "texto": "Mayor de 65 años",
+        "correcta": true
+      },
+      {
+        "texto": "Cualquier edad con síncope aislado",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es uno de los criterios diagnósticos mayores de pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Fiebre > 38ºC",
+        "correcta": false
+      },
+      {
+        "texto": "Inicio subagudo",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor torácico agudo, pleurítico que mejora con la sedestación",
+        "correcta": true
+      },
+      {
+        "texto": "Derrame pericárdico leve",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo electrocardiográfico es característico de la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Descenso generalizado del ST",
+        "correcta": false
+      },
+      {
+        "texto": "Ondas T invertidas en todas las derivaciones",
+        "correcta": false
+      },
+      {
+        "texto": "Elevación del ST difusa y cóncava de nueva aparición",
+        "correcta": true
+      },
+      {
+        "texto": "Presencia de onda Q",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué otro hallazgo electrocardiográfico puede observarse en la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Aumento del voltaje del QRS",
+        "correcta": false
+      },
+      {
+        "texto": "Bloqueo AV de tercer grado",
+        "correcta": false
+      },
+      {
+        "texto": "Descenso del segmento PR",
+        "correcta": true
+      },
+      {
+        "texto": "Acortamiento del intervalo QT",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo físico puede ser característico de la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Ingurgitación yugular marcada",
+        "correcta": false
+      },
+      {
+        "texto": "Edema con fóvea en miembros inferiores",
+        "correcta": false
+      },
+      {
+        "texto": "Roce pericárdico",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la presión arterial",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué marcador de daño miocárdico puede elevarse en la miopericarditis?",
+    "opciones": [
+      {
+        "texto": "Péptido natriurético cerebral (BNP)",
+        "correcta": false
+      },
+      {
+        "texto": "Creatinina",
+        "correcta": false
+      },
+      {
+        "texto": "Enzimas cardíacas (troponina, CK)",
+        "correcta": true
+      },
+      {
+        "texto": "Dímero D",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento antiinflamatorio de primera línea para la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Corticoides a altas dosis",
+        "correcta": false
+      },
+      {
+        "texto": "Anticoagulantes orales",
+        "correcta": false
+      },
+      {
+        "texto": "AAS o ibuprofeno en pauta descendente",
+        "correcta": true
+      },
+      {
+        "texto": "Antibióticos de amplio espectro",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco se recomienda asociar al tratamiento antiinflamatorio en la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Betabloqueantes",
+        "correcta": false
+      },
+      {
+        "texto": "Inhibidores de la ECA",
+        "correcta": false
+      },
+      {
+        "texto": "Colchicina",
+        "correcta": true
+      },
+      {
+        "texto": "Diuréticos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución se debe tener durante el tratamiento de la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Aumento de la actividad física para mejorar la inflamación",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta rica en sal para evitar la hipotensión",
+        "correcta": false
+      },
+      {
+        "texto": "Restricción de la actividad física",
+        "correcta": true
+      },
+      {
+        "texto": "Suspender la medicación gastroprotectora",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué factor se considera predictor de mal pronóstico mayor en la pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Edad menor de 65 años",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor torácico de leve intensidad",
+        "correcta": false
+      },
+      {
+        "texto": "Fiebre > 38ºC",
+        "correcta": true
+      },
+      {
+        "texto": "Respuesta rápida al tratamiento antiinflamatorio",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación se recomienda considerar el ingreso hospitalario en un paciente con pericarditis aguda?",
+    "opciones": [
+      {
+        "texto": "Dolor torácico leve que cede con analgésicos",
+        "correcta": false
+      },
+      {
+        "texto": "ECG con elevación del ST localizada en una sola derivación",
+        "correcta": false
+      },
+      {
+        "texto": "Presencia de algún predictor de mal pronóstico mayor o menor",
+        "correcta": true
+      },
+      {
+        "texto": "Derrame pericárdico mínimo sin compromiso hemodinámico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma es altamente sugestivo de un síndrome aórtico agudo (SAA)?",
+    "opciones": [
+      {
+        "texto": "Dolor torácico opresivo irradiado al brazo izquierdo",
+        "correcta": false
+      },
+      {
+        "texto": "Disnea de inicio súbito",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor localizado en tórax, espalda y/o abdomen, muy intenso, agudo, desgarrante, migratorio",
+        "correcta": true
+      },
+      {
+        "texto": "Palpitaciones irregulares",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué antecedente personal aumenta la probabilidad de un SAA?",
+    "opciones": [
+      {
+        "texto": "Diabetes mellitus tipo 2",
+        "correcta": false
+      },
+      {
+        "texto": "Hipercolesterolemia",
+        "correcta": false
+      },
+      {
+        "texto": "Aneurisma de aorta conocido",
+        "correcta": true
+      },
+      {
+        "texto": "Tabaquismo leve",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo en la exploración física puede sugerir un SAA?",
+    "opciones": [
+      {
+        "texto": "Edema maleolar bilateral",
+        "correcta": false
+      },
+      {
+        "texto": "Soplo sistólico eyectivo",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia o asimetría de pulsos",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la presión arterial en ambos brazos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo en el ECG ayuda a diferenciar un SAA de un síndrome coronario agudo?",
+    "opciones": [
+      {
+        "texto": "Elevación del segmento ST",
+        "correcta": false
+      },
+      {
+        "texto": "Inversión de la onda T",
+        "correcta": false
+      },
+      {
+        "texto": "Ausencia de cambios isquémicos",
+        "correcta": true
+      },
+      {
+        "texto": "Presencia de onda Q",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué prueba de imagen se utiliza para confirmar el diagnóstico de un SAA?",
+    "opciones": [
+      {
+        "texto": "Radiografía de tórax",
+        "correcta": false
+      },
+      {
+        "texto": "ECG de 12 derivaciones",
+        "correcta": false
+      },
+      {
+        "texto": "TC, ETE o RM",
+        "correcta": true
+      },
+      {
+        "texto": "Ecocardiograma transtorácico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de tensión arterial sistólica (TAS) en el manejo inicial de un SAA?",
+    "opciones": [
+      {
+        "texto": "< 140 mmHg",
+        "correcta": false
+      },
+      {
+        "texto": "< 120 mmHg",
+        "correcta": true
+      },
+      {
+        "texto": "< 160 mmHg",
+        "correcta": false
+      },
+      {
+        "texto": "< 100 mmHg",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el fármaco betabloqueante de elección para el control de la tensión arterial y la frecuencia cardíaca en un SAA?",
+    "opciones": [
+      {
+        "texto": "Atenolol",
+        "correcta": false
+      },
+      {
+        "texto": "Metoprolol",
+        "correcta": false
+      },
+      {
+        "texto": "Labetalol",
+        "correcta": true
+      },
+      {
+        "texto": "Propranolol",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué otro fármaco se puede utilizar para el control de la tensión arterial en un SAA si está contraindicado el betabloqueante?",
+    "opciones": [
+      {
+        "texto": "Nitroprusiato sódico (sin control de FC)",
+        "correcta": false
+      },
+      {
+        "texto": "Diltiazem (asociado a control de FC)",
+        "correcta": true
+      },
+      {
+        "texto": "Enalapril (sin control de FC)",
+        "correcta": false
+      },
+      {
+        "texto": "Urapidilo (sin control de FC)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué tipo de disección aórtica está indicada la cirugía de forma general?",
+    "opciones": [
+      {
+        "texto": "Disección tipo B no complicada",
+        "correcta": false
+      },
+      {
+        "texto": "Hematoma intramural sin complicaciones",
+        "correcta": false
+      },
+      {
+        "texto": "Úlcera aterosclerótica penetrante estable",
+        "correcta": false
+      },
+      {
+        "texto": "Disección aórtica tipo A y tipo B complicada",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué medida general es fundamental en el tratamiento inicial de un SAA?",
+    "opciones": [
+      {
+        "texto": "Movilización precoz",
+        "correcta": false
+      },
+      {
+        "texto": "Dieta rica en sodio",
+        "correcta": false
+      },
+      {
+        "texto": "Reposo absoluto en cama y dieta absoluta",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de anticoagulación plena",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué síntoma es común en pacientes con derrame pericárdico y taponamiento cardíaco?",
+    "opciones": [
+      {
+        "texto": "Poliuria",
+        "correcta": false
+      },
+      {
+        "texto": "Disnea",
+        "correcta": true
+      },
+      {
+        "texto": "Hipertensión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "Bradicardia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo físico sugiere taponamiento cardíaco?",
+    "opciones": [
+      {
+        "texto": "Crepitantes pulmonares bilaterales",
+        "correcta": false
+      },
+      {
+        "texto": "Ingurgitación venosa yugular",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la presión arterial",
+        "correcta": false
+      },
+      {
+        "texto": "Pulso amplio y saltón",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué triada de signos físicos clásicos se asocia al taponamiento cardíaco?",
+    "opciones": [
+      {
+        "texto": "Hipotensión, bradicardia, tonos cardíacos aumentados",
+        "correcta": false
+      },
+      {
+        "texto": "Hipertensión, taquicardia, ingurgitación yugular",
+        "correcta": false
+      },
+      {
+        "texto": "Hipotensión, tonos cardíacos débiles, ingurgitación venosa yugular (Tríada de Beck)",
+        "correcta": true
+      },
+      {
+        "texto": "Bradicardia, disnea, edema periférico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo electrocardiográfico puede observarse en el derrame pericárdico importante?",
+    "opciones": [
+      {
+        "texto": "Ondas T acuminadas",
+        "correcta": false
+      },
+      {
+        "texto": "Acortamiento del intervalo PR",
+        "correcta": false
+      },
+      {
+        "texto": "Bajos voltajes",
+        "correcta": true
+      },
+      {
+        "texto": "Ondas Q profundas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo electrocardiográfico es más específico de taponamiento cardíaco?",
+    "opciones": [
+      {
+        "texto": "Bajos voltajes",
+        "correcta": false
+      },
+      {
+        "texto": "Prolongación del intervalo QT",
+        "correcta": false
+      },
+      {
+        "texto": "Alternancia eléctrica",
+        "correcta": true
+      },
+      {
+        "texto": "Elevación del segmento ST",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué prueba diagnóstica confirma la presencia de derrame pericárdico y evalúa el compromiso hemodinámico?",
+    "opciones": [
+      {
+        "texto": "Radiografía de tórax",
+        "correcta": false
+      },
+      {
+        "texto": "ECG",
+        "correcta": false
+      },
+      {
+        "texto": "Ecocardiograma transtorácico",
+        "correcta": true
+      },
+      {
+        "texto": "TAC de tórax",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tamaño de derrame pericárdico se considera severo en el ecocardiograma?",
+    "opciones": [
+      {
+        "texto": "< 10 mm",
+        "correcta": false
+      },
+      {
+        "texto": "10-20 mm",
+        "correcta": false
+      },
+      {
+        "texto": "> 20 mm",
+        "correcta": true
+      },
+      {
+        "texto": "Depende de la clínica del paciente",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué dato ecocardiográfico sugiere compromiso hemodinámico en el taponamiento cardíaco?",
+    "opciones": [
+      {
+        "texto": "Derrame pericárdico > 15 mm",
+        "correcta": false
+      },
+      {
+        "texto": "Colapso de cavidades derechas",
+        "correcta": true
+      },
+      {
+        "texto": "Dilatación de la arteria pulmonar",
+        "correcta": false
+      },
+      {
+        "texto": "Aumento del tamaño del ventrículo izquierdo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el tratamiento de elección en el taponamiento cardíaco con compromiso hemodinámico?",
+    "opciones": [
+      {
+        "texto": "Administración de diuréticos intravenosos",
+        "correcta": false
+      },
+      {
+        "texto": "Administración de inotrópicos",
+        "correcta": false
+      },
+      {
+        "texto": "Pericardiocentesis",
+        "correcta": true
+      },
+      {
+        "texto": "Administración de antiinflamatorios no esteroideos (AINEs)",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué antecedente personal puede aumentar la sospecha de derrame pericárdico o taponamiento cardíaco?",
+    "opciones": [
+      {
+        "texto": "Hipertensión arterial de larga evolución",
+        "correcta": false
+      },
+      {
+        "texto": "Diabetes mellitus mal controlada",
+        "correcta": false
+      },
+      {
+        "texto": "IAM reciente o cáncer previo",
+        "correcta": true
+      },
+      {
+        "texto": "Hipercolesterolemia",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de síntoma puede indicar un problema relacionado con un dispositivo cardíaco implantable?",
+    "opciones": [
+      {
+        "texto": "Tos seca persistente",
+        "correcta": false
+      },
+      {
+        "texto": "Dolor abdominal crónico",
+        "correcta": false
+      },
+      {
+        "texto": "Síncope o descargas (en DAI)",
+        "correcta": true
+      },
+      {
+        "texto": "Cefalea tensional ocasional",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En la evaluación inicial de un paciente con sospecha de problema con un dispositivo cardíaco, ¿qué prueba de imagen es esencial?",
+    "opciones": [
+      {
+        "texto": "Ecocardiograma",
+        "correcta": false
+      },
+      {
+        "texto": "TAC de tórax",
+        "correcta": false
+      },
+      {
+        "texto": "Radiografía de tórax",
+        "correcta": true
+      },
+      {
+        "texto": "Resonancia magnética cardíaca",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué alteración iónica se debe descartar en la analítica inicial ante un posible problema con un dispositivo cardíaco?",
+    "opciones": [
+      {
+        "texto": "Hiperglucemia",
+        "correcta": false
+      },
+      {
+        "texto": "Hiperuricemia",
+        "correcta": false
+      },
+      {
+        "texto": "Alteraciones iónicas (ej. potasio, magnesio)",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento de la bilirrubina",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué hallazgo en el ECG puede sugerir un mal funcionamiento de un marcapasos?",
+    "opciones": [
+      {
+        "texto": "QRS estrecho con onda P sinusal",
+        "correcta": false
+      },
+      {
+        "texto": "Espículas de marcapasos no seguidas de conducción (no capturadas)",
+        "correcta": true
+      },
+      {
+        "texto": "Intervalo PR normal",
+        "correcta": false
+      },
+      {
+        "texto": "Ritmo sinusal a 70 lpm",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué ritmo ventricular se esperaría ver en un paciente con marcapasos programado en modo ventricular único (VVI)?",
+    "opciones": [
+      {
+        "texto": "Ritmo sinusal con QRS estrecho",
+        "correcta": false
+      },
+      {
+        "texto": "Ritmo ventricular con espículas de marcapasos previas al QRS",
+        "correcta": true
+      },
+      {
+        "texto": "Ritmo auricular con conducción AV normal",
+        "correcta": false
+      },
+      {
+        "texto": "Fibrilación auricular con respuesta ventricular irregular",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué puede indicar la presencia de taquiarritmias en un paciente con un desfibrilador automático implantable (DAI)?",
+    "opciones": [
+      {
+        "texto": "Función normal del dispositivo",
+        "correcta": false
+      },
+      {
+        "texto": "Sobredetección por el dispositivo",
+        "correcta": false
+      },
+      {
+        "texto": "Arritmia ventricular verdadera o supraventricular rápida",
+        "correcta": true
+      },
+      {
+        "texto": "Batería del dispositivo agotada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe valorar en un paciente con un DAI que ha presentado descargas?",
+    "opciones": [
+      {
+        "texto": "Únicamente el estado de la batería del dispositivo",
+        "correcta": false
+      },
+      {
+        "texto": "Solo la presencia de dolor torácico",
+        "correcta": false
+      },
+      {
+        "texto": "Causas de arritmias (isquemia, alteraciones electrolíticas) y función del dispositivo",
+        "correcta": true
+      },
+      {
+        "texto": "Únicamente la presión arterial",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué se considera una frecuencia cardíaca baja que podría indicar disfunción de un marcapasos?",
+    "opciones": [
+      {
+        "texto": "60 lpm",
+        "correcta": false
+      },
+      {
+        "texto": "50 lpm",
+        "correcta": false
+      },
+      {
+        "texto": "< 40 lpm o pausas > 2.5 segundos",
+        "correcta": true
+      },
+      {
+        "texto": "< 55 lpm sin síntomas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué puede sugerir la presencia de ritmo ventricular propio en un paciente con marcapasos?",
+    "opciones": [
+      {
+        "texto": "Programación en modo de demanda",
+        "correcta": false
+      },
+      {
+        "texto": "Función normal del dispositivo",
+        "correcta": false
+      },
+      {
+        "texto": "Fallo en la estimulación o en la detección del dispositivo",
+        "correcta": true
+      },
+      {
+        "texto": "Ritmo sinusal subyacente rápido",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿A quién se debe solicitar valoración en caso de sospecha de problemas con dispositivos cardíacos implantables?",
+    "opciones": [
+      {
+        "texto": "Médico de atención primaria",
+        "correcta": false
+      },
+      {
+        "texto": "Urgenciólogo general",
+        "correcta": false
+      },
+      {
+        "texto": "Cardiología",
+        "correcta": true
+      },
+      {
+        "texto": "Cirujano general",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué situación está indicada la terapia antiplaquetaria dual (DAPT)?",
+    "opciones": [
+      {
+        "texto": "En pacientes con bajo riesgo cardiovascular sin eventos previos",
+        "correcta": false
+      },
+      {
+        "texto": "En pacientes con hipertensión arterial aislada",
+        "correcta": false
+      },
+      {
+        "texto": "Después de un síndrome coronario agudo (SCA) o un implante de stent",
+        "correcta": true
+      },
+      {
+        "texto": "En pacientes con fibrilación auricular y bajo riesgo embólico",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la duración habitual recomendada de la DAPT después de un SCA, se implante o no un stent?",
+    "opciones": [
+      {
+        "texto": "3 meses",
+        "correcta": false
+      },
+      {
+        "texto": "6 meses",
+        "correcta": false
+      },
+      {
+        "texto": "1 año",
+        "correcta": true
+      },
+      {
+        "texto": "Indefinida",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la duración recomendada de la DAPT en un paciente de bajo riesgo de sangrado tras un implante de stent farmacológico programado?",
+    "opciones": [
+      {
+        "texto": "3 meses",
+        "correcta": false
+      },
+      {
+        "texto": "6 meses",
+        "correcta": true
+      },
+      {
+        "texto": "12 meses",
+        "correcta": false
+      },
+      {
+        "texto": "Indefinida",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué consideración general se debe tener al interrumpir la DAPT?",
+    "opciones": [
+      {
+        "texto": "La interrupción no aumenta el riesgo de eventos trombóticos",
+        "correcta": false
+      },
+      {
+        "texto": "La AAS se puede suspender sin riesgo",
+        "correcta": false
+      },
+      {
+        "texto": "La interrupción conlleva un incremento del riesgo de infarto y trombosis de stent",
+        "correcta": true
+      },
+      {
+        "texto": "Los inhibidores P2Y12 se pueden suspender abruptamente sin riesgo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuándo se debe interrumpir la DAPT para una cirugía programada?",
+    "opciones": [
+      {
+        "texto": "Siempre 24 horas antes",
+        "correcta": false
+      },
+      {
+        "texto": "Solo si el riesgo de sangrado es muy alto",
+        "correcta": false
+      },
+      {
+        "texto": "Cuando el riesgo de sangrado supera al de trombosis",
+        "correcta": true
+      },
+      {
+        "texto": "Siempre 7 días antes",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuántos días se recomienda suspender el Ticagrelor antes de una cirugía con riesgo de sangrado?",
+    "opciones": [
+      {
+        "texto": "1 día",
+        "correcta": false
+      },
+      {
+        "texto": "2 días",
+        "correcta": false
+      },
+      {
+        "texto": "3-5 días",
+        "correcta": true
+      },
+      {
+        "texto": "7 días",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué fármaco antiagregante se recomienda mantener en la mayoría de los casos durante una intervención quirúrgica con DAPT?",
+    "opciones": [
+      {
+        "texto": "El inhibidor P2Y12",
+        "correcta": false
+      },
+      {
+        "texto": "AAS (salvo contraindicación)",
+        "correcta": true
+      },
+      {
+        "texto": "Ambos fármacos",
+        "correcta": false
+      },
+      {
+        "texto": "Ninguno de los dos",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué pacientes con alto riesgo trombótico y sin sangrado se podría considerar prolongar la DAPT más de un año tras un SCA?",
+    "opciones": [
+      {
+        "texto": "Pacientes jóvenes sin factores de riesgo adicionales",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes con bajo riesgo de trombosis",
+        "correcta": false
+      },
+      {
+        "texto": "Pacientes con lesión multivaso, eventos repetidos o diabetes",
+        "correcta": true
+      },
+      {
+        "texto": "Pacientes con función ventricular izquierda preservada",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "En caso de urgencia quirúrgica en un paciente con DAPT, ¿qué se debe hacer con la antiagregación?",
+    "opciones": [
+      {
+        "texto": "Mantener la DAPT sin modificaciones",
+        "correcta": false
+      },
+      {
+        "texto": "Suspender solo el AAS",
+        "correcta": false
+      },
+      {
+        "texto": "Suspender la antiagregación no indicada",
+        "correcta": true
+      },
+      {
+        "texto": "Administrar un bolo de antiagregante intravenoso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué factor reduce el riesgo trombótico tras un implante de stent?",
+    "opciones": [
+      {
+        "texto": "Implante en un vaso pequeño",
+        "correcta": false
+      },
+      {
+        "texto": "Lesión compleja con múltiples stents solapados",
+        "correcta": false
+      },
+      {
+        "texto": "Uso de stents recubiertos de segunda generación (habituales en el HUPA)",
+        "correcta": true
+      },
+      {
+        "texto": "Diabetes mellitus",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de valoración principal permite obtener la ecocardioscopia?",
+    "opciones": [
+      {
+        "texto": "Valoración hemodinámica detallada con cálculos de gasto cardíaco",
+        "correcta": false
+      },
+      {
+        "texto": "Valoración exhaustiva de todas las válvulas cardíacas con Doppler continuo",
+        "correcta": false
+      },
+      {
+        "texto": "Valoración cualitativa rápida de la función ventricular izquierda (FEVI global y segmentaria)",
+        "correcta": true
+      },
+      {
+        "texto": "Medición precisa de los volúmenes de las cavidades cardíacas",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué plano ecocardiográfico es útil para evaluar el desplazamiento del septo interventricular (SIV) hacia el VI en casos de TEP?",
+    "opciones": [
+      {
+        "texto": "Plano subcostal",
+        "correcta": false
+      },
+      {
+        "texto": "Plano paraesternal eje largo",
+        "correcta": false
+      },
+      {
+        "texto": "Plano apical 4 cámaras (A4C)",
+        "correcta": true
+      },
+      {
+        "texto": "Plano paraesternal eje corto",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué patología urgente se puede sospechar al visualizar colapso de cavidades derechas en la ecocardioscopia?",
+    "opciones": [
+      {
+        "texto": "Infarto agudo de miocardio",
+        "correcta": false
+      },
+      {
+        "texto": "Embolia pulmonar masiva",
+        "correcta": false
+      },
+      {
+        "texto": "Taponamiento cardíaco",
+        "correcta": true
+      },
+      {
+        "texto": "Disección aórtica",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué valoración Doppler color se realiza durante la ecocardioscopia?",
+    "opciones": [
+      {
+        "texto": "Medición de gradientes valvulares",
+        "correcta": false
+      },
+      {
+        "texto": "Cálculo del área valvular",
+        "correcta": false
+      },
+      {
+        "texto": "Evaluación de la presencia de insuficiencias valvulares significativas",
+        "correcta": true
+      },
+      {
+        "texto": "Análisis de los flujos intracardíacos para detectar shunts",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué plano ecocardiográfico es útil para evaluar la vena cava inferior (VCI) en sospecha de taponamiento?",
+    "opciones": [
+      {
+        "texto": "Plano apical 2 cámaras",
+        "correcta": false
+      },
+      {
+        "texto": "Plano paraesternal eje largo",
+        "correcta": false
+      },
+      {
+        "texto": "Plano subcostal",
+        "correcta": true
+      },
+      {
+        "texto": "Plano apical 5 cámaras",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué patología urgente puede sospecharse ante una dilatación severa del ventrículo derecho (VD) en el plano apical 4 cámaras?",
+    "opciones": [
+      {
+        "texto": "Miocardiopatía dilatada",
+        "correcta": false
+      },
+      {
+        "texto": "Estenosis aórtica severa",
+        "correcta": false
+      },
+      {
+        "texto": "Embolia pulmonar masiva (TEP)",
+        "correcta": true
+      },
+      {
+        "texto": "Pericarditis constrictiva",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite obtener la ecocardioscopia además de imágenes en 2 dimensiones?",
+    "opciones": [
+      {
+        "texto": "Mediciones de strain miocárdico",
+        "correcta": false
+      },
+      {
+        "texto": "Imágenes en 3 dimensiones en tiempo real",
+        "correcta": false
+      },
+      {
+        "texto": "Imágenes con Doppler color",
+        "correcta": true
+      },
+      {
+        "texto": "Evaluación del flujo coronario",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿En qué contexto clínico de urgencia está especialmente indicada la ecocardioscopia?",
+    "opciones": [
+      {
+        "texto": "Paciente con dolor abdominal agudo",
+        "correcta": false
+      },
+      {
+        "texto": "Paciente con cefalea intensa de inicio súbito",
+        "correcta": false
+      },
+      {
+        "texto": "Paciente con disnea y/o dolor torácico +/- hipotensión",
+        "correcta": true
+      },
+      {
+        "texto": "Paciente con fiebre de origen desconocido",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué signo ecocardiográfico sugiere hipertensión pulmonar significativa en la ecocardioscopia?",
+    "opciones": [
+      {
+        "texto": "Fracción de eyección del ventrículo izquierdo conservada",
+        "correcta": false
+      },
+      {
+        "texto": "Válvula mitral con prolapso",
+        "correcta": false
+      },
+      {
+        "texto": "Desplazamiento del SIV hacia el VI",
+        "correcta": true
+      },
+      {
+        "texto": "Aumento del tamaño de la aurícula izquierda",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal de la ecocardioscopia en el ámbito de urgencias?",
+    "opciones": [
+      {
+        "texto": "Realizar un diagnóstico etiológico completo de la patología cardíaca",
+        "correcta": false
+      },
+      {
+        "texto": "Sustituir al ecocardiograma formal realizado por un cardiólogo",
+        "correcta": false
+      },
+      {
+        "texto": "Obtener información rápida y dirigida para la toma de decisiones clínicas inmediatas",
+        "correcta": true
+      },
+      {
+        "texto": "Evaluar la función valvular de forma exhaustiva en todos los pacientes",
+        "correcta": false
+      }
+    ]
+  }
+]
