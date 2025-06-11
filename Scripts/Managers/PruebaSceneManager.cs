@@ -2,19 +2,27 @@ using UnityEngine;
 
 public class PruebaSceneManager : MonoBehaviour 
 {
+    // Prefabs de personajes disponibles
     public GameObject[] characterPrefabs;
+
+    // Posición inicial donde se va a instanciar el personaje
     public Vector3 spawnPosition = new Vector3(31.24976f, 1.268694f, 6.08461f);
+
+    // Offset para la cámara (opcional, no usado directamente en este script)
     public Vector3 cameraOffset = new Vector3(0, 5, -10);
 
     void Start()
     {
+        // Instancia al personaje seleccionado al comenzar la escena
         SpawnCharacterWithPreciseGroundPlacement();
     }
 
     void SpawnCharacterWithPreciseGroundPlacement()
     {
+        // Se obtiene el índice del personaje guardado con PlayerPrefs
         int selectedIndex = PlayerPrefs.GetInt("SelectedCharacterIndex", 0);
 
+        // Se valida que el índice esté dentro del rango
         if (selectedIndex >= 0 && selectedIndex < characterPrefabs.Length)
         {
             // Instancia el personaje en la posición exacta deseada

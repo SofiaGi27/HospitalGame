@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 using MySqlConnector;
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEditor.Search;
 using UnityEngine;
+using static Unity.Burst.Intrinsics.X86.Avx;
 using static UsuarioService;
 
 public class PuntajeService
@@ -24,6 +26,7 @@ public class PuntajeService
         public int id_especialidad { get; set; }
         public int id_usuario { get; set; }
         public DateTime fecha { get; set; }
+        public string NombreUsuario { get; set; }// Obtenido a traves del JOIN
     }
 
     public Puntaje Seleccionar(int id)
@@ -100,7 +103,7 @@ public class PuntajeService
                 _conn.Open();
 
             // Query que obtiene el puntaje máximo por cada especialidad para el usuario
-            string query = @"SELECT MAX(scorexEspecialidad) as MaxScore 
+            string query = @"SELECT scorexEspecialidad 
                         FROM puntaje 
                         WHERE id_usuario = @id_usuario 
                         GROUP BY id_especialidad";
@@ -113,10 +116,11 @@ public class PuntajeService
                 // Sumar todos los puntajes máximos de cada especialidad
                 while (reader.Read())
                 {
-                    int maxScorexEspecialidad = Convert.ToInt32(reader["MaxScore"]);
-                    scoreTotal += maxScorexEspecialidad;
+                    int scorexEspecialidad = Convert.ToInt32(reader["scorexEspecialidad"]);
+                    scoreTotal += scorexEspecialidad;
                 }
             }
+            UpdateGlobalScoreAsync(id,scoreTotal);
         }
         catch (MySqlException e)
         {
@@ -263,5 +267,33 @@ public class PuntajeService
             await Task.Delay(100);
             return false;
         }
+    }
+    public List<Puntaje> ObtenerTop5Puntajes()
+    {
+        List<Puntaje> topPuntajes = new List<Puntaje>();
+
+        string query = @"
+        SELECT u.user, p.scoreTotal
+        FROM puntaje p
+        JOIN usuario u ON p.id_usuario = u.id_usuario
+        ORDER BY p.scoreTotal DESC
+        LIMIT 5";
+
+        using (var cmd = new MySqlCommand(query, _conn))
+        {
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read()) // Cambié de 'if' a 'while' para leer todos los registros
+            {
+                Puntaje puntaje = new Puntaje()
+                {
+                    scoreTotal = Convert.ToInt32(reader["scoreTotal"]),
+                    // Agregar el nombre del usuario como propiedad adicional
+                    NombreUsuario = reader["user"].ToString() 
+                };
+                topPuntajes.Add(puntaje);
+            }
+        }
+
+        return topPuntajes;
     }
 }

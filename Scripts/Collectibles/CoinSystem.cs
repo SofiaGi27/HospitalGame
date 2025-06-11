@@ -1,13 +1,18 @@
+using Autodesk.Fbx;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UsuarioService;
 
 public class CoinSystem : MonoBehaviour
 {
     [Header("Configuración de Monedas")]
-    public int coinsCollected = 0; // Inicia en 0
+    public int coinsCollected;
     public int pointsPerCoin = 100;
     public int totalScore = 0;
-    
+
+    private int id = UserSession.Instance.IdUsuario;
+    UsuarioService servicio ;
+
     [Header("UI Document")]
     public UIDocument uiDocument;
     
@@ -17,6 +22,9 @@ public class CoinSystem : MonoBehaviour
     
     void Start()
     {
+        MySQLManager dbManager = FindAnyObjectByType<MySQLManager>();
+        servicio = dbManager.usuarioService;
+        totalScore = MonedasActuales(id);
         SetupUI();
     }
     
@@ -53,6 +61,8 @@ public class CoinSystem : MonoBehaviour
     {
         coinsCollected++;
         totalScore += pointsPerCoin;
+        //Agregar monedas a bbdd
+        servicio.AddCoins(id,pointsPerCoin);
         UpdateUI();
         
         // Efecto visual al recolectar
@@ -69,7 +79,12 @@ public class CoinSystem : MonoBehaviour
 
         }
     }
-    
+    int MonedasActuales(int id)
+    {
+        Usuario usuario = servicio.Seleccionar(id);
+        coinsCollected = usuario.Monedas;
+        return coinsCollected;
+    }
     void AnimateCoinCollection()
     {
         if (coinIcon != null)

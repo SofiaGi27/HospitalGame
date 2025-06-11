@@ -1,13 +1,15 @@
-using UnityEngine;
-using UnityEngine.UIElements;
-using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+using static UsuarioService;
 
 public class CharacterSelectionUI : MonoBehaviour
 {
+    // Referencia al documento de UI Toolkit
     private UIDocument uiDocument;
 
-    // Mapeamos los nombres de tarjetas a índices de personajes
+    // Mapeo entre el nombre del elemento visual (tarjeta) y el índice del personaje
     private Dictionary<string, int> characterMap = new Dictionary<string, int>
     {
         { "character-card-5", 0 },
@@ -18,7 +20,7 @@ public class CharacterSelectionUI : MonoBehaviour
         { "character-card-19", 5 },
     };
 
-    // Sonido
+     // Clips de sonido para ambientación y efectos
     [Header("Audio Clips")]
     [SerializeField] private AudioClip ambientClip;
     [SerializeField] private AudioClip hoverClip;
@@ -26,11 +28,14 @@ public class CharacterSelectionUI : MonoBehaviour
 
     private AudioSource audioSource;
 
+    // Comentario nuevo para forzar commit
     void OnEnable()
     {
+        // Se obtiene el root del documento UI
         uiDocument = GetComponent<UIDocument>();
         var root = uiDocument.rootVisualElement;
 
+        // Se accede al contenedor de tarjetas
         var cardsContainer = root.Q<VisualElement>("cards-container");
 
         if (cardsContainer == null)
@@ -39,11 +44,14 @@ public class CharacterSelectionUI : MonoBehaviour
             return;
         }
 
+        // Se ajustan estilos visuales
         cardsContainer.style.flexWrap = Wrap.NoWrap;
         cardsContainer.style.overflow = Overflow.Hidden;
         cardsContainer.style.marginBottom = 0;
         cardsContainer.style.paddingBottom = 0;
 
+
+        // Para cada tarjeta, se añaden eventos
         foreach (var pair in characterMap)
         {
             var card = cardsContainer.Q<VisualElement>(pair.Key);
@@ -54,14 +62,39 @@ public class CharacterSelectionUI : MonoBehaviour
             }
 
             int characterIndex = pair.Value;
+
+            // Eventos de hover
+            card.RegisterCallback<MouseEnterEvent>(evt =>
+            {
+                PlayHover();
+                card.AddToClassList("hovered-card");
+            });
+
+            card.RegisterCallback<MouseLeaveEvent>(evt =>
+            {
+                card.RemoveFromClassList("hovered-card");
+            });
+
+            // Evento de click
             card.RegisterCallback<ClickEvent>(evt =>
             {
                 PlayClick();
+
+                // Quitar selección anterior
+                foreach (var otherPair in characterMap)
+                {
+                    var otherCard = cardsContainer.Q<VisualElement>(otherPair.Key);
+                    otherCard?.RemoveFromClassList("selected-card");
+                }
+
+                // Marcar esta como seleccionada
+                card.AddToClassList("selected-card");
+
+                // Se guarda el índice del personaje usando PlayerPrefs
                 PlayerPrefs.SetInt("SelectedCharacterIndex", characterIndex);
+                UserSession.Instance.SetCharacterSelected(characterIndex); // Guarda en el singleton
                 SceneManager.LoadScene("Game");
             });
-
-            card.RegisterCallback<MouseEnterEvent>(_ => PlayHover());
         }
 
         var prevButton = root.Q<Button>("prev-button");
@@ -97,7 +130,6 @@ public class CharacterSelectionUI : MonoBehaviour
         Debug.Log("Botón siguiente presionado");
     }
 
-    // Métodos de sonido
     void PlayClick()
     {
         if (clickClip != null) audioSource.PlayOneShot(clickClip);

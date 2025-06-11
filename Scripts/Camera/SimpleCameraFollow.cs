@@ -3,10 +3,11 @@ using UnityEngine;
 public class SimpleCameraFollow : MonoBehaviour
 {
     public Transform target;
-    public float distancia = 1f;               // Cerca del personaje
-    public float altura = 1.7f;                // Altura tipo cabeza
-    public float desplazamientoLateral = 0f;   // Centrada detrás
-    public float suavizado = 0.05f;
+
+    public float distancia = 3.0f;
+    public float altura = 2.0f;
+    public float desplazamientoLateral = 0f;
+    public float suavizado = 0.2f;
 
     private Vector3 velocidadSuavizado = Vector3.zero;
 
@@ -14,17 +15,17 @@ public class SimpleCameraFollow : MonoBehaviour
     {
         if (target == null) return;
 
-        // Posición deseada muy cerca y centrada detrás de la cabeza
+        // Posición deseada de la cámara en base a la posición del personaje
         Vector3 posicionDeseada = target.position
                                   - target.forward * distancia
                                   + target.right * desplazamientoLateral
                                   + Vector3.up * altura;
 
-        // Movimiento suavizado
+        // Suaviza la transición hacia la posición deseada
         transform.position = Vector3.SmoothDamp(transform.position, posicionDeseada, ref velocidadSuavizado, suavizado);
 
-        // Enfoca justo al frente de la cabeza del personaje
-        Vector3 puntoDeMira = target.position + Vector3.up * 1.6f + target.forward * 1f;
+        // Hacer que la cámara mire al personaje (ajustado al torso)
+        Vector3 puntoDeMira = target.position + Vector3.up * 1.5f;
         transform.LookAt(puntoDeMira);
     }
 }

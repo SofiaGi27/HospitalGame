@@ -1,6 +1,8 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using static UsuarioService;
 
 public class CongratulationsScreenController : MonoBehaviour
 {
@@ -8,20 +10,54 @@ public class CongratulationsScreenController : MonoBehaviour
     public UIDocument uiDocument;
 
     [Header("Rewards")]
-    private int coinsReward = 0;
+    private int coinsReward ;
     private int targetReward;
+
+    private int id = UserSession.Instance.IdUsuario;
 
     private VisualElement root;
     private Label titleText;
     private Label coinRewardText;
     private Label targetRewardText;
     private Button continueButton;
+   
+    // Sonido
+    public AudioClip ambientMusicClip;
+    public AudioClip buttonClickClip;
+
+    private AudioSource ambientAudioSource;
+    private AudioSource sfxAudioSource;
+
+    private Dictionary<string, string> especialidadImagenes = new Dictionary<string, string>()
+{
+    { "Cardiolog√≠a", "heart-happy" },
+    { "Nefrolog√≠a", "kidney-happy" },
+    { "Digestivo", "stomach-happy" },
+};
 
     private void Awake()
     {
-        // Si no se asignÛ el UIDocument en el inspector, intentar obtenerlo del GameObject
         if (uiDocument == null)
-            uiDocument = GetComponent<UIDocument>();
+        uiDocument = GetComponent<UIDocument>();
+
+    // Obtener los dos AudioSource del GameObject
+    AudioSource[] sources = GetComponents<AudioSource>();
+    if (sources.Length >= 2)
+    {
+        ambientAudioSource = sources[0]; // El primero es para m√∫sica ambiental
+        sfxAudioSource = sources[1];     // El segundo es para efectos (clic bot√≥n)
+    }
+
+    // Configurar m√∫sica ambiental
+    if (ambientAudioSource != null && ambientMusicClip != null)
+    {
+        ambientAudioSource.clip = ambientMusicClip;
+        ambientAudioSource.loop = true;
+        ambientAudioSource.playOnAwake = false;
+        ambientAudioSource.volume = 0.5f; 
+        ambientAudioSource.Play();
+    }
+       
     }
     private void Start()
     {
@@ -34,10 +70,12 @@ public class CongratulationsScreenController : MonoBehaviour
         // Usar la especialidad para mostrar el texto correcto
         SetupCongratulations(especialidadId); 
 
-        // Limpiar los PlayerPrefs despuÈs de usarlos
+        // Limpiar los PlayerPrefs despuÔøΩs de usarlos
         PlayerPrefs.DeleteKey("EspecialidadCompletada");
         PlayerPrefs.DeleteKey("PuntajeFinal");
         PlayerPrefs.DeleteKey("EsVictoria");
+
+
     }
     private void OnEnable()
     {
@@ -48,7 +86,7 @@ public class CongratulationsScreenController : MonoBehaviour
     {
         if (uiDocument == null)
         {
-            Debug.LogError("UIDocument no est· asignado en CongratulationsScreenController");
+            Debug.LogError("UIDocument no estÔøΩ asignado en CongratulationsScreenController");
             return;
         }
 
@@ -70,7 +108,7 @@ public class CongratulationsScreenController : MonoBehaviour
             targetRewardText = rewardTexts[1];
         }
 
-        // Obtener el botÛn de continuar
+        // Obtener el botÔøΩn de continuar
         continueButton = root.Q<Button>(className: "continue-button");
 
         // Configurar eventos
@@ -84,14 +122,14 @@ public class CongratulationsScreenController : MonoBehaviour
     }
 
     /// <summary>
-    /// Configura la pantalla de felicitaciones para una especialidad especÌfica
+    /// Configura la pantalla de felicitaciones para una especialidad especÔøΩfica
     /// </summary>
     /// <param name="especialidadId">ID de la especialidad completada</param>
     public void SetupCongratulations(int especialidadId)
     {
         if (MySQLManager.Instance?.especialidadService == null)
         {
-            Debug.LogError("MySQLManager o EspecialidadService no est·n disponibles");
+            Debug.LogError("MySQLManager o EspecialidadService no estÔøΩn disponibles");
             return;
         }
 
@@ -99,6 +137,8 @@ public class CongratulationsScreenController : MonoBehaviour
         {
             // Obtener el nombre de la especialidad
             string especialidadName = MySQLManager.Instance.especialidadService.GetEspecialidadName(especialidadId);
+            Usuario usuario = MySQLManager.Instance.usuarioService.Seleccionar(id);
+            coinsReward = usuario.Monedas;
 
             if (string.IsNullOrEmpty(especialidadName))
             {
@@ -106,8 +146,11 @@ public class CongratulationsScreenController : MonoBehaviour
                 especialidadName = "ESPECIALIDAD DESCONOCIDA";
             }
 
-            // Actualizar el texto del tÌtulo
+            // Actualizar el texto del tÔøΩtulo
             UpdateTitleText(especialidadName);
+            UpdateEspecialidadImage(especialidadName);
+
+            UpdateRewardTexts();
         }
         catch (System.Exception ex)
         {
@@ -115,16 +158,45 @@ public class CongratulationsScreenController : MonoBehaviour
             UpdateTitleText("ESPECIALIDAD");
         }
     }
+    private void UpdateEspecialidadImage(string especialidadName)
+    {
+        var imageElement = root.Q<UnityEngine.UIElements.Image>("specialty-image");
+        if (imageElement == null)
+        {
+            Debug.LogError("‚ùå No se encontr√≥ el elemento con name='specialty-image'");
+            return;
+        }
+
+        if (!especialidadImagenes.TryGetValue(especialidadName, out string imageKey))
+        {
+            Debug.LogWarning($"‚ö†Ô∏è No se encontr√≥ imagen para la especialidad '{especialidadName}'");
+            return;
+        }
+
+        Texture2D tex = Resources.Load<Texture2D>($"Sprites/{imageKey}");
+        if (tex == null)
+        {
+            Debug.LogError($"‚ùå No se pudo cargar Resources/Sprites/{imageKey}");
+            return;
+        }
+
+        imageElement.image = tex;
+        imageElement.scaleMode = ScaleMode.ScaleToFit;
+
+        Debug.Log($"‚úÖ Imagen '{imageKey}' cargada y asignada correctamente.");
+    }
+
+
 
     /// <summary>
-    /// Actualiza el texto del tÌtulo con el nombre de la especialidad
+    /// Actualiza el texto del tÔøΩtulo con el nombre de la especialidad
     /// </summary>
     /// <param name="especialidadName">Nombre de la especialidad</param>
     private void UpdateTitleText(string especialidadName)
     {
         if (titleText != null)
         {
-            string congratulationsText = $"°HAS COMPLETADO LA ESPECIALIDAD DE {especialidadName.ToUpper()}!";
+            string congratulationsText = $"¬°HAS COMPLETADO LA ESPECIALIDAD DE {especialidadName.ToUpper()}!";
             titleText.text = congratulationsText;
         }
         else
@@ -146,7 +218,7 @@ public class CongratulationsScreenController : MonoBehaviour
     }
 
     /// <summary>
-    /// Configura las recompensas que se mostrar·n
+    /// Configura las recompensas que se mostrarÔøΩn
     /// </summary>
     /// <param name="coins">Cantidad de monedas</param>
     /// <param name="targets">Cantidad de objetivos/puntos</param>
@@ -158,19 +230,21 @@ public class CongratulationsScreenController : MonoBehaviour
     }
 
     /// <summary>
-    /// Maneja el clic del botÛn continuar
+    /// Maneja el clic del botÔøΩn continuar
     /// </summary>
     private void OnContinueButtonClicked()
     {
-        Debug.Log("BotÛn continuar presionado");
+        if (buttonClickClip != null && sfxAudioSource != null)
+    {
+        sfxAudioSource.PlayOneShot(buttonClickClip);
+    }
 
-        // AquÌ puedes agregar la lÛgica para continuar
-        // Por ejemplo: cambiar de escena, cerrar la pantalla, etc.
-        OnContinue();
+    Debug.Log("Bot√≥n continuar presionado");
+    OnContinue();
     }
 
     /// <summary>
-    /// MÈtodo virtual que puede ser sobrescrito para personalizar la acciÛn de continuar
+    /// MÔøΩtodo virtual que puede ser sobrescrito para personalizar la acciÔøΩn de continuar
     /// </summary>
     protected virtual void OnContinue()
     {

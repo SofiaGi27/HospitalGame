@@ -9,32 +9,29 @@ public class VidasManager : MonoBehaviour
     // Singleton instance
     public static VidasManager Instance { get; private set; }
 
-    [Header("Configuración Principal")]
+    [SerializeField] private UIDocument vidasDocument;
     [SerializeField] private int vidasIniciales = 3;
     [SerializeField] private Texture2D heartTexture;
-    [SerializeField] private string gameOverSceneName = "GameOverScene"; // Nombre de la escena GameOver
-    [SerializeField] private string[] escenasConUI = { "Game", "PreguntaScene" }; // Escenas donde se debe mostrar la UI
-
-    [Header("Referencia UI (Opcional)")]
-    [Tooltip("No es necesario asignarlo, el script buscará automáticamente el UIDocument en cada escena")]
-    [SerializeField] private string nombreUIDocument = "VidasUI"; // Nombre del GameObject que contiene el UIDocument
 
     // Referencias a elementos UI
-    private UIDocument vidasDocument;
     private VisualElement vidasContainer;
     private VisualElement[] vidasIconos = new VisualElement[3];
     private Label vidasLabel;
     private int vidasActuales;
     private bool uiInicializada = false;
 
+    // Referencia al QuizManager
+    private QuizManager quizManager;
+
     private void Awake()
     {
+
         // Implementación del patrón Singleton
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
-            //Debug.Log("VidasManager Singleton creado y marcado como DontDestroyOnLoad");
+
+            LimpiarVidasGuardadas(); // Solo en el editor para testing
 
             // Cargar el estado de vidas guardado
             CargarEstadoVidas();
@@ -44,7 +41,7 @@ public class VidasManager : MonoBehaviour
         }
         else if (Instance != this)
         {
-            //Debug.Log("Se destruye una instancia duplicada de VidasManager");
+            Debug.Log("Se destruye una instancia duplicada de VidasManager");
             Destroy(gameObject);
             return;
         }
@@ -65,26 +62,43 @@ public class VidasManager : MonoBehaviour
         if (!uiInicializada)
         {
             InitializeUI();
-            ReiniciarVidas();
+        }
+
+        // Buscar referencia al QuizManager
+        BuscarQuizManager();
+    }
+
+    // Método para buscar y establecer la referencia al QuizManager
+    private void BuscarQuizManager()
+    {
+        // Usar la instancia Singleton del QuizManager
+        quizManager = QuizManager.Instance;
+        if (quizManager != null)
+        {
+            Debug.Log("QuizManager Singleton encontrado y referenciado");
+        }
+        else
+        {
+            Debug.LogWarning("QuizManager Singleton no encontrado");
         }
     }
 
     private void InitializeUI()
     {
-        // Buscar el UIDocument en la escena actual
-        BuscarUIDocumentEnEscena();
-
         if (vidasDocument == null)
         {
-            Debug.LogWarning($"No se ha encontrado ningún UIDocument en la escena {SceneManager.GetActiveScene().name}. " +
-                            $"Asegúrate de tener un GameObject con un UIDocument llamado '{nombreUIDocument}' o ajusta el nombre en el Inspector.");
-            return;
+            vidasDocument = GetComponent<UIDocument>();
+            if (vidasDocument == null)
+            {
+                Debug.LogWarning("No se ha encontrado el UIDocument en VidasManager. Esto es normal si estamos en una escena sin UI de vidas.");
+                return;
+            }
         }
 
         var root = vidasDocument.rootVisualElement;
         if (root == null)
         {
-            Debug.LogWarning("Root VisualElement no disponible. El UIDocument podría no estar correctamente configurado.");
+            Debug.LogWarning("Root VisualElement no disponible. Posiblemente estamos en una escena sin UI de vidas.");
             return;
         }
 
@@ -93,7 +107,7 @@ public class VidasManager : MonoBehaviour
 
         if (vidasContainer == null)
         {
-            Debug.LogWarning("No se encontró el elemento 'vidas-container' en el documento UI. Verifica que tu UXML tenga este elemento.");
+            Debug.LogWarning("No se encontró el elemento 'vidas-container' en el documento UI. Posiblemente estamos en una escena sin UI de vidas.");
             return;
         }
 
@@ -108,7 +122,7 @@ public class VidasManager : MonoBehaviour
 
             if (vidasIconos[i] == null)
             {
-                //Debug.LogWarning($"No se encontró el elemento 'vida-icono-{i}' en el documento UI");
+                Debug.LogWarning($"No se encontró el elemento 'vida-icono-{i}' en el documento UI");
                 continue;
             }
 
@@ -121,51 +135,12 @@ public class VidasManager : MonoBehaviour
 
         uiInicializada = true;
         ActualizarVidasVisual(vidasActuales);
-        Debug.Log($"VidasManager UI inicializada correctamente en la escena {SceneManager.GetActiveScene().name}");
-    }
-
-    // Método para buscar el UIDocument en la escena actual
-    private void BuscarUIDocumentEnEscena()
-    {
-        // Intentar encontrar por nombre específico primero
-        GameObject uiObject = GameObject.Find(nombreUIDocument);
-
-        if (uiObject != null)
-        {
-            vidasDocument = uiObject.GetComponent<UIDocument>();
-            if (vidasDocument != null)
-            {
-                Debug.Log($"UIDocument encontrado por nombre '{nombreUIDocument}'");
-                return;
-            }
-        }
-
-        // Si no se encuentra por nombre, buscar cualquier UIDocument en la escena
-        UIDocument[] documentosUI = Object.FindObjectsByType<UIDocument>(FindObjectsSortMode.None);
-
-        if (documentosUI.Length > 0)
-        {
-            // Usar el primer UIDocument encontrado
-            vidasDocument = documentosUI[0];
-            //Debug.Log($"UIDocument encontrado en GameObject '{vidasDocument.gameObject.name}'");
-            return;
-        }
-
-        // Si llegamos aquí, no se encontró ningún UIDocument
-        Debug.LogWarning("No se encontró ningún UIDocument en la escena actual");
-        vidasDocument = null;
+        Debug.Log("VidasManager UI inicializada correctamente");
     }
 
     // Este método será llamado cuando el GameManager notifique un cambio en las vidas
     public void ActualizarVidasVisual(int cantidadVidas)
     {
-        // Si no estamos en una escena con UI de vidas, no hacer nada
-        if (!EsEscenaConUI())
-        {
-            //Debug.Log("No actualizando UI de vidas porque no estamos en una escena que la contiene");
-            return;
-        }
-
         // Si la UI no está inicializada, intentar inicializarla
         if (!uiInicializada)
         {
@@ -173,7 +148,7 @@ public class VidasManager : MonoBehaviour
             if (!uiInicializada) return; // Si aún no se pudo inicializar, salir
         }
 
-        //Debug.Log($"Actualizando vidas visuales a: {cantidadVidas}");
+        Debug.Log($"Actualizando vidas visuales a: {cantidadVidas}");
 
         // Actualizar el contador de texto
         if (vidasLabel != null)
@@ -182,7 +157,7 @@ public class VidasManager : MonoBehaviour
         }
         else
         {
-            //Debug.LogWarning("vidasLabel es null cuando se intenta actualizar");
+            Debug.LogWarning("vidasLabel es null cuando se intenta actualizar");
         }
 
         // Actualizar la visualización de iconos
@@ -195,7 +170,7 @@ public class VidasManager : MonoBehaviour
                 vidasIconos[i].style.display = mostrar ? DisplayStyle.Flex : DisplayStyle.None;
                 vidasIconos[i].style.visibility = mostrar ? Visibility.Visible : Visibility.Hidden;
                 // Registrar cambios para depuración
-                //Debug.Log($"Icono de vida {i}: {(mostrar ? "Visible" : "Oculto")}");
+                Debug.Log($"Icono de vida {i}: {(mostrar ? "Visible" : "Oculto")}");
             }
             else
             {
@@ -226,31 +201,41 @@ public class VidasManager : MonoBehaviour
             PlayerPrefs.SetInt("VidasActuales", vidasActuales);
             PlayerPrefs.Save();
 
-            //Debug.Log($"Vida quitada. Vidas restantes: {vidasActuales}");
+            Debug.Log($"Vida quitada. Vidas restantes: {vidasActuales}");
+
+            // Si ya no quedan vidas, llamar al método del QuizManager
             if (vidasActuales <= 0)
             {
-                // Buscar y avisar al QuizManager antes de cambiar de escena
-                QuizManager quizManager = FindObjectOfType<QuizManager>();
-                if (quizManager != null)
-                {
-                    quizManager.OnJugadorSinVidas();
-                }
-
-                // Pequeño delay para asegurar que se guarde el puntaje
-                StartCoroutine(CargarGameOver());
-
+                StartCoroutine(NotificarJugadorSinVidas());
             }
-            
         }
     }
 
-    // Corrutina para cargar la escena GameOver con un pequeño retraso
-    private IEnumerator CargarGameOver()
+    // Corrutina para notificar al QuizManager que el jugador se quedó sin vidas
+    private IEnumerator NotificarJugadorSinVidas()
     {
         // Pequeña pausa para que el jugador vea que se quedó sin vidas
         yield return new WaitForSeconds(1f);
-        Debug.Log("Cargando escena GameOver...");
-        SceneManager.LoadScene(gameOverSceneName);
+
+        // Buscar QuizManager si no está referenciado
+        if (quizManager == null)
+        {
+            BuscarQuizManager();
+        }
+
+        // Llamar al método del QuizManager si está disponible
+        if (quizManager != null)
+        {
+            Debug.Log("Llamando a OnJugadorSinVidas() del QuizManager...");
+            quizManager.OnJugadorSinVidas();
+        }
+        else
+        {
+            Debug.LogError("No se pudo encontrar el QuizManager Singleton para notificar que el jugador se quedó sin vidas");
+            // Fallback: cargar la escena GameOver directamente
+            Debug.Log("Fallback: Cargando escena GameOver directamente...");
+            SceneManager.LoadScene(5);
+        }
     }
 
     // Método público para agregar una vida
@@ -288,7 +273,7 @@ public class VidasManager : MonoBehaviour
         if (PlayerPrefs.HasKey("VidasActuales"))
         {
             vidasActuales = PlayerPrefs.GetInt("VidasActuales");
-            //Debug.Log($"Estado de vidas cargado: {vidasActuales}");
+            Debug.Log($"Estado de vidas cargado: {vidasActuales}");
         }
         else
         {
@@ -307,23 +292,8 @@ public class VidasManager : MonoBehaviour
         // Reiniciar la bandera de UI inicializada
         uiInicializada = false;
 
-        // Si estamos en una escena que debe mostrar la UI, intentar inicializarla después de un breve retraso
-        if (EsEscenaConUI())
-        {
-            StartCoroutine(ReconectarUIConRetraso());
-        }
-    }
-
-    // Comprueba si la escena actual debe mostrar la UI de vidas
-    private bool EsEscenaConUI()
-    {
-        string escenaActual = SceneManager.GetActiveScene().name;
-        foreach (string escena in escenasConUI)
-        {
-            if (escena == escenaActual)
-                return true;
-        }
-        return false;
+        // Buscar nuevamente el QuizManager en la nueva escena
+        BuscarQuizManager();
     }
 
     private IEnumerator ReconectarUIConRetraso()
@@ -367,5 +337,22 @@ public class VidasManager : MonoBehaviour
         {
             SceneManager.sceneLoaded -= OnSceneLoaded;
         }
+    }
+
+    // Método para limpiar las vidas guardadas (útil para testing)
+    private void LimpiarVidasGuardadas()
+    {
+        if (PlayerPrefs.HasKey("VidasActuales"))
+        {
+            PlayerPrefs.DeleteKey("VidasActuales");
+            PlayerPrefs.Save();
+            Debug.Log("Vidas guardadas limpiadas");
+        }
+    }
+
+    // Método público para obtener las vidas actuales
+    public int GetVidasActuales()
+    {
+        return vidasActuales;
     }
 }

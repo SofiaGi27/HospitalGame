@@ -1,6 +1,8 @@
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEngine.TextCore.Text;
+using UnityEngine.UIElements;
 
 public class ProfileManager : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class ProfileManager : MonoBehaviour
     public string profileSceneName = "PlayerProfile"; // Aquí el nombre correcto de la escena
 
     private Button profileButton;
+    int character = UserSession.Instance.CharacterSelected;
+    private VisualElement avatarImage;
 
     void Start()
     {
@@ -37,7 +41,10 @@ public class ProfileManager : MonoBehaviour
             Debug.LogError("Profile button not found in UXML!");
             return;
         }
+        avatarImage = root.Q<VisualElement>("profile-image");
 
+        string avatarpath = SelectAvatarPath();
+        UpdateAvatarImage(avatarpath);
         profileButton.clicked += OnProfileClicked;
     }
 
@@ -65,5 +72,43 @@ public class ProfileManager : MonoBehaviour
         {
             profileButton.clicked -= OnProfileClicked;
         }
+    }
+
+    private Dictionary<string, int> characterMap = new Dictionary<string, int>
+    {
+        { "character-5", 0 },
+        { "character-10", 1 },
+        { "character-7", 2 },
+        { "character-11", 3 },
+        { "character-19", 4 },
+        { "character-14", 5 },
+    };
+    private void UpdateAvatarImage(string avatarPath)
+    {
+        Texture2D texture = Resources.Load<Texture2D>("Images/Characters/" + avatarPath);
+        if (avatarImage != null)
+        {
+            if (texture != null)
+            {
+                avatarImage.style.backgroundImage = new StyleBackground(texture);
+                Debug.Log($"Avatar updated: {avatarPath}");
+            }
+            else
+            {
+                Debug.LogWarning($"Could not load avatar texture at path: {avatarPath}");
+            }
+        }
+    }
+    private string SelectAvatarPath()
+    {
+        foreach (var kvp in characterMap)
+        {
+            if (kvp.Value == character)
+            {
+                return kvp.Key; // Retorna la clave correspondiente al valor
+            }
+        }
+        Debug.LogWarning($"No se encontró una entrada en characterMap para el valor: {character}");
+        return null;
     }
 }

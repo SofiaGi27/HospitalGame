@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -34,12 +35,23 @@ public class NPCInteractionTrigger : MonoBehaviour
         }
     }
 
+
+
+    private static bool algunaEspecialidadYaSeleccionada = false;
+
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !algunaEspecialidadYaSeleccionada)
         {
+            algunaEspecialidadYaSeleccionada = true;
+
             UserSession.Instance.SetEspecialidadActual(especialidad);
-            SceneManager.LoadScene(sceneToLoad);
+            StartCoroutine(CargarEscenaConDelay());
         }
+    }
+    private IEnumerator CargarEscenaConDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(sceneToLoad);
     }
 }

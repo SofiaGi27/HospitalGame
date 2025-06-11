@@ -6,6 +6,7 @@ public class CharacterCardImageLoader : MonoBehaviour
     // Actualiza los nombres de las imágenes
     private string[] characterImageNames = { "character-5", "character-7", "character-10", "character-14", "character-11", "character-19" };
 
+
     // Referencia al UI Document
     public UIDocument uiDocument;
 

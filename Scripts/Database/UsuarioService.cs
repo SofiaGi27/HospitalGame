@@ -5,6 +5,7 @@ using MySqlConnector;
 using UnityEditor.MemoryProfiler;
 using UnityEngine;
 using static Unity.Burst.Intrinsics.X86.Avx;
+using static UnityEngine.UI.GridLayoutGroup;
 
 
 public class UsuarioService
@@ -145,6 +146,8 @@ public class UsuarioService
                             UserSession.Instance.SetUserId(idUsuario); // Guarda en el singleton
                             UserSession.Instance.SetRolUsuario(rolUsuario);
                             Debug.Log($"✅ Login correcto. ID de usuario: {idUsuario}");
+                            PlayerPrefs.SetString("correoGuardado", email);
+                            PlayerPrefs.Save(); // Guarda los cambios inmediatamente
                             return true;
                         }
                     }

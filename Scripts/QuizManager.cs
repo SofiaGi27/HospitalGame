@@ -1,22 +1,28 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+using static EspecialidadService;
+using static UnityEditor.Recorder.OutputPath;
 
 public class QuizManager : MonoBehaviour
 {
     // Referencia al documento UI
     [SerializeField] private UIDocument quizDocument;
 
+    // Singleton Instance
+    public static QuizManager Instance { get; private set; }
+
     // Referencias a elementos UI
     private Label questionText;
     private VisualElement answersContainer;
     private Button[] answerButtons = new Button[4];
     private Label[] answerTexts = new Label[4];
+    private VisualElement doctorCharacter;
 
     // Elementos UI para mostrar progreso y puntaje
     private Label progresoLabel;
@@ -34,7 +40,7 @@ public class QuizManager : MonoBehaviour
     private const int TOTAL_PREGUNTAS = 10;
     private int puntajeTotal = 0;
     private int puntajePorCorrecta = 100;
-    private int puntajePorIncorrecta = -30;
+    private int puntajePorIncorrecta = -40;
     private bool puntajeYaGuardado = false;
 
     // Configuración para las pantallas de resultado
@@ -42,15 +48,17 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private int puntajeMinimoParaAprobar = 600;
     [SerializeField] private string escenaCongratulations = "CongratulationsScreen";
     [SerializeField] private string escenaLevelFailed = "LevelFailed";
-    [SerializeField] private float tiempoEsperaAntesDelCambio = 3.0f;
+    [SerializeField] private float tiempoEsperaAntesDelCambio = 1.0f;
 
     // Lista de IDs de preguntas ya completadas por el usuario
     private HashSet<int> preguntasCompletadas = new HashSet<int>();
 
-    // ID del usuario y rol actual
-    int idUsuario = UserSession.Instance.IdUsuario;
-    int rolUsuario = UserSession.Instance.RolUsuario;
-    int especialidadActual = UserSession.Instance.EspecialidadActual;
+    // ID del usuario y rol actual - MODIFICADO: Se obtienen dinámicamente
+    private int idUsuario => UserSession.Instance.IdUsuario;
+    private int rolUsuario => UserSession.Instance.RolUsuario;
+
+    // MODIFICADO: Usar directamente la especialidad de UserSession sin lógica de respaldo por rol
+    private int especialidadActual => UserSession.Instance.EspecialidadActual;
 
     // Parámetros configurables
     [SerializeField] private bool eliminarPreguntasContestadas = true;
@@ -65,8 +73,26 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private AudioClip sonidoHover;
     private AudioSource audioSource;
 
+    private Dictionary<int, string> doctorImagenes = new Dictionary<int, string>()
+{
+    { 1, "cardiologo" },
+    { 2, "nefrologo" },
+    { 3, "digestivo "},
+};
     private void Awake()
     {
+        // Implementación del patrón Singleton
+        if (Instance == null)
+        {
+            Instance = this;
+
+        }
+        else if (Instance != this)
+        {
+            Debug.Log("Se destruye una instancia duplicada de QuizManager");
+            Destroy(gameObject);
+            return;
+        }
         // Inicializar audio source si es necesario
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null && (sonidoCorrecta != null || sonidoIncorrecta != null || sonidoAmbiente != null))
@@ -91,8 +117,35 @@ public class QuizManager : MonoBehaviour
     private IEnumerator IniciarConRetraso()
     {
         yield return new WaitForSeconds(0.5f);
-        InitializeUI();
 
+        // DEBUGGING: Mostrar todos los valores de UserSession
+        //Debug.Log($"=== VALORES DE USERSESSION AL INICIAR QUIZ ===");
+        //Debug.Log($"IdUsuario: {UserSession.Instance.IdUsuario}");
+        //Debug.Log($"RolUsuario: {UserSession.Instance.RolUsuario}");
+        //Debug.Log($"EspecialidadActual: {UserSession.Instance.EspecialidadActual}");
+        //Debug.Log($"================================================");
+
+        // MODIFICADO: Verificar que UserSession tenga una especialidad válida configurada por el NPCInteractionTrigger
+        if (UserSession.Instance.EspecialidadActual <= 0)
+        {
+            Debug.LogError($"ERROR: No se ha configurado una especialidad válida. Valor actual: {UserSession.Instance.EspecialidadActual}");
+            Debug.LogError("Asegúrate de que el NPCInteractionTrigger haya configurado la especialidad antes de cargar esta escena.");
+
+            // En lugar de configurar una por defecto, mostrar error y retornar
+            if (questionText != null)
+            {
+                questionText.text = "Error: No se ha seleccionado una especialidad válida.";
+            }
+            yield break;
+        }
+
+        Debug.Log($"Iniciando QuizManager con especialidad configurada por NPCInteractionTrigger: {especialidadActual}");
+
+        InitializeUI();
+        if (rolUsuario == 2 || rolUsuario == 3)
+        {
+            ElegirEspecialidad(rolUsuario);
+        }
         // Primero cargar las preguntas ya completadas del usuario
         CargarPreguntasCompletadas();
     }
@@ -116,7 +169,7 @@ public class QuizManager : MonoBehaviour
             questionText = root.Q<Label>("question-text");
             answersContainer = root.Q<VisualElement>("answers-container");
 
-            // Obtener elementos UI para progreso y puntaje (opcional)
+            // Obtener elementos UI para progreso y puntaje 
             progresoLabel = root.Q<Label>("progreso-label");
             puntajeLabel = root.Q<Label>("puntaje-label");
 
@@ -138,6 +191,7 @@ public class QuizManager : MonoBehaviour
                     Debug.LogWarning($"No se encontró el botón de respuesta {i}");
                 }
             }
+            doctorCharacter = root.Q<VisualElement>("doctor-character");
 
             // Inicializar display de progreso y puntaje
             ActualizarUI();
@@ -153,7 +207,6 @@ public class QuizManager : MonoBehaviour
     {
         try
         {
-            ElegirEspecialidad(rolUsuario);
             if (MySQLManager.Instance == null || idUsuario <= 0)
             {
                 Debug.LogWarning("No se puede cargar historial: MySQLManager no disponible o usuario no identificado");
@@ -182,27 +235,58 @@ public class QuizManager : MonoBehaviour
             CargarPreguntas(); // Continuar de todos modos
         }
     }
+    private void UpdateDocImage()
+    {
+        if (doctorImagenes.TryGetValue(especialidadActual, out string imageKey))
+        {
+            Texture2D texture = Resources.Load<Texture2D>($"Sprites/{imageKey}");
+
+            if (texture != null)
+            {
+                doctorCharacter.style.backgroundImage = new StyleBackground(texture);
+            }
+            else
+            {
+                Debug.LogError($"No se pudo cargar la imagen: Resources/Sprites/{imageKey}");
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"⚠️ No se encontró imagen para la especialidad '{especialidadActual}'");
+            return;
+        }
+    }
 
     ///Busca todas las preguntas segun la especialidadActual y excluye las que ya han sido contestadas
     private async void CargarPreguntas()
     {
         try
         {
-            ElegirEspecialidad(rolUsuario);
             if (MySQLManager.Instance == null || MySQLManager.Instance.preguntaService == null)
             {
                 Debug.LogError("Error al cargar preguntas: Servicio no disponible");
                 return;
             }
 
-            todasLasPreguntas = especialidadActual > 0
-                ? await MySQLManager.Instance.preguntaService.ObtenerPreguntasPorEspecialidad(especialidadActual)
-                : await MySQLManager.Instance.preguntaService.ObtenerTodasLasPreguntas();
+            // Usar directamente la especialidad configurada por NPCInteractionTrigger
+            int especialidadParaCargar = especialidadActual;
+            Debug.Log($"=== CARGANDO PREGUNTAS ===");
+            Debug.Log($"Especialidad configurada por NPCInteractionTrigger: {especialidadParaCargar}");
+            Debug.Log($"========================");
+
+            // MODIFICADO: Siempre cargar por especialidad ya que viene del NPCInteractionTrigger
+            todasLasPreguntas = await MySQLManager.Instance.preguntaService.ObtenerPreguntasPorEspecialidad(especialidadParaCargar);
 
             // Filtrar las preguntas para excluir las ya completadas
             todasLasPreguntas = todasLasPreguntas.Where(p => !preguntasCompletadas.Contains(p.Id)).ToList();
 
-            Debug.Log($"Cargadas {todasLasPreguntas.Count} preguntas disponibles después de filtrar de la especialidad: {especialidadActual}");
+            Debug.Log($"Cargadas {todasLasPreguntas.Count} preguntas disponibles después de filtrar de la especialidad: {especialidadParaCargar}");
+
+            // DEBUGGING: Mostrar algunas preguntas cargadas
+            //if (todasLasPreguntas.Count > 0)
+            //{
+            //    Debug.Log($"Ejemplo de pregunta cargada: {todasLasPreguntas[0].TextoPregunta}");
+            //}
 
             // Verificar que hay suficientes preguntas
             if (todasLasPreguntas.Count < TOTAL_PREGUNTAS)
@@ -328,10 +412,13 @@ public class QuizManager : MonoBehaviour
 
     private void ActualizarUI()
     {
-        // Actualizar label de progreso a implementar
+        // Actualizar label de progreso 
         if (progresoLabel != null)
         {
-            progresoLabel.text = $"Pregunta {preguntaActualIndex + 1} de {TOTAL_PREGUNTAS}";
+            if (preguntaActualIndex + 1 < 11) {
+                progresoLabel.text = $" {preguntaActualIndex + 1} de {TOTAL_PREGUNTAS}";
+
+            }
         }
 
         // Actualizar label de puntaje 
@@ -339,6 +426,9 @@ public class QuizManager : MonoBehaviour
         {
             puntajeLabel.text = $"Puntaje: {puntajeTotal}";
         }
+
+        //Actualizar imagen del doctor
+        UpdateDocImage();
     }
 
     private async void CargarRespuestasParaPregunta(int idPregunta)
@@ -526,11 +616,7 @@ public class QuizManager : MonoBehaviour
         MostrarSiguientePregunta();
     }
 
-    private IEnumerator CambiarEscena(float delay, String escena)
-    {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(escena);
-    }
+
 
     void OnAnswerSelected(Button answerButton, bool isCorrect)
     {
@@ -556,24 +642,22 @@ public class QuizManager : MonoBehaviour
 
     public void CambiarEspecialidad(int idEspecialidad)
     {
-        especialidadActual = idEspecialidad;
-        CargarPreguntasCompletadas(); // Recargamos todo el proceso para filtrar por la nueva especialidad
+        // MODIFICADO: Actualizar el UserSession en lugar de variable local
+        UserSession.Instance.SetEspecialidadActual(idEspecialidad);
     }
 
-    public int ElegirEspecialidad(int rol)
+    public void ElegirEspecialidad(int rol)
     {
         switch (rol)
         {
             case 2:
-                especialidadActual = 4;
+                CambiarEspecialidad(4);
                 break;
             case 3:
-                especialidadActual = 5;
+                CambiarEspecialidad(5);
                 break;
         }
-        return especialidadActual;
     }
-
     private void ReproducirSonidoHover()
     {
         if (audioSource != null && sonidoHover != null)
@@ -621,8 +705,9 @@ public class QuizManager : MonoBehaviour
             questionText.text = $"¡Game Over!\nPuntaje final: {puntajeTotal} puntos";
         }
 
-        // Mostrar la pantalla de resultado apropiada después de un breve delay
-        StartCoroutine(MostrarResultadoDespuesDeGameOver());
+        MostrarPantallaResultado();
+
+        
     }
 
     /// <summary>

@@ -15,16 +15,37 @@ public class LevelFailedController : MonoBehaviour
     private VisualElement leftCloud;
     private VisualElement rightCloud;
 
+     // Sonido
+    public AudioClip ambientMusicClip;
+    public AudioClip buttonClickClip;
+
+    private AudioSource ambientAudioSource;
+    private AudioSource sfxAudioSource;
+
     private void Awake()
     {
-        // Si no se asignó el UIDocument en el inspector, intentar obtenerlo del GameObject
         if (uiDocument == null)
             uiDocument = GetComponent<UIDocument>();
+
+        // Crear fuentes de audio si no existen
+        ambientAudioSource = gameObject.AddComponent<AudioSource>();
+        ambientAudioSource.loop = false;
+        ambientAudioSource.playOnAwake = false;
+
+        sfxAudioSource = gameObject.AddComponent<AudioSource>();
+        sfxAudioSource.playOnAwake = false;
+
     }
 
-    private void OnEnable()
+   private void OnEnable()
     {
         InitializeUI();
+
+        if (ambientMusicClip != null && ambientAudioSource != null)
+        {
+            ambientAudioSource.clip = ambientMusicClip;
+            ambientAudioSource.Play();
+        }
     }
     private void Start()
     {
@@ -35,7 +56,7 @@ public class LevelFailedController : MonoBehaviour
         // Usar la especialidad para mostrar el texto correcto
         SetupLevelFailed(especialidadId);
 
-        // Limpiar los PlayerPrefs después de usarlos
+        // Limpiar los PlayerPrefs despuï¿½s de usarlos
         PlayerPrefs.DeleteKey("EspecialidadCompletada");
         PlayerPrefs.DeleteKey("PuntajeFinal");
         PlayerPrefs.DeleteKey("EsVictoria");
@@ -44,7 +65,7 @@ public class LevelFailedController : MonoBehaviour
     {
         if (uiDocument == null)
         {
-            Debug.LogError("UIDocument no está asignado en LevelFailedController");
+            Debug.LogError("UIDocument no estï¿½ asignado en LevelFailedController");
             return;
         }
 
@@ -71,7 +92,7 @@ public class LevelFailedController : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("No se pudo encontrar el botón continuar en LevelFailedController");
+            Debug.LogWarning("No se pudo encontrar el botï¿½n continuar en LevelFailedController");
         }
 
         // Verificar que se encontraron los elementos esenciales
@@ -82,14 +103,14 @@ public class LevelFailedController : MonoBehaviour
     }
 
     /// <summary>
-    /// Configura la pantalla de nivel fallido para una especialidad específica
+    /// Configura la pantalla de nivel fallido para una especialidad especï¿½fica
     /// </summary>
     /// <param name="especialidadId">ID de la especialidad no completada</param>
     public void SetupLevelFailed(int especialidadId)
     {
         if (MySQLManager.Instance?.especialidadService == null)
         {
-            Debug.LogError("MySQLManager o EspecialidadService no están disponibles");
+            Debug.LogError("MySQLManager o EspecialidadService no estï¿½n disponibles");
             return;
         }
 
@@ -104,7 +125,7 @@ public class LevelFailedController : MonoBehaviour
                 especialidadName = "ESPECIALIDAD DESCONOCIDA";
             }
 
-            // Actualizar el texto del título
+            // Actualizar el texto del tï¿½tulo
             UpdateTitleText(especialidadName);
         }
         catch (System.Exception ex)
@@ -115,14 +136,14 @@ public class LevelFailedController : MonoBehaviour
     }
 
     /// <summary>
-    /// Actualiza el texto del título con el nombre de la especialidad
+    /// Actualiza el texto del tï¿½tulo con el nombre de la especialidad
     /// </summary>
     /// <param name="especialidadName">Nombre de la especialidad</param>
     private void UpdateTitleText(string especialidadName)
     {
         if (titleText != null)
         {
-            string failedText = $"¡NO HAS COMPLETADO LA ESPECIALIDAD DE {especialidadName.ToUpper()}!";
+            string failedText = $"ï¿½NO HAS COMPLETADO LA ESPECIALIDAD DE {especialidadName.ToUpper()}!";
             titleText.text = failedText;
         }
         else
@@ -132,17 +153,21 @@ public class LevelFailedController : MonoBehaviour
     }
 
     /// <summary>
-    /// Maneja el clic del botón continuar
+    /// Maneja el clic del botï¿½n continuar
     /// </summary>
     private void OnContinueButtonClicked()
     {
-        Debug.Log("Botón continuar presionado en pantalla de nivel fallido");
+        Debug.Log("Botï¿½n continuar presionado en pantalla de nivel fallido");
+        if (buttonClickClip != null && sfxAudioSource != null)
+        {
+            sfxAudioSource.PlayOneShot(buttonClickClip);
+        }
 
         OnContinue();
     }
 
     /// <summary>
-    /// Método virtual que puede ser sobrescrito para personalizar la acción de continuar
+    /// Mï¿½todo virtual que puede ser sobrescrito para personalizar la acciï¿½n de continuar
     /// </summary>
     protected virtual void OnContinue()
     {
@@ -151,7 +176,7 @@ public class LevelFailedController : MonoBehaviour
     }
 
     /// <summary>
-    /// Evento que se dispara cuando se completa la interacción con la pantalla de nivel fallido
+    /// Evento que se dispara cuando se completa la interacciï¿½n con la pantalla de nivel fallido
     /// </summary>
     public System.Action OnLevelFailedComplete;
 
@@ -161,7 +186,7 @@ public class LevelFailedController : MonoBehaviour
     public System.Action OnRetryLevel;
 
     /// <summary>
-    /// Evento que se dispara cuando el usuario quiere volver al menú principal
+    /// Evento que se dispara cuando el usuario quiere volver al menï¿½ principal
     /// </summary>
     public System.Action OnBackToMenu;
 
@@ -174,10 +199,10 @@ public class LevelFailedController : MonoBehaviour
         }
     }
 
-    #region Métodos públicos para uso externo
+    #region Mï¿½todos pï¿½blicos para uso externo
 
     /// <summary>
-    /// Muestra la pantalla de nivel fallido para una especialidad específica
+    /// Muestra la pantalla de nivel fallido para una especialidad especï¿½fica
     /// </summary>
     /// <param name="especialidadId">ID de la especialidad no completada</param>
     public void ShowLevelFailed(int especialidadId)
@@ -195,7 +220,7 @@ public class LevelFailedController : MonoBehaviour
     }
 
     /// <summary>
-    /// Configura el texto del título manualmente 
+    /// Configura el texto del tï¿½tulo manualmente 
     /// </summary>
     /// <param name="customText">Texto personalizado para mostrar</param>
     public void SetCustomTitleText(string customText)
@@ -207,18 +232,18 @@ public class LevelFailedController : MonoBehaviour
     }
 
     /// <summary>
-    /// Obtiene referencia al botón continuar para configuraciones adicionales
+    /// Obtiene referencia al botï¿½n continuar para configuraciones adicionales
     /// </summary>
-    /// <returns>Referencia al botón continuar</returns>
+    /// <returns>Referencia al botï¿½n continuar</returns>
     public Button GetContinueButton()
     {
         return continueButton;
     }
 
     /// <summary>
-    /// Obtiene referencia al elemento del título para configuraciones adicionales
+    /// Obtiene referencia al elemento del tï¿½tulo para configuraciones adicionales
     /// </summary>
-    /// <returns>Referencia al label del título</returns>
+    /// <returns>Referencia al label del tï¿½tulo</returns>
     public Label GetTitleLabel()
     {
         return titleText;

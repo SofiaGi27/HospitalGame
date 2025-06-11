@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMovementV2 : MonoBehaviour
 {
     public float speed = 3f;
-    public float rotationSpeed = 130f;
+    public float rotationSpeed = 80,f;
     public float gravity = 8.81f;
 
     private CharacterController controller;
@@ -19,6 +19,7 @@ public class CharacterMovementV2 : MonoBehaviour
 
         if (controller != null)
         {
+            // Ajusta el centro del CharacterController (para que colisione bien)
             controller.center = new Vector3(0, controller.height / 2f, 0);
         }
     }
@@ -41,6 +42,7 @@ public class CharacterMovementV2 : MonoBehaviour
         }
         else
         {
+            // Combina movimiento horizontal con el vertical (gravedad)
             verticalVelocity.y -= gravity * Time.deltaTime;
         }
 
@@ -51,6 +53,7 @@ public class CharacterMovementV2 : MonoBehaviour
         // Animaciones
         if (animator != null)
         {
+            // Suaviza el cambio de velocidad para que la animación no sea brusca
             animator.SetFloat("Speed", Mathf.Abs(v), 0.1f, Time.deltaTime);
         }
     }

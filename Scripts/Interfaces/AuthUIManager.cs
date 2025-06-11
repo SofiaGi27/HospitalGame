@@ -89,13 +89,13 @@ public class AuthUIManager : MonoBehaviour
         nameInputContainer.style.display = DisplayStyle.None;
         roleContainer.style.display = DisplayStyle.None;
         verificationContainer.style.display = DisplayStyle.None;
+        if (backToLoginButton != null)
+            backToLoginButton.style.display = DisplayStyle.None;
 
-        // Registrar eventos de botones existentes
+        // Registrar eventos de botones 
         loginButton.clicked += () => { PlayClick(); Login(); };
         registerButton.clicked += () => { PlayClick(); HandleRegisterButton(); };
         changePassButton.clicked += () => { PlayClick(); ShowPasswordChangeScreen(); };
-
-        // Registrar eventos de nuevos botones
         sendCodeButton.clicked += () => { PlayClick(); SendVerificationCode(); };
         verifyAndChangeButton.clicked += () => { PlayClick(); VerifyCodeAndChangePassword(); };
         backToLoginButton.clicked += () => { PlayClick(); BackToLogin(); };
@@ -148,6 +148,11 @@ public class AuthUIManager : MonoBehaviour
         audioSource.loop = true;
         audioSource.clip = ambientClip;
         audioSource.Play();
+
+        if (PlayerPrefs.HasKey("correoGuardado"))
+        {
+            emailInput.value = PlayerPrefs.GetString("correoGuardado");
+        }
     }
 
     // Método modificado para cargar solo los roles específicos (ID 1, 2, 3)
@@ -309,7 +314,7 @@ public class AuthUIManager : MonoBehaviour
 
     #endregion
 
-    #region Login y Register (métodos existentes)
+    #region Login y Register (métodos modificados)
 
     void HandleRegisterButton()
     {
@@ -318,6 +323,10 @@ public class AuthUIManager : MonoBehaviour
             ShowRegisterFields();
             isRegistering = true;
             registerButton.text = "Confirmar Registro";
+
+            changePassButton.style.display = DisplayStyle.None;
+            ShowBackButton();
+
             ClearMessage();
         }
         else
@@ -341,6 +350,36 @@ public class AuthUIManager : MonoBehaviour
         roleContainer.style.display = DisplayStyle.None;
         registerButton.text = "Registrarse";
         isRegistering = false;
+
+        // NUEVO: Ocultar botón de volver y mostrar cambiar contraseña
+        HideBackButton();
+        changePassButton.style.display = DisplayStyle.Flex;
+    }
+
+    /// CORREGIDO: Mostrar botón de volver
+    void ShowBackButton()
+    {
+        if (backToLoginButton != null)
+        {
+            backToLoginButton.style.display = DisplayStyle.Flex;
+            backToLoginButton.style.visibility = Visibility.Visible; // Asegurar que también sea visible
+            Debug.Log("✅ Mostrando botón de volver");
+        }
+        else
+        {
+            Debug.LogError("❌ backToLoginButton es null");
+        }
+    }
+
+    /// CORREGIDO: Ocultar botón de volver (solo usar display)
+    void HideBackButton()
+    {
+        if (backToLoginButton != null)
+        {
+            backToLoginButton.style.display = DisplayStyle.None;
+            // REMOVIDO: backToLoginButton.style.visibility = Visibility.Hidden;
+            Debug.Log("✅ Ocultando botón de volver");
+        }
     }
 
     /// Inicio de sesiòn
@@ -372,7 +411,7 @@ public class AuthUIManager : MonoBehaviour
         SceneManager.LoadScene("CharacterSelect");
     }
 
-    /// Registro del usuario (MODIFICADO con validación de contraseña)
+    /// Registro del usuario 
     void Register()
     {
         string name = nameInput.value;
@@ -412,7 +451,7 @@ public class AuthUIManager : MonoBehaviour
         }
         else
         {
-            ShowMessage("Error al registrar usuario. El email podría estar ya registrado.", true);
+            ShowMessage("Error al registrar usuario. El email o el usuario podría estar ya registrado.", true);
         }
     }
 
@@ -434,7 +473,7 @@ public class AuthUIManager : MonoBehaviour
 
         // Mostrar elementos de verificación
         verificationContainer.style.display = DisplayStyle.Flex;
-
+        ShowBackButton();
         // Cambiar placeholder del email para indicar su propósito
         emailInput.SetValueWithoutNotify("");
         var emailLabel = emailInput.parent.Q<Label>();
@@ -545,7 +584,7 @@ public class AuthUIManager : MonoBehaviour
         }
     }
 
-    /// Regresa a la pantalla de inicio de sesión
+    /// CORREGIDO: Regresa a la pantalla de inicio de sesión
     void BackToLogin()
     {
         // Mostrar elementos de login
@@ -555,9 +594,10 @@ public class AuthUIManager : MonoBehaviour
         passwordInput.style.display = DisplayStyle.Flex;
         passwordInput.parent.Q<Label>().style.display = DisplayStyle.Flex;
 
-        // Ocultar elementos de verificación
+        // Ocultar elementos de verificación y registro
         verificationContainer.style.display = DisplayStyle.None;
         HideRegisterFields();
+        HideBackButton(); // CORREGIDO: Asegurar que se oculte correctamente
 
         // Restaurar label del email
         var emailLabel = emailInput.parent.Q<Label>();
@@ -566,7 +606,9 @@ public class AuthUIManager : MonoBehaviour
 
         // Reset estados
         isChangingPassword = false;
+        isRegistering = false; // AÑADIDO: Reset del estado de registro también
         sendCodeButton.text = "Enviar Código";
+        registerButton.text = "Registrarse"; // AÑADIDO: Reset del texto del botón
 
         // Deshabilitar campos hasta que se envíe código
         verificationCodeInput.SetEnabled(false);

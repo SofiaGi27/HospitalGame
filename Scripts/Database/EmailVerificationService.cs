@@ -253,12 +253,12 @@ public class EmailVerificationService
     }
 
     // Método para debuggear - mostrar todos los códigos almacenados
-    public void DebugShowAllCodes()
-    {
-        Debug.Log($"🐛 DEBUG - Total de códigos: {_verificationCodes.Count}");
-        foreach (var kvp in _verificationCodes)
-        {
-            Debug.Log($"🐛 DEBUG - Email: {kvp.Key}, Código: {kvp.Value.Code}, Usado: {kvp.Value.IsUsed}, Expira: {kvp.Value.ExpirationTime}");
-        }
-    }
+    //public void DebugShowAllCodes()
+    //{
+    //    Debug.Log($"🐛 DEBUG - Total de códigos: {_verificationCodes.Count}");
+    //    foreach (var kvp in _verificationCodes)
+    //    {
+    //        Debug.Log($"🐛 DEBUG - Email: {kvp.Key}, Código: {kvp.Value.Code}, Usado: {kvp.Value.IsUsed}, Expira: {kvp.Value.ExpirationTime}");
+    //    }
+    //}
 }

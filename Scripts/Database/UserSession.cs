@@ -32,7 +32,12 @@ public class UserSession
     public void SetEspecialidadActual(int especialidad)
     {
         EspecialidadActual = especialidad;
+    Debug.Log($"Especialidad establecida: {especialidad}"); 
     }
-
+    public int CharacterSelected { get; set; }
+    public void SetCharacterSelected(int character)
+    {
+        CharacterSelected = character;
+    }
     private UserSession() { } // Constructor privado para asegurar Singleton
 }

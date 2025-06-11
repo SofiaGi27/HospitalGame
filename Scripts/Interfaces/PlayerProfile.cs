@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
 using UnityEngine.UIElements;
 
@@ -9,11 +10,8 @@ public class PlayerProfileController : MonoBehaviour
     [Header("UI References")]
     [SerializeField] private UIDocument uiDocument;
 
-    [Header("Database Manager")]
-    [SerializeField] private MySQLManager mysqlManager; // Referencia al MySQLManager
+    private MySQLManager mysqlManager; // Referencia al MySQLManager
 
-    [Header("Specialty Icons")]
-    [SerializeField] private SpecialtyIconData[] specialtyIcons;
 
     // Services 
     private UsuarioService usuarioService;
@@ -27,6 +25,7 @@ public class PlayerProfileController : MonoBehaviour
     private Label playerId;
     private Label moneyValue;
     private Label globalScoreValue;
+    private Button backButton;
 
     // Specialty elements 
     private VisualElement specialtyContainer;
@@ -40,10 +39,47 @@ public class PlayerProfileController : MonoBehaviour
     // ID del usuario y rol actual
     int rolUsuario = UserSession.Instance.RolUsuario;
     int idUsuario = UserSession.Instance.IdUsuario;
+    int character = UserSession.Instance.CharacterSelected;
 
 
     // Data
     private List<EspecialidadService.Especialidad> especialidades;
+
+    // Sonido
+    public AudioClip ambientClip;
+    public AudioClip clickClip;
+
+    private AudioSource ambientSource;
+    private AudioSource sfxSource;
+
+    private Dictionary<string, string> especialidadImagenes = new Dictionary<string, string>()
+{
+    { "CardiologÃ­a", "heart-icon" },
+    { "NefrologÃ­a", "kidney-icon" },
+    { "Digestivo", "stomach-icon" },
+};
+
+    void Awake()
+    {
+        // Crear dos AudioSources para separar ambiente y efectos
+        ambientSource = gameObject.AddComponent<AudioSource>();
+        sfxSource = gameObject.AddComponent<AudioSource>();
+
+        // Configurar audio de ambiente
+        ambientSource.clip = ambientClip;
+        ambientSource.loop = true;
+        ambientSource.volume = 0.5f;
+        ambientSource.Play();
+    }
+
+    public void PlayClick()
+    {
+        sfxSource.PlayOneShot(clickClip, 1.0f);
+    }
+
+
+
+
 
     private void Start()
     {
@@ -73,7 +109,7 @@ public class PlayerProfileController : MonoBehaviour
         puntajeService = mysqlManager.puntajeService;
         especialidadService = mysqlManager.especialidadService;
 
-        // Verificar que los servicios estén inicializados
+        // Verificar que los servicios estï¿½n inicializados
         if (usuarioService == null) Debug.LogError("UsuarioService is null in MySQLManager!");
         if (puntajeService == null) Debug.LogError("PuntajeService is null in MySQLManager!");
         if (especialidadService == null) Debug.LogError("EspecialidadService is null in MySQLManager!");
@@ -160,6 +196,9 @@ public class PlayerProfileController : MonoBehaviour
         namePlusButton = root.Q<VisualElement>("plus-button");
         if (namePlusButton == null) Debug.LogWarning("plus-button not found!");
 
+        backButton = root.Q<Button>("back-game");
+        if (backButton == null) Debug.LogWarning("back-button not found!");
+
         // Eventos de botones
         SetupButtonEvents();
 
@@ -181,13 +220,24 @@ public class PlayerProfileController : MonoBehaviour
             namePlusButton.RegisterCallback<ClickEvent>(evt => OnNameEditClicked());
             Debug.Log("Name button event registered");
         }
+
+        //Boton para regresar a game
+        if (backButton != null)
+        {
+            backButton.RegisterCallback<ClickEvent>(evt => {
+                onBackGameClicked();
+                PlayClick();
+            });
+            Debug.Log("Back button event registered");
+        }
+
     }
 
     private async void LoadPlayerData()
     {
         Debug.Log("=== Loading Player Data ===");
 
-        // Verificar que los servicios estén disponibles
+        // Verificar que los servicios estï¿½n disponibles
         if (usuarioService == null || puntajeService == null || especialidadService == null)
         {
             Debug.LogError("Cannot load player data - services are not initialized properly");
@@ -220,7 +270,7 @@ public class PlayerProfileController : MonoBehaviour
                 Debug.LogError("Failed to load specialties - returned null");
             }
 
-            // Carga la información del usuario
+            // Carga la informaciï¿½n del usuario
             Debug.Log("Loading user data...");
             var userData = await usuarioService.GetUserByIdAsync(idUsuario);
             if (userData != null)
@@ -295,7 +345,7 @@ public class PlayerProfileController : MonoBehaviour
         row.name = $"specialty-row-{especialidad.Id}";
         row.AddToClassList("specialty-row");
 
-        // Información de las especialidades
+        // Informaciï¿½n de las especialidades
         var specialtyInfo = new VisualElement();
         specialtyInfo.name = "specialty-info";
         specialtyInfo.AddToClassList("specialty-info");
@@ -306,17 +356,25 @@ public class PlayerProfileController : MonoBehaviour
         iconContainer.AddToClassList("specialty-icon");
 
         // Obtener el icono para esa especialidad
-        var iconData = GetIconDataForSpecialty(especialidad.Id, especialidad.Name);
-        if (iconData != null)
+        if (especialidadImagenes.TryGetValue(especialidad.Name, out string imageKey))
         {
-            iconContainer.style.backgroundImage = new StyleBackground(iconData.icon);
-            iconContainer.style.backgroundColor = iconData.backgroundColor;
-            Debug.Log($"Icon set for specialty {especialidad.Name}");
+            Texture2D texture = Resources.Load<Texture2D>($"Sprites/{imageKey}");
+
+            if (texture != null)
+            {
+                iconContainer.style.backgroundImage = new StyleBackground(texture);
+            }
+            else
+            {
+                Debug.LogError($"No se pudo cargar la imagen: Resources/Sprites/{imageKey}");
+            }
         }
         else
         {
-            Debug.LogWarning($"No icon data found for specialty {especialidad.Name} (ID: {especialidad.Id})");
+            Debug.LogWarning($"âš ï¸ No se encontrÃ³ imagen para la especialidad '{especialidad.Name}'");
+            return;
         }
+
 
         // Label por especialidad
         var nameLabel = new Label(especialidad.Name);
@@ -328,16 +386,16 @@ public class PlayerProfileController : MonoBehaviour
         specialtyInfo.Add(nameLabel);
 
         // Label del puntaje
-        var scoreLabel = new Label("No contestadas");
+        var scoreLabel = new Label("0");
         scoreLabel.name = "specialty-score";
         scoreLabel.AddToClassList("specialty-score");
         scoreLabel.AddToClassList("no-answered");
 
-        // Añadir elementos a la fila
+        // Aï¿½adir elementos a la fila
         row.Add(specialtyInfo);
         row.Add(scoreLabel);
 
-        // Añadir fila al contenedor
+        // Aï¿½adir fila al contenedor
         specialtyContainer.Add(row);
 
         // Guardar referencias
@@ -347,26 +405,6 @@ public class PlayerProfileController : MonoBehaviour
         Debug.Log($"Created row for specialty {especialidad.Name}");
     }
 
-    private SpecialtyIconData GetIconDataForSpecialty(int specialtyId, string specialtyName)
-    {
-        if (specialtyIcons == null || specialtyIcons.Length == 0)
-        {
-            Debug.LogWarning("No specialty icons configured");
-            return null;
-        }
-
-        // Primero buscar por ID
-        var iconData = specialtyIcons.FirstOrDefault(icon => icon.specialtyId == specialtyId);
-
-        // Si no se encuentra por ID, buscar por nombre (caso insensitivo)
-        if (iconData == null)
-        {
-            iconData = specialtyIcons.FirstOrDefault(icon =>
-                string.Equals(icon.specialtyName, specialtyName, System.StringComparison.OrdinalIgnoreCase));
-        }
-
-        return iconData;
-    }
 
     private void UpdatePlayerInfo(UserData userData)
     {
@@ -402,11 +440,8 @@ public class PlayerProfileController : MonoBehaviour
             Debug.LogError("Cannot update money - element is null");
         }
 
-        // Actualiza el avatar
-        if (!string.IsNullOrEmpty(userData.AvatarPath) && avatarImage != null)
-        {
-            UpdateAvatarImage(userData.AvatarPath);
-        }
+        string avatarpath=SelectAvatarPath();
+        UpdateAvatarImage(avatarpath);
     }
 
     private void UpdateScores(PlayerScores scores)
@@ -456,12 +491,20 @@ public class PlayerProfileController : MonoBehaviour
             }
         }
     }
-
+    private Dictionary<string, int> characterMap = new Dictionary<string, int>
+    {
+        { "character-5", 0 },
+        { "character-10", 1 },
+        { "character-7", 2 },
+        { "character-11", 3 },
+        { "character-19", 4 },
+        { "character-14", 5 },
+    };
     private void UpdateAvatarImage(string avatarPath)
     {
+        Texture2D texture = Resources.Load<Texture2D>("Images/Characters/" + avatarPath);
         if (avatarImage != null)
         {
-            var texture = Resources.Load<Texture2D>(avatarPath);
             if (texture != null)
             {
                 avatarImage.style.backgroundImage = new StyleBackground(texture);
@@ -473,6 +516,19 @@ public class PlayerProfileController : MonoBehaviour
             }
         }
     }
+    private string SelectAvatarPath()
+    {
+        foreach (var kvp in characterMap)
+        {
+            if (kvp.Value == character)
+            {
+                return kvp.Key; // Retorna la clave correspondiente al valor
+            }
+        }
+        Debug.LogWarning($"No se encontrÃ³ una entrada en characterMap para el valor: {character}");
+        return null;
+    }
+
 
     #region Button Events
 
@@ -488,6 +544,11 @@ public class PlayerProfileController : MonoBehaviour
         //Por implementar
     }
 
+    private void onBackGameClicked()
+    {
+        SceneManager.LoadScene("Game");
+
+    }
     #endregion
 
     #region Public Methods
@@ -577,6 +638,11 @@ public class SpecialtyScores
         get => ScoresBySpecialty.ContainsKey(3) ? ScoresBySpecialty[3] : 0;
         set => ScoresBySpecialty[3] = value;
     }
+
+
+    
 }
+
+
 
 #endregion
